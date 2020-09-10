@@ -1,0 +1,138 @@
+/* Nunito Sans */
+/* Regular */
+@font-face {
+	font-family: Nunito_Sans_Reg;
+	src: url(../fonts/NunitoSans-Regular.ttf);
+}
+/* Semi bold */
+@font-face {
+	font-family: Nunito_Sans_Semi_B;
+	src: url(../fonts/NunitoSans-SemiBold.ttf);
+}
+/* Bold */
+@font-face {
+	font-family: Nunito_Sans_B;
+	src: url(../fonts/NunitoSans-Bold.ttf);
+}
+
+/* PT Serif */
+/* Regular */
+@font-face {
+	font-family: PT_Serif;
+	src: url(../fonts/PTSerif-Regular.ttf);
+}
+/* Bold */
+@font-face {
+	font-family: PT_Serif_Bold;
+	src: url(../fonts/PTSerif-Bold.ttf);
+}
+/* Nunito Sans Font class */
+.font-nunito_reg {
+	font-family: Nunito_Sans_Reg;
+}
+.font-nunito_semi_b {
+	font-family: Nunito_Sans_Semi_B;
+}
+.font-nunito_b {
+	font-family: Nunito_Sans_B;
+}
+
+/* PT Serif Font class */
+.font-PT_reg {
+	font-family: PT_Serif;
+}
+.font-PT_b {
+	font-family: PT_Serif_Bold;
+}
+
+/* Font setup */
+body {
+	/* font-family: Nunito_Sans_Reg!important; */
+}
+
+/* Footer top */
+.footer-top {
+	min-height: 300px;
+	padding-top: 55px;
+	background: #ffffff;
+	position: relative;
+	overflow: hidden;
+}
+
+.footer-top::before {
+	content: url(../img/exported/footer-top-left.png);
+	position: absolute;
+	left: -7rem;
+	top: 0;
+	opacity: 0.2;
+}
+
+.footer-top::after {
+	content: url(../img/exported/footer-top-right.png);
+	position: absolute;
+	right: -7rem;
+	top: 0;
+}
+
+.footer-top_title {
+	font-size: 18px;
+	color: #848e85;
+	margin-bottom: 50px;
+}
+.footer-top_list_item {
+	margin-bottom: 12px;
+}
+.footer-top_list_item a {
+	font-family: Nunito_Sans_Reg;
+	font-size: 12px;
+	color: #848e85;
+}
+
+.footer-top_list_item a:hover {
+	text-decoration: none !important;
+	color: #791216;
+}
+
+/* Footer top menu side border */
+.footer-top_menu_side_border {
+	position: relative;
+}
+.footer-top_menu_side_border::after {
+	content: "";
+	position: absolute;
+	height: 100px;
+	width: 1px;
+	background: #791216;
+	top: 50%;
+	right: 5px;
+	transform: translateY(-25%);
+}
+
+/* Footer bottom */
+.footer-bottom {
+	min-height: 40px;
+	padding: 1rem 0;
+	background: #091d0c;
+}
+.footer-bottom_text,
+.footer-bottom_link li a,
+.footer-bottom_link li p {
+	font-size: 10px;
+}
+
+.footer-bottom_link li {
+	float: left;
+	display: flex;
+	margin-left: 5px;
+}
+.footer-bottom_call img {
+	width: 20px;
+	height: 20px;
+}
+.footer-bottom_call p {
+	font-size: 14px;
+}
+.footer-bottom_social li {
+	float: left;
+	margin-right: 1rem;
+}

@@ -1,0 +1,1328 @@
+/* css index  */
+/* 
+001 --> top order alert START 
+002 --> top cookies policys START 
+003 --> top product searcing options and search bar START
+004 --> heaer logo and menu area START 
+005 --> hero slider area START
+006 --> promo area start 
+007 --> best seller single item rows
+008 --> latest blog area START 
+009 --> just arrived section START 
+010 --> wine of the week section START
+011 --> video promo area START
+012 -->  wine maker of the month start 
+013 --> 100 points wine advocate section START 
+014 --> social wizaerd area start
+015 --> perrier jouet area
+014 --> social wizaerd area start
+
+*/
+
+/* common css  */
+
+/* Nunito Sans */
+/* Regular */
+@font-face {
+	font-family: Nunito_Sans_Reg;
+	src: url(../fonts/NunitoSans-Regular.ttf);
+}
+/* Semi bold */
+@font-face {
+	font-family: Nunito_Sans_Semi_B;
+	src: url(../fonts/NunitoSans-SemiBold.ttf);
+}
+/* Bold */
+@font-face {
+	font-family: Nunito_Sans_B;
+	src: url(../fonts/NunitoSans-Bold.ttf);
+}
+
+/* PT Serif */
+/* Regular */
+@font-face {
+	font-family: PT_Serif;
+	src: url(../fonts/PTSerif-Regular.ttf);
+}
+/* Bold */
+@font-face {
+	font-family: PT_Serif_Bold;
+	src: url(../fonts/PTSerif-Bold.ttf);
+}
+/* Nunito Sans Font class */
+.font-nunito_reg {
+	font-family: Nunito_Sans_Reg;
+}
+.font-nunito_semi_b {
+	font-family: Nunito_Sans_Semi_B;
+}
+.font-nunito_b {
+	font-family: Nunito_Sans_B;
+}
+
+/* PT Serif Font class */
+.font-PT_reg {
+	font-family: PT_Serif;
+}
+.font-PT_b {
+	font-family: PT_Serif_Bold;
+}
+
+/* 001 --> top order alert START  
+=============================================
+*/
+
+.top_order_alert {
+	background-color: #f5f7f6;
+	padding: 19px 0px;
+}
+.alert_message p {
+	color: #3f3f3f;
+	font-size: 14px;
+}
+.top_social_links {
+}
+.top_social_links a {
+	color: #3f3f3f;
+	padding: 0px 11px;
+}
+.top_social_links a:focus {
+	outline: 0;
+}
+.top_social_links a:last-child {
+	margin-right: 0px;
+	padding-right: 0px;
+}
+.top_social_links a i {
+}
+
+/* 002 --> top cookies policys START 
+===================================================
+*/
+.cookise_policy {
+	background-color: #091d0c;
+	padding: 13px 0px;
+}
+.cookies_policy_message {
+}
+.cookies_policy_message p {
+	color: #ffffff;
+	font-size: 14px;
+}
+.cookies_policy_message p strong {
+	font-weight: bold;
+}
+.cookies_close_btn {
+}
+.cookies_btn {
+	padding: 17px 24px;
+	color: #000000;
+	text-transform: uppercase;
+	background-color: #ffffff;
+	display: inline-block;
+	border-radius: 30px;
+}
+.cookies_btn:hover {
+	text-decoration: none;
+	color: #000000;
+}
+
+/* 003 --> top product searcing options and search bar START 
+===============================================================
+*/
+.top_search_area {
+	padding-top: 38px;
+	padding-bottom: 42px;
+	box-shadow: 0px 10px 8px 1px #f7f7f7;
+}
+/* .search bar row */
+
+.produc_search_bar {
+}
+.produc_search_bar .form-control {
+	border-top: 1px solid #e6e6e6 !important;
+	border-bottom: 1px solid #e6e6e6 !important;
+	border-left: 0px !important;
+	border-right: 0px !important;
+}
+.produc_search_bar .form-control:focus {
+	box-shadow: none !important;
+	border-top: 1px solid #e6e6e6 !important;
+	border-bottom: 1px solid #e6e6e6 !important;
+	border-left: 0px !important;
+	border-right: 0px !important;
+}
+.produc_search_bar .input-group-prepend .input-group-text {
+	background-color: #fccc0e;
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	border-top-color: #fccc0e;
+	border-bottom-color: #fccc0e;
+	border-left-color: #fccc0e;
+	border-right-color: #fccc0e;
+}
+.produc_search_bar .input-group-append .input-group-text {
+	background-color: transparent;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border-left-width: 0px;
+}
+
+/* search dropdown  */
+
+.list-autocomplete {
+	padding: 0;
+}
+.list-autocomplete em {
+	font-style: normal;
+	background-color: #e1f2f9;
+}
+
+.hasNoResults {
+	color: #aaa;
+}
+.hasNoResults,
+.btn-extra {
+	display: block;
+	padding: 10px;
+}
+
+.hasNoResults {
+	color: #aaa;
+}
+
+.btn-extra {
+	width: 100%;
+	border-top: 0.5px solid #d2d2d2;
+}
+
+/* price  */
+.price_options {
+	margin-right: 25px;
+}
+.price_options span {
+	color: #791216;
+	text-transform: uppercase;
+	align-self: center;
+	margin-right: 10px;
+}
+.price_dropdown {
+}
+.price_dropdown button {
+	border: 1px solid #e6e6e6;
+	background-color: transparent;
+	border-radius: 30px;
+	padding: 0.7rem 0.6rem;
+}
+.price_dropdown button:focus {
+	outline: 0 !important;
+	border: none;
+}
+.price_dropdown_lists {
+}
+.price_dropdown_item {
+}
+
+/* language  */
+.language_options {
+	margin-right: 25px;
+}
+.language_options span {
+	color: #791216;
+	text-transform: uppercase;
+	align-self: center;
+	margin-right: 10px;
+}
+.laguage_dropdown {
+}
+.laguage_dropdown button {
+	border: 1px solid #e6e6e6;
+	background-color: transparent;
+	border-radius: 30px;
+	padding: 0.7rem 0.75rem;
+}
+.laguage_dropdown button:focus {
+	outline: 0 !important;
+	border: none;
+}
+.language_dropdown_lists {
+}
+.language_dropdown_item {
+}
+
+/* currency  */
+
+.currency_options {
+}
+.currency_options span {
+	color: #791216;
+	text-transform: uppercase;
+	align-self: center;
+	margin-right: 10px;
+}
+.currency_dropdown button {
+	border: 1px solid #e6e6e6;
+	background-color: transparent;
+	border-radius: 30px;
+	padding: 0.7rem 0.75rem;
+}
+.currency_dropdown button:focus {
+	outline: 0;
+	border: none !important;
+}
+.currency_dropdown_lists {
+	min-width: 5rem;
+}
+.currency_dropdown_item {
+}
+
+/* .004 --> heaer logo and menu area START 
+================================================
+*/
+
+.header_area {
+	box-shadow: 0px 9px 13px 1px #e4e2d9;
+}
+.logo_img {
+}
+.logo_img img {
+}
+.nav_toggler_btn {
+}
+.bars_icon {
+}
+.navigation_menu {
+}
+.navigation_menu ul {
+}
+.navigation_menu ul li {
+}
+.navigation_menu ul li a {
+	color: #292929;
+	text-transform: uppercase;
+	font-size: 14px;
+	padding: 15px 16px;
+	display: inline-block !important;
+}
+.navigation_menu ul li:last-child a {
+	padding-right: 0px;
+}
+.navigation_menu ul li a:focus {
+	outline: none;
+}
+.navigation_menu ul li a:hover {
+	text-decoration: none;
+	color: #bf4800;
+}
+.navigation_menu ul li a.new_arrival {
+	color: #bf4800;
+}
+.navigation_menu ul li a.good_deals_btn {
+	background-color: #fccc0e;
+	align-self: center;
+	color: #292929;
+	border-radius: 5px;
+}
+.navigation_menu ul li a.login_btn {
+	border: 1px solid #791216;
+	color: #791216 !important;
+	border-radius: 30px;
+	margin-left: 22px;
+}
+.navigation_menu ul li a.cart_btn {
+	position: relative;
+}
+.navigation_menu ul li a.cart_btn .badge_number {
+	position: absolute;
+	line-height: 16px;
+	background-color: #c7263c;
+	border-radius: 50%;
+	width: 15px;
+	height: 15px;
+	text-align: center;
+	color: #fff;
+	top: 2px;
+	right: -4px;
+	font-size: 9px;
+	z-index: 2;
+}
+.navigation_menu ul li a.cart_btn img {
+	width: 30px;
+	position: relative;
+	top: -8px;
+}
+
+/* .005 --> hero slider area START 
+=====================================================
+*/
+.hero_slider_area {
+	position: relative;
+}
+.hero_slider_bg {
+	background-image: url("../img/hero-slider-img/hero-bg-img.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #ededed;
+}
+
+.hero_left_bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 168px;
+	height: 100%;
+	background-image: url("../img/hero-slider-img/hero-left-bg.png");
+	background-position: 100%;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.hero_right_bg {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 14%;
+	height: 39%;
+	background-image: url("../img/hero-slider-img/hero-right-bg-01.png");
+	background-position: 100%;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.hero_slider {
+}
+.hero_slider .owl-nav {
+	margin-top: 0px !important;
+}
+.hero_slider .owl-nav button {
+	width: 38px;
+	height: 38px;
+	line-height: 38px !important;
+	text-align: center;
+	border-radius: 50% !important;
+	background-color: #f8f8f8e0 !important;
+	color: #791216 !important;
+	position: absolute;
+	top: 50%;
+	left: 50px;
+	transform: translate(-50%, -50%);
+}
+.hero_slider .owl-nav button:focus {
+	outline: none;
+}
+.hero_slider .owl-nav button.owl-prev {
+}
+.hero_slider .owl-nav button.owl-next {
+	left: auto;
+	right: 50px;
+	transform: translate(50%, -50%);
+}
+.hero_slider .owl-dots {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	bottom: 15px;
+}
+.hero_slider .owl-dots .owl-dot {
+	border: 1px solid #b79e94;
+	border-radius: 50%;
+	margin: 0px 6px;
+}
+.hero_slider .owl-dots .owl-dot:focus {
+	outline: 0;
+}
+.hero_slider .owl-dots .owl-dot.active span,
+.hero_slider .owl-dots .owl-dot:hover span {
+	background-color: #791216;
+	padding: 4px;
+}
+
+.hero_slider .owl-dots .owl-dot span {
+	background-color: transparent;
+	width: 13px;
+	height: 13px;
+	margin: 2px;
+}
+.hero_slider_img {
+}
+.hero_slider_img img {
+}
+.hero_slider_contents {
+}
+.hero_slider_contents h1 {
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #292929;
+	margin-bottom: 22px;
+}
+.hero_slider_contents h2 {
+	text-transform: capitalize;
+	color: #791216;
+	font-size: 30px;
+	font-weight: 500;
+	border-bottom: 2px solid #b4b4b0;
+	display: inline-block;
+	line-height: 30px;
+}
+.hero_slider_contents h3 {
+	color: #292929;
+	font-size: 25px;
+	text-transform: capitalize;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.hero_slider_contents p {
+	color: #303030;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.hero_contry {
+	margin-bottom: 15px;
+	font-size: 23px;
+	font-weight: 500;
+}
+.hero_contry img {
+	margin-right: 7px;
+	width: 20px !important;
+	height: 20px !important;
+}
+/* hero review   */
+.review_pannel {
+}
+.review_area {
+}
+.reviews_start {
+	color: #303030;
+	font-weight: 800;
+	display: flex;
+	align-items: center;
+}
+.reviews_start .starts {
+	border: 1px solid #fdf6df;
+	padding: 5px;
+	background-color: #faf5e4;
+	margin-right: 10px;
+	font-size: 18px;
+}
+.reviews_start i {
+	color: #ffc850;
+}
+.reviews_start .rating {
+	font-size: 15px;
+	font-weight: 700;
+	color: #791216;
+}
+.penin {
+	color: #303030;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding: 6px 0px;
+}
+.penin .name {
+	margin-right: 68px;
+}
+.penin .number {
+	padding: 4px 12px;
+	border: 1px solid #8eb378;
+	background-color: #f0efe0;
+	color: #2e7912;
+}
+.perker {
+	color: #303030;
+	text-transform: capitalize;
+	font-weight: 600;
+	padding: 6px 0px;
+}
+
+.perker .name {
+	margin-right: 70px;
+}
+.perker .number {
+	padding: 4px 12px;
+	border: 1px solid #791216;
+	background-color: #f2e9dd;
+	color: #791216;
+}
+.sommelier {
+	color: #303030;
+	text-transform: capitalize;
+	font-weight: 600;
+	padding: 6px 0px;
+}
+
+.sommelier .name {
+	margin-right: 44px;
+}
+.sommelier .number {
+	padding: 4px 12px;
+	border: 1px solid #ffaf00;
+	background-color: #fbf7e6;
+	color: #ffaf00;
+}
+/* hero price   */
+.hero_price_area {
+}
+.before_price {
+	font-weight: 600;
+	text-transform: capitalize;
+	color: #091d0c;
+	margin: 10px 0px;
+}
+.before_price .reduce-price {
+	text-decoration: line-through;
+	margin-right: 50px;
+	font-size: 22px;
+}
+.before_price span {
+	text-decoration: none;
+	font-size: 18px;
+}
+.before_price img {
+	width: 20px !important;
+	height: 20px;
+}
+.current_price {
+	font-weight: 700;
+	color: #791216;
+	text-transform: capitalize;
+}
+.current_price span {
+	font-size: 25px;
+}
+.current_price img {
+	width: 20px !important;
+	height: 20px;
+}
+.current_price .actual_price {
+	font-size: 30px;
+	font-weight: 600;
+	margin-right: 25px;
+}
+.buy_now_btn a {
+	padding: 16px 50px;
+	background-color: #791216;
+	border-radius: 30px;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-top: 15px;
+	color: #ffffff;
+}
+
+.buy_now_btn a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/* .006 --> promo area start  
+===============================================
+*/
+.promo_area {
+	background-color: #091d0c;
+	padding: 50px 0px;
+}
+.single_promo {
+}
+.single_promo img {
+	margin-right: 15px;
+}
+.promo_contents {
+	color: #ffffff;
+}
+.promo_contents h3 {
+	font-size: 18px;
+	text-transform: capitalize;
+	font-weight: 500;
+	margin-bottom: 5px;
+	color: #ffffff;
+}
+.promo_contents p {
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: 400;
+}
+/* 007 --> best seller single item rows 
+==========================================
+*/
+
+.best_seller_area {
+	background-color: #fff;
+	padding: 50px 0px;
+}
+.section_title {
+}
+.section_title h1 {
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: capitalize;
+	color: #292929;
+	border-bottom: 2px solid #b7b7b7;
+	line-height: 45px;
+}
+.product_wrapper {
+	padding: 20px 8px;
+}
+.product_contents {
+}
+.product_contents h1 {
+	font-size: 25px;
+	font-weight: 400;
+	color: #303030;
+	text-transform: capitalize;
+	margin-bottom: 15px;
+}
+.product_contents p {
+	font-size: 16px;
+	font-weight: 400;
+	color: #303030;
+	text-transform: capitalize;
+}
+.product_details {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.product_img {
+	margin-right: 15px;
+}
+.product_img img {
+}
+.product_spacifications {
+}
+.product_country {
+	width: 25px;
+	height: 25px;
+	padding: 5px 0px;
+}
+.product_country img {
+	margin-right: 50px;
+	width: 100%;
+	position: relative;
+	height: auto;
+	left: 15px;
+}
+.product_country span {
+}
+.product_riesling {
+	width: 25px;
+	height: 25px;
+	padding: 5px 0px;
+}
+.product_riesling img {
+	margin-right: 54px;
+	width: 100%;
+	position: relative;
+	height: auto;
+	left: 17px;
+}
+.product_riesling span {
+}
+.product_parker {
+	padding: 5px 0px;
+}
+.product_parker span {
+}
+.parker_number {
+	padding: 4px 12px;
+	border: 1px solid #8eb378;
+	background-color: #f0efe0;
+	color: #2e7912;
+	margin-right: 23px;
+}
+.parker_name {
+}
+.product_penin {
+	padding: 5px 0px;
+}
+.penin_number {
+	padding: 4px 12px;
+	border: 1px solid #ffaf00;
+	background-color: #fbf7e6;
+	color: #ffaf00;
+	margin-right: 23px;
+}
+.penin_name {
+}
+.product_sommelier {
+	padding: 5px 0px;
+	margin-bottom: 10px;
+}
+.sommelier_number {
+	padding: 4px 12px;
+	border: 1px solid #791216;
+	background-color: #f2e9dd;
+	color: #791216;
+	margin-right: 23px;
+}
+.sommelier_name {
+}
+
+.product_price_counter {
+}
+.product_price {
+}
+.product_price span {
+}
+.product_price span img {
+}
+.product_currency_img {
+	margin-left: 15px;
+}
+.product_old {
+	border-bottom: 2px solid #b4bab5;
+}
+.product_old_price {
+	color: #091d0c;
+	font-size: 20px;
+	font-weight: 500;
+	text-decoration: line-through;
+}
+.product_new_price {
+	color: #791216;
+	font-size: 25px;
+	font-weight: 500;
+}
+.product_counter {
+}
+.product_counter img {
+	width: 25px !important;
+	height: auto;
+}
+.product_counter_number {
+	padding: 12px 16px;
+	border: 1px solid #cda6a8;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	margin-right: 2px;
+}
+.counter_plus_minus {
+}
+.counter_plus_minus button {
+	border: 0;
+	background-color: #791216;
+	color: #fff;
+	font-size: 14px;
+	padding: 2px 3px;
+}
+.counter_plus_minus button:focus {
+	outline: none;
+}
+.counter_plus_btn {
+	margin-bottom: 1px;
+}
+.counter_minus_btn {
+	margin-top: 1px;
+}
+.product_buy_now_btn {
+}
+.product_buy_now_btn a {
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 600;
+	background-color: #791216;
+	padding: 13px 21px;
+	margin-left: 2px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	letter-spacing: 1px;
+}
+.product_buy_now_btn a:focus {
+	outline: none;
+}
+.product_buy_now_btn a:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+/* .008 --> latest blog area START 
+=====================================
+*/
+.latest_blog_area {
+	padding: 50px 0px;
+	background-color: #f8fbfd;
+}
+.blog_section_title {
+	text-align: center;
+}
+.blog_section_title h1 {
+	font-size: 30px;
+	font-weight: 800;
+	color: #292929;
+	text-transform: capitalize;
+	margin-bottom: 50px;
+	position: relative;
+}
+.blog_section_title h1::before {
+	position: absolute;
+	content: "";
+	top: 50%;
+	left: 0;
+	width: 40%;
+	height: 2px;
+	background-color: #b5b6b7;
+}
+.blog_section_title h1::after {
+	position: absolute;
+	content: "";
+	top: 50%;
+	right: 0;
+	width: 40%;
+	height: 2px;
+	background-color: #b5b6b7;
+}
+.latest_blog_container {
+}
+.blog_slider {
+	position: relative;
+}
+.blog_slider .owl-nav button {
+	position: absolute;
+	width: 39px;
+	height: 39px;
+	border-radius: 50% !important;
+	line-height: 39px !important;
+	text-align: center;
+	background-color: #fff !important;
+	color: #791216 !important;
+	top: 50%;
+	left: -60px;
+	transform: translate(0%, -50%);
+	box-shadow: 0px 0px 6px 4px #eceff1;
+}
+.blog_slider .owl-nav button:focus {
+	outline: none;
+}
+.blog_slider .owl-nav button.owl-next {
+	left: auto;
+	right: -60px;
+}
+.single_blog_items_wrapper {
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid #d6e0ff;
+}
+.blog_image {
+}
+
+.blog_image img {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.blog_date {
+	padding: 10px 0px;
+}
+.blog_date span {
+	color: #791216;
+}
+.blog_date span i {
+	margin-right: 5px;
+}
+.blog_contents {
+}
+.blog_contents h1 {
+	font-size: 30px;
+	text-transform: capitalize;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+.blog_contents p {
+	font-size: 17px;
+	line-height: 26px;
+	margin-bottom: 15px;
+}
+/* 009 --> just arrived section START  
+========================================
+*/
+.arrived_area {
+	padding: 50px 0px;
+	background-color: #fff;
+	position: relative;
+}
+.arrived_bg_img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 14%;
+	height: 39%;
+	background-image: url("../img/backgounds/bg-img-001.png");
+	background-position: 100%;
+	background-repeat: no-repeat;
+	background-size: contain;
+
+	transform: translate(-35%, -0%);
+}
+.arrived_slider {
+	position: relative;
+}
+.arrived_slider .owl-nav button {
+	position: absolute;
+	width: 39px;
+	height: 39px;
+	border-radius: 50% !important;
+	line-height: 39px !important;
+	text-align: center;
+	background-color: #fff !important;
+	color: #791216 !important;
+	top: 50%;
+	left: -60px;
+	transform: translate(0%, -50%);
+	box-shadow: 0px 0px 6px 4px #eceff1;
+}
+
+.arrived_slider .owl-nav button:focus {
+	outline: none;
+}
+
+.arrived_slider .owl-nav button.owl-next {
+	left: auto;
+	right: -60px;
+}
+
+/* 010 --> wine of the week section START 
+==============================================
+*/
+.wine_of_weeks_area {
+	background-color: #fff;
+	padding-bottom: 50px;
+}
+.wine_of_weeks_slider {
+	position: relative;
+}
+.wine_of_weeks_slider .owl-nav button {
+	position: absolute;
+	width: 39px;
+	height: 39px;
+	border-radius: 50% !important;
+	line-height: 39px !important;
+	text-align: center;
+	background-color: #fff !important;
+	color: #791216 !important;
+	top: 50%;
+	left: -60px;
+	transform: translate(0%, -50%);
+	box-shadow: 0px 0px 6px 4px #eceff1;
+}
+
+.wine_of_weeks_slider .owl-nav button:focus {
+	outline: none;
+}
+
+.wine_of_weeks_slider .owl-nav button.owl-next {
+	left: auto;
+	right: -60px;
+}
+/* 011 --> video promo area START 
+=====================================
+*/
+.video_promo_area {
+	position: relative;
+	padding: 60px 0px;
+	margin-bottom: 50px;
+}
+.video_promo_bg_left {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 19%;
+	height: 100%;
+	background-image: url(../img/backgounds/bg-img-004.png);
+	background-position: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.video_promo_bg_rihgt {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 59%;
+	height: 100%;
+	background-image: url(../img/backgounds/bg-img-002.png);
+	background-position: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.video_thumnails {
+	width: 100%;
+	height: 100%;
+	position: relative;
+
+	border: 2px solid #fff;
+}
+.video_thumnails img {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.video_overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #091d0cc9;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-radius: 10px;
+}
+.video_play_btn {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 20px;
+	color: #ff9900;
+	background-color: #fff;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+}
+.video_play_btn:focus {
+	outline: none;
+}
+.video_play_btn:hover {
+	color: #ff9900;
+	text-decoration: none;
+}
+.btn_layer_1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 70px;
+	height: 70px;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+	border: 2px solid #ffffffb3;
+}
+.btn_layer_2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 80px;
+	height: 80px;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+	border: 2px solid #ffffff75;
+}
+.btn_layer_3 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 90px;
+	height: 90px;
+
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+	border: 2px solid #f8f8f836;
+}
+.video_play_btn i {
+	position: relative;
+	left: 4px;
+}
+.video_promo_content {
+}
+.video_promo_content h1 {
+	font-size: 33px;
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+.video_promo_content p {
+	color: #ffffff;
+	font-weight: 400;
+	font-size: 18px;
+}
+/* 013 --> 100 points wine advocate section START  
+==================================================
+*/
+.wine_advocate_area {
+	background-color: #fff;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+.wine_advocate_area {
+	position: relative;
+}
+.wine_advocate_slider .owl-nav button {
+	position: absolute;
+	width: 39px;
+	height: 39px;
+	border-radius: 50% !important;
+	line-height: 39px !important;
+	text-align: center;
+	background-color: #fff !important;
+	color: #791216 !important;
+	top: 50%;
+	left: -60px;
+	transform: translate(0%, -50%);
+	box-shadow: 0px 0px 6px 4px #eceff1;
+}
+
+.wine_advocate_slider .owl-nav button:focus {
+	outline: none;
+}
+
+.wine_advocate_slider .owl-nav button.owl-next {
+	left: auto;
+	right: -60px;
+}
+
+/* 012 -->  wine maker of the month start 
+============================================
+*/
+.wine_maker_area {
+	position: relative;
+	padding: 50px 0px;
+	background-color: #ededed;
+}
+.wine_maker_bg_left {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 87%;
+	height: 100%;
+	background-image: url(../img/backgounds/bg-img-006.png);
+	background-position: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: 1;
+}
+.wine_maker_bg_right {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/backgounds/bg-img-005.png);
+	background-position: 90px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: -0;
+}
+.wine_maker_wrapper {
+	position: relative;
+	z-index: 3;
+	color: #ffffff;
+}
+.wine_maker_img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin-right: 15px;
+}
+.wine_maker_img img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+.wine_maker_contents {
+	color: #ffffff;
+}
+.wine_maker_contents h1 {
+	color: #ffffff;
+	font-size: 40px;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+.wine_maker_contents p {
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+.wine_maker_name {
+}
+.maker_name {
+	margin-right: 40px;
+}
+.maker_name h1 {
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: 500;
+	color: #ffffff;
+	letter-spacing: 2px;
+	margin-bottom: 10px;
+}
+.maker_name p {
+	text-transform: capitalize;
+	font-weight: 700;
+	font-size: 14px;
+	color: #ffeb00;
+}
+.know_more {
+}
+.know_more a {
+	background-color: #fff;
+	padding: 17px 22px;
+	border-radius: 30px;
+	color: #6f6f6f;
+	text-transform: capitalize;
+	font-weight: 600;
+}
+.know_more a:focus {
+	outline: none;
+}
+.know_more a:hover {
+	text-decoration: none;
+}
+.know_more a i {
+	color: #791216;
+	margin-left: 25px;
+}
+
+/* 015 --> perrier jouet area 
+=================================
+*/
+
+.perrier_jouet_wrapper {
+	position: relative;
+	padding: 50px 0px;
+}
+.perrier_jouet_area {
+	position: relative;
+}
+.perrier_jouet_bg_img {
+	background-image: url(../img/backgounds/bg-img-007.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #ededed;
+}
+.perrier_jouet_bg_left {
+	position: absolute;
+	top: 0%;
+	left: 0;
+	width: 34%;
+	height: 100%;
+	background-image: url(../img/backgounds/bg-img-008.png);
+	background-position: 100%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	z-index: 1;
+}
+.perrier_jouet_bg_right {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/backgounds/bg-img-009.png);
+	background-position: 114%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	z-index: 1;
+}
+/* 
+======================================================
+responsive  
+=======================================================
+*/
+
+@media (min-width: 1900px) {
+	.container {
+		min-width: 100%;
+	}
+}
