@@ -15,7 +15,11 @@
 013 --> 100 points wine advocate section START 
 014 --> social wizaerd area start
 015 --> perrier jouet area
-014 --> social wizaerd area start
+016 --> news letter ares START
+017 --> footer for desktop area START 
+016 --> news letter ares START
+016 --> news letter ares START
+016 --> news letter ares START
 
 */
 
@@ -66,6 +70,10 @@
 }
 .font-PT_b {
 	font-family: PT_Serif_Bold;
+}
+
+body{
+	font-family: Nunito_Sans_Reg!important;
 }
 
 /* 001 --> top order alert START  
@@ -511,7 +519,7 @@
 	color: #ffc850;
 }
 .reviews_start .rating {
-	font-size: 15px;
+	font-size: 13px;
 	font-weight: 700;
 	color: #791216;
 }
@@ -523,12 +531,14 @@
 }
 .penin .name {
 	margin-right: 68px;
+	font-family: Nunito_Sans_B!important;
 }
 .penin .number {
 	padding: 4px 12px;
 	border: 1px solid #8eb378;
 	background-color: #f0efe0;
 	color: #2e7912;
+	font-family: Nunito_Sans_B!important;
 }
 .perker {
 	color: #303030;
@@ -576,6 +586,9 @@
 	margin-right: 50px;
 	font-size: 22px;
 }
+.reduce-price,.actual_price{
+	font-family: Nunito_Sans_B!important;
+}
 .before_price span {
 	text-decoration: none;
 	font-size: 18px;
@@ -609,6 +622,7 @@
 	display: inline-block;
 	margin-top: 15px;
 	color: #ffffff;
+	font-family: Nunito_Sans_Semi_B!important;
 }
 
 .buy_now_btn a:hover {
@@ -637,6 +651,7 @@
 	font-weight: 500;
 	margin-bottom: 5px;
 	color: #ffffff;
+	font-family: Nunito_Sans_Semi_B!important;
 }
 .promo_contents p {
 	font-size: 14px;
@@ -660,6 +675,7 @@
 	color: #292929;
 	border-bottom: 2px solid #b7b7b7;
 	line-height: 45px;
+	font-family: Nunito_Sans_Semi_B!important;
 }
 .product_wrapper {
 	padding: 20px 8px;
@@ -667,14 +683,15 @@
 .product_contents {
 }
 .product_contents h1 {
-	font-size: 25px;
+	font-size: 20px;
 	font-weight: 400;
 	color: #303030;
 	text-transform: capitalize;
 	margin-bottom: 15px;
+	font-family: PT_Serif!important;
 }
 .product_contents p {
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 400;
 	color: #303030;
 	text-transform: capitalize;
@@ -730,7 +747,9 @@
 	color: #2e7912;
 	margin-right: 23px;
 }
-.parker_name {
+.parker_name,.parker_number,.penin_number,.penin_name,.sommelier_name,.sommelier_number {
+	font-family: Nunito_Sans_B!important;
+	font-size: 16px;
 }
 .product_penin {
 	padding: 5px 0px;
@@ -774,14 +793,16 @@
 }
 .product_old_price {
 	color: #091d0c;
-	font-size: 20px;
+	font-size: 14px;
 	font-weight: 500;
 	text-decoration: line-through;
+	font-family: Nunito_Sans_Semi_B!important;
 }
 .product_new_price {
 	color: #791216;
-	font-size: 25px;
+	font-size: 17px;
 	font-weight: 500;
+	font-family: Nunito_Sans_B!important;
 }
 .product_counter {
 }
@@ -802,8 +823,8 @@
 	border: 0;
 	background-color: #791216;
 	color: #fff;
-	font-size: 14px;
-	padding: 2px 3px;
+	font-size: 13px;
+	padding: 1px 3px;
 }
 .counter_plus_minus button:focus {
 	outline: none;
@@ -827,6 +848,7 @@
 	border-top-right-radius: 30px;
 	border-bottom-right-radius: 30px;
 	letter-spacing: 1px;
+	font-family: Nunito_Sans_B!important;
 }
 .product_buy_now_btn a:focus {
 	outline: none;
@@ -915,9 +937,11 @@
 }
 .blog_date span {
 	color: #791216;
+	font-size: 18px;
 }
 .blog_date span i {
 	margin-right: 5px;
+	font-size: 18px;
 }
 .blog_contents {
 }
@@ -926,9 +950,10 @@
 	text-transform: capitalize;
 	font-weight: 500;
 	margin-bottom: 15px;
+	font-family: PT_Serif!important;
 }
 .blog_contents p {
-	font-size: 17px;
+	font-size: 22px;
 	line-height: 26px;
 	margin-bottom: 15px;
 }
@@ -1129,11 +1154,12 @@
 	color: #fff;
 	font-weight: 700;
 	margin-bottom: 15px;
+	font-family: Nunito_Sans_B!important;
 }
 .video_promo_content p {
 	color: #ffffff;
-	font-weight: 400;
 	font-size: 18px;
+	line-height: 25px;
 }
 /* 013 --> 100 points wine advocate section START  
 ==================================================
@@ -1226,6 +1252,7 @@
 	font-size: 40px;
 	font-weight: 600;
 	margin-bottom: 25px;
+	font-family: Nunito_Sans_B!important;
 }
 .wine_maker_contents p {
 	color: #ffffff;
@@ -1240,17 +1267,19 @@
 }
 .maker_name h1 {
 	text-transform: uppercase;
-	font-size: 25px;
+	font-size: 30px;
 	font-weight: 500;
 	color: #ffffff;
 	letter-spacing: 2px;
 	margin-bottom: 10px;
+	font-family: PT_Serif!important;
 }
 .maker_name p {
 	text-transform: capitalize;
 	font-weight: 700;
-	font-size: 14px;
+	font-size: 20px;
 	color: #ffeb00;
+	font-family: PT_Serif!important;
 }
 .know_more {
 }
@@ -1261,6 +1290,8 @@
 	color: #6f6f6f;
 	text-transform: capitalize;
 	font-weight: 600;
+	/* font-size: 16px; */
+	/* font-family: Nunito_Sans_Semi_B!important; */
 }
 .know_more a:focus {
 	outline: none;
@@ -1337,7 +1368,139 @@ mark { background-color:pink; }
   color:#aaa; }
 
 
+/* 016 --> news letter ares START 
+=================================
+*/
 
+.newsLetter_area {
+	padding: 50px 0px;
+}
+.newsletter_bg_img {
+	background-image: url(../img/backgounds/bg-img-010.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #ffffff;
+	background-image: none !important;
+}
+
+.nwws_letter_img {
+	width: 50%;
+}
+.nwws_letter_img img {
+}
+.newsletter_content {
+	position: relative;
+	left: -70px;
+}
+.section_stripe {
+	position: relative;
+}
+.section_stripe::after {
+	position: absolute;
+	width: 2px;
+	height: 60%;
+	content: "";
+	background-color: #bb888a;
+	top: 50%;
+	right: 0;
+	transform: translate(0%, -50%);
+}
+.newsletter_content h1 {
+	font-size: 25px;
+	font-weight: 600;
+	margin-bottom: 25px;
+	color: #292929;
+	text-transform: capitalize;
+}
+.newsletter_content p {
+	font-size: 18px;
+	color: #292929;
+	font-weight: 400;
+	line-height: 27px;
+}
+.newsletter_content p strong {
+	text-transform: capitalize;
+	font-weight: 700;
+	font-family: Nunito_Sans_B!important;
+}
+.email_submission {
+}
+.email_submission p {
+	color: #020e35;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 27px;
+}
+.email_submission p strong {
+	text-transform: capitalize;
+	font-weight: 600;
+}
+.term_conditions {
+	margin-bottom: 15px;
+}
+.email_submission p.terms {
+	font-size: 14px !important;
+}
+.email_submission:first-child {
+}
+.email_submission {
+}
+.email_submission .input-group {
+	margin-top: 15px;
+}
+.email_submission .form-control {
+	border: 1px solid #791216 !important;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+.email_submission .form-control:focus {
+	box-shadow: none;
+	outline: none;
+}
+.email_submission .input-group-text {
+	text-transform: uppercase;
+	background-color: #791216;
+	color: #ffffff;
+	border: 1px solid #791216;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	font-family: Nunito_Sans_Semi_B!important;
+}
+/* 017 --> footer for desktop area START  
+==============================================
+*/
+.desktop_footer {
+}
+.desk_footer_bg_img {
+	background-image: url(../img/backgounds/bg-img-010.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #ffffff;
+	/* background-image: none !important; */
+}
+.desk_footer_logo {
+}
+.desk_footer_logo img {
+}
+.desk_single_footer_items {
+}
+.desk_single_footer_items h1 {
+	font-size: 18px;
+	font-family: PT_Serif_Bold!important;
+	color: #791216;
+}
+.desk_single_footer_items ul li a{
+	font-size: 14px;
+}
+.footer_contents{
+	font-size: 14px;
+}
+.shippings_options h1,.payments_methods h1{
+	font-size: 15px;
+	font-family: PT_Serif_Bold!important;
+}
 /* 
 ======================================================
 responsive  

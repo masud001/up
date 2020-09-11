@@ -9,7 +9,7 @@ $(document).ready(function () {
 		var dropdown = input.closest(".dropdown");
 		var dropdownmenu = dropdown.find(".dropdown-menu");
 		var listContainer = dropdown.find(".list-autocomplete");
-		var listItems = listContainer.find(".dropdown-item");
+		var listItems = listContainer.find(".search-item");
 		var hasNoResults = dropdown.find(".hasNoResults");
 
 		listItems.hide();
@@ -43,10 +43,11 @@ $(document).ready(function () {
 						var textEnd = textStart + query.length;
 						var htmlR =
 							text.substring(0, textStart) +
-							"<em>" +
+							"<div class='d-flex justify-content-between'>" +
 							text.substring(textStart, textEnd) +
-							"</em>" +
-							text.substring(textEnd + length);
+							text.substring(textEnd + length) +
+							"</div>";
+							
 						$(this).html(htmlR);
 						$(this).show();
 					} else {
