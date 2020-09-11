@@ -1315,6 +1315,29 @@
 	background-size: contain;
 	z-index: 1;
 }
+
+/* Search */
+mark { background-color:pink; }
+
+
+.list-autocomplete {
+  padding:0; }
+.list-autocomplete em {
+  font-style:normal;
+  background-color:#e1f2f9;
+}
+
+.hasNoResults { 
+  color:#aaa; }
+.hasNoResults{ 
+  display:block; 
+  padding:10px; }
+
+.hasNoResults { 
+  color:#aaa; }
+
+
+
 /* 
 ======================================================
 responsive  

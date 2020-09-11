@@ -1,10 +1,13 @@
 $(document).ready(function () {
+
+
 	// auto complete in search dropdown menu START
 	//code = 2k minified
 
 	function createAuto(i, elem) {
 		var input = $(elem);
 		var dropdown = input.closest(".dropdown");
+		var dropdownmenu = dropdown.find(".dropdown-menu");
 		var listContainer = dropdown.find(".list-autocomplete");
 		var listItems = listContainer.find(".dropdown-item");
 		var hasNoResults = dropdown.find(".hasNoResults");
@@ -19,7 +22,7 @@ $(document).ready(function () {
 			if ((e.keyCode ? e.keyCode : e.which) == 13) {
 				$(this)
 					.closest(".dropdown")
-					.removeClass("open")
+					.removeClass("show")
 					.removeClass("in");
 				return; //if enter key, close dropdown and stop
 			}
@@ -30,7 +33,8 @@ $(document).ready(function () {
 			var query = input.val().toLowerCase();
 
 			if (query.length > 1) {
-				dropdown.addClass("open").addClass("in");
+				dropdown.addClass("show").addClass("in");
+				dropdownmenu.addClass("show");
 
 				listItems.each(function () {
 					var text = $(this).data("value");
@@ -54,7 +58,8 @@ $(document).ready(function () {
 				count > 0 ? hasNoResults.hide() : hasNoResults.show();
 			} else {
 				listItems.hide();
-				dropdown.removeClass("open").removeClass("in");
+				dropdown.removeClass("show").removeClass("in");
+				dropdownmenu.removeClass("show");
 				hasNoResults.show();
 			}
 		});
@@ -64,7 +69,8 @@ $(document).ready(function () {
 				.text()
 				.replace(/^\s+|\s+$/g, ""); //remove leading and trailing whitespace
 			input.val(txt);
-			dropdown.removeClass("open").removeClass("in");
+			dropdown.removeClass("show").removeClass("in");
+			dropdownmenu.removeClass("show");
 		});
 	}
 
