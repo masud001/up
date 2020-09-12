@@ -1,6 +1,4 @@
 $(document).ready(function () {
-
-
 	// auto complete in search dropdown menu START
 	//code = 2k minified
 
@@ -47,7 +45,7 @@ $(document).ready(function () {
 							text.substring(textStart, textEnd) +
 							text.substring(textEnd + length) +
 							"</div>";
-							
+
 						$(this).html(htmlR);
 						$(this).show();
 					} else {
@@ -87,6 +85,7 @@ $(document).ready(function () {
 		loop: true,
 		autoplay: false,
 		dots: true,
+		autoHeight: true,
 		nav: true,
 		navText: [
 			"<i class='fas fa-arrow-left'></i>",
@@ -125,6 +124,9 @@ $(document).ready(function () {
 			},
 			600: {
 				items: 1,
+			},
+			900: {
+				items: 2,
 			},
 			1000: {
 				items: 3,

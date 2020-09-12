@@ -22,7 +22,7 @@
 	</head>
 	<body>
 		<!-- top order alert START  -->
-		<section class="top_order_alert">
+		<section class="top_order_alert d-none d-lg-block">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8">
@@ -51,7 +51,7 @@
 		</section>
 		<!-- top order alert END  -->
 		<!-- top cookies policys START  -->
-		<section class="cookise_policy">
+		<section class="cookise_policy d-none d-lg-block">
 			<div class="container">
 				<div
 					class="row d-flex justify-content-start align-items-center"
@@ -80,7 +80,7 @@
 		</section>
 		<!-- top cookies policys END  -->
 		<!-- top product searcing options and search bar START  -->
-		<section class="top_search_area">
+		<section class="top_search_area d-none d-lg-block">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
@@ -341,23 +341,35 @@
 
 		<!-- heaer logo and menu area START -->
 		<header class="header_area">
-			<div class="container">
+			<div class="container-fluid">
 				<nav class="navbar navbar-expand-lg">
 					<!-- brand logo  -->
-					<a class="navbar-brand logo_img" href="#"
+					<a class="navbar-brand logo_img order-2 order-lg-0" href="#"
 						><img src="./assets/img/logo/logo.png" alt="logo"
 					/></a>
 					<!-- navbar toggler button  -->
 					<button
-						class="navbar-toggler nav_toggler_btn"
+						class="navbar-toggler nav_toggler_btn order-1"
 						data-toggle="collapse"
 						data-target="#navbarMenu"
 					>
-						<span class="bars_icon">Menu</span>
+						<span class="bars_icon"
+							><i class="fas fa-bars"></i
+						></span>
 					</button>
+
+					<div class="mobile_add_toCart order-3 d-lg-none">
+						<a class="cart_btn" href="">
+							<span class="badge_number">2</span>
+							<img
+								src="./assets/img/cart-icon/supermarket.png"
+								alt="cart icon"
+						/></a>
+					</div>
+
 					<!-- navbar menu  -->
 					<div
-						class="collapse navbar-collapse navigation_menu"
+						class="collapse navbar-collapse navigation_menu order-4"
 						id="navbarMenu"
 					>
 						<ul class="navbar-nav ml-auto">
@@ -2390,17 +2402,17 @@
 								<!-- newarrivals drop down end  -->
 							</li>
 
-							<li class="nav-item">
+							<li class="nav-item d-none d-lg-block">
 								<a class="good_deals_btn font-nunito_b" href=""
 									>very good deals</a
 								>
 							</li>
-							<li class="nav-item">
+							<li class="nav-item d-none d-lg-block">
 								<a class="login_btn font-nunito_semi_b" href=""
 									>login</a
 								>
 							</li>
-							<li class="nav-item">
+							<li class="nav-item d-none d-lg-block">
 								<a class="cart_btn" href="">
 									<span class="badge_number">2</span>
 									<img
@@ -2423,9 +2435,9 @@
 				<!-- hero slider single items  -->
 				<div class="container">
 					<div
-						class="row justify-content-start align-items-center py-5"
+						class="row justify-content-start align-items-center pt-5 pb-0 pb-md-5"
 					>
-						<div class="col-3 offset-lg-1">
+						<div class="col-3 col-gl-3 offset-lg-1">
 							<div class="hero_slider_img">
 								<img
 									class="img-fluid"
@@ -2434,7 +2446,7 @@
 								/>
 							</div>
 						</div>
-						<div class="col-6">
+						<div class="col-9 col-lg-8">
 							<div class="hero_slider_contents">
 								<h1 class="font-PT_b">masseto</h1>
 								<h2 class="font-PT_reg">
@@ -2463,7 +2475,7 @@
 								<div
 									class="review_pannel d-flex justify-content-start align-items-start pb-3"
 								>
-									<div class="col-6 p-0">
+									<div class="col-12 col-lg-6 p-0">
 										<!-- hero review  -->
 										<div class="review_area">
 											<div class="reviews_start">
@@ -2482,26 +2494,42 @@
 											<div
 												class="penin d-flex align-items-center"
 											>
-												<span class="name">penin</span>
-												<span class="number">90</span>
+												<span
+													class="name d-none d-lg-block"
+													>penin</span
+												>
+												<span
+													class="number d-none d-lg-block"
+													>90</span
+												>
 											</div>
 											<div
 												class="perker d-flex align-items-center"
 											>
-												<span class="name">perker</span>
-												<span class="number">95</span>
+												<span
+													class="name d-none d-lg-block"
+													>perker</span
+												>
+												<span
+													class="number d-none d-lg-block"
+													>95</span
+												>
 											</div>
 											<div
 												class="sommelier d-flex align-items-center"
 											>
-												<span class="name"
+												<span
+													class="name d-none d-lg-block"
 													>sommelier</span
 												>
-												<span class="number">98</span>
+												<span
+													class="number d-none d-lg-block"
+													>98</span
+												>
 											</div>
 										</div>
 									</div>
-									<div class="col-5 p-0">
+									<div class="col-lg-6 p-0 d-none d-lg-block">
 										<!-- hero price  -->
 										<div class="hero_price_area">
 											<div
@@ -2514,7 +2542,8 @@
 												<span class="reduce-price"
 													>1978,00
 												</span>
-												<span class="font-nunito_b"
+												<span
+													class="font-nunito_b d-none d-lg-block"
 													>before</span
 												>
 											</div>
@@ -2528,7 +2557,9 @@
 												<span class="actual_price"
 													>1162,00
 												</span>
-												<span>now</span>
+												<span class="d-none d-lg-block"
+													>now</span
+												>
 											</div>
 											<div class="buy_now_btn">
 												<a href="#">buy now</a>
@@ -2544,9 +2575,9 @@
 				<!-- hero slider single items  -->
 				<div class="container">
 					<div
-						class="row justify-content-start align-items-center py-5"
+						class="row justify-content-start align-items-center pt-5 pb-0 pb-md-5"
 					>
-						<div class="col-3 offset-lg-2">
+						<div class="col-3 col-gl-3 offset-lg-1">
 							<div class="hero_slider_img">
 								<img
 									class="img-fluid"
@@ -2555,7 +2586,7 @@
 								/>
 							</div>
 						</div>
-						<div class="col-6">
+						<div class="col-9 col-lg-8">
 							<div class="hero_slider_contents">
 								<h1 class="font-PT_b">masseto</h1>
 								<h2 class="font-PT_reg">
@@ -2582,9 +2613,9 @@
 
 								<!-- review pannel  -->
 								<div
-									class="review_pannel d-flex justify-content-start align-items-start"
+									class="review_pannel d-flex justify-content-start align-items-start pb-3"
 								>
-									<div class="col-6 p-0">
+									<div class="col-12 col-lg-6 p-0">
 										<!-- hero review  -->
 										<div class="review_area">
 											<div class="reviews_start">
@@ -2603,26 +2634,42 @@
 											<div
 												class="penin d-flex align-items-center"
 											>
-												<span class="name">penin</span>
-												<span class="number">90</span>
+												<span
+													class="name d-none d-lg-block"
+													>penin</span
+												>
+												<span
+													class="number d-none d-lg-block"
+													>90</span
+												>
 											</div>
 											<div
 												class="perker d-flex align-items-center"
 											>
-												<span class="name">perker</span>
-												<span class="number">95</span>
+												<span
+													class="name d-none d-lg-block"
+													>perker</span
+												>
+												<span
+													class="number d-none d-lg-block"
+													>95</span
+												>
 											</div>
 											<div
 												class="sommelier d-flex align-items-center"
 											>
-												<span class="name"
+												<span
+													class="name d-none d-lg-block"
 													>sommelier</span
 												>
-												<span class="number">98</span>
+												<span
+													class="number d-none d-lg-block"
+													>98</span
+												>
 											</div>
 										</div>
 									</div>
-									<div class="col-5 p-0">
+									<div class="col-lg-6 p-0 d-none d-lg-block">
 										<!-- hero price  -->
 										<div class="hero_price_area">
 											<div
@@ -2635,7 +2682,8 @@
 												<span class="reduce-price"
 													>1978,00
 												</span>
-												<span class="font-nunito_b"
+												<span
+													class="font-nunito_b d-none d-lg-block"
 													>before</span
 												>
 											</div>
@@ -2649,7 +2697,9 @@
 												<span class="actual_price"
 													>1162,00
 												</span>
-												<span>now</span>
+												<span class="d-none d-lg-block"
+													>now</span
+												>
 											</div>
 											<div class="buy_now_btn">
 												<a href="#">buy now</a>
@@ -2665,9 +2715,9 @@
 				<!-- hero slider single items  -->
 				<div class="container">
 					<div
-						class="row justify-content-start align-items-center py-5"
+						class="row justify-content-start align-items-center pt-5 pb-0 pb-md-5"
 					>
-						<div class="col-3 offset-lg-2">
+						<div class="col-3 col-gl-3 offset-lg-1">
 							<div class="hero_slider_img">
 								<img
 									class="img-fluid"
@@ -2676,7 +2726,7 @@
 								/>
 							</div>
 						</div>
-						<div class="col-6">
+						<div class="col-9 col-lg-8">
 							<div class="hero_slider_contents">
 								<h1 class="font-PT_b">masseto</h1>
 								<h2 class="font-PT_reg">
@@ -2703,9 +2753,9 @@
 
 								<!-- review pannel  -->
 								<div
-									class="review_pannel d-flex justify-content-start align-items-start"
+									class="review_pannel d-flex justify-content-start align-items-start pb-3"
 								>
-									<div class="col-6 p-0">
+									<div class="col-12 col-lg-6 p-0">
 										<!-- hero review  -->
 										<div class="review_area">
 											<div class="reviews_start">
@@ -2724,26 +2774,42 @@
 											<div
 												class="penin d-flex align-items-center"
 											>
-												<span class="name">penin</span>
-												<span class="number">90</span>
+												<span
+													class="name d-none d-lg-block"
+													>penin</span
+												>
+												<span
+													class="number d-none d-lg-block"
+													>90</span
+												>
 											</div>
 											<div
 												class="perker d-flex align-items-center"
 											>
-												<span class="name">perker</span>
-												<span class="number">95</span>
+												<span
+													class="name d-none d-lg-block"
+													>perker</span
+												>
+												<span
+													class="number d-none d-lg-block"
+													>95</span
+												>
 											</div>
 											<div
 												class="sommelier d-flex align-items-center"
 											>
-												<span class="name"
+												<span
+													class="name d-none d-lg-block"
 													>sommelier</span
 												>
-												<span class="number">98</span>
+												<span
+													class="number d-none d-lg-block"
+													>98</span
+												>
 											</div>
 										</div>
 									</div>
-									<div class="col-5 p-0">
+									<div class="col-lg-6 p-0 d-none d-lg-block">
 										<!-- hero price  -->
 										<div class="hero_price_area">
 											<div
@@ -2756,7 +2822,8 @@
 												<span class="reduce-price"
 													>1978,00
 												</span>
-												<span class="font-nunito_b"
+												<span
+													class="font-nunito_b d-none d-lg-block"
 													>before</span
 												>
 											</div>
@@ -2770,7 +2837,9 @@
 												<span class="actual_price"
 													>1162,00
 												</span>
-												<span>now</span>
+												<span class="d-none d-lg-block"
+													>now</span
+												>
 											</div>
 											<div class="buy_now_btn">
 												<a href="#">buy now</a>
@@ -2793,7 +2862,7 @@
 				<div class="row">
 					<!-- single promo  -->
 					<div
-						class="col-12 col-sm-12 col-md-6 col-lg-3 py-3 pysm-3 py-md-3 py-lg-0"
+						class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 py-3 py-sm-3 py-md-3 py-lg-3"
 					>
 						<div
 							class="single_promo d-flex justify-content-start align-items-center"
@@ -2810,7 +2879,7 @@
 					</div>
 					<!-- single promo  -->
 					<div
-						class="col-12 col-sm-12 col-md-6 col-lg-3 py-3 pysm-3 py-md-3 py-lg-0"
+						class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 py-3 py-sm-3 py-md-3 py-lg-3"
 					>
 						<div
 							class="single_promo d-flex justify-content-start align-items-center"
@@ -2827,7 +2896,7 @@
 					</div>
 					<!-- single promo  -->
 					<div
-						class="col-12 col-sm-12 col-md-6 col-lg-3 py-3 pysm-3 py-md-3 py-lg-0"
+						class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 py-3 py-sm-3 py-md-3 py-lg-3"
 					>
 						<div
 							class="single_promo d-flex justify-content-start align-items-center"
@@ -2844,7 +2913,7 @@
 					</div>
 					<!-- single promo  -->
 					<div
-						class="col-12 col-sm-12 col-md-6 col-lg-3 py-3 pysm-3 py-md-3 py-lg-0"
+						class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 py-3 py-sm-3 py-md-3 py-lg-3"
 					>
 						<div
 							class="single_promo d-flex justify-content-start align-items-center"
@@ -2874,11 +2943,11 @@
 						</div>
 					</div>
 				</div>
-				<!-- best seller single item rows  -->
 
-				<div class="row py-5">
+				<!-- best seller single item rows for DESKTOP -->
+				<div class="row py-5 d-none d-lg-flex">
 					<!-- single product item  -->
-					<div class="col-lg-4 py-3">
+					<div class="col-md-6 col-lg-6 col-xl-4 py-3">
 						<div class="product_wrapper">
 							<div class="product_contents">
 								<h1>
@@ -3035,7 +3104,7 @@
 					</div>
 					<!-- end  -->
 					<!-- single product item  -->
-					<div class="col-lg-4 py-3">
+					<div class="col-md-6 col-lg-6 col-xl-4 py-3">
 						<div class="product_wrapper">
 							<div class="product_contents">
 								<h1>
@@ -3192,7 +3261,7 @@
 					</div>
 					<!-- end  -->
 					<!-- single product item  -->
-					<div class="col-lg-4 py-3">
+					<div class="col-md-6 col-lg-6 col-xl-4 py-3">
 						<div class="product_wrapper">
 							<div class="product_contents">
 								<h1>
@@ -3349,7 +3418,7 @@
 					</div>
 					<!-- end  -->
 					<!-- single product item  -->
-					<div class="col-lg-4 py-3">
+					<div class="col-md-6 col-lg-6 col-xl-4 py-3">
 						<div class="product_wrapper">
 							<div class="product_contents">
 								<h1>
@@ -3506,7 +3575,7 @@
 					</div>
 					<!-- end  -->
 					<!-- single product item  -->
-					<div class="col-lg-4 py-3">
+					<div class="col-md-6 col-lg-6 col-xl-4 py-3">
 						<div class="product_wrapper">
 							<div class="product_contents">
 								<h1>
@@ -3663,7 +3732,7 @@
 					</div>
 					<!-- end  -->
 					<!-- single product item  -->
-					<div class="col-lg-4 py-3">
+					<div class="col-md-6 col-lg-6 col-xl-4 py-3">
 						<div class="product_wrapper">
 							<div class="product_contents">
 								<h1>
@@ -3820,6 +3889,1088 @@
 					</div>
 					<!-- end  -->
 				</div>
+				<!-- best seller slider for MOBILE  -->
+				<div class="row d-lg-none">
+					<div class="col-md-12">
+						<div class="arrived_slider owl-carousel owl-theme">
+							<!-- single arival items  -->
+							<div class="arival_single_item">
+								<div class="product_wrapper">
+									<div class="product_contents">
+										<h1>
+											Vega sicilia unico gran reserva 1970
+											ribera del duero
+										</h1>
+										<p>
+											Lorem ipsum dolor sit amet
+											consectetur adipisicing elit.
+											Aperiam, neque cupiditate.
+										</p>
+										<!-- product details  -->
+										<div
+											class="product_details d-flex align-items-center"
+										>
+											<div class="product_img">
+												<img
+													class="img-fluid"
+													src="./assets/img/bottol/bottol.png"
+													alt=""
+												/>
+											</div>
+											<div class="product_spacifications">
+												<div
+													class="product_country d-flex align-items-center"
+												>
+													<img
+														class="img-fluid"
+														src="./assets/img/country-flags/spain.png"
+														alt=""
+													/>
+													<span>Spain</span>
+												</div>
+												<div
+													class="product_riesling d-flex align-items-center"
+												>
+													<img
+														class="img-fluid"
+														src="./assets/img/products/fruits.png"
+														alt=""
+													/>
+													<span>Riesling</span>
+												</div>
+												<div
+													class="product_parker d-flex align-items-center"
+												>
+													<span class="parker_number"
+														>92</span
+													>
+													<span class="parker_name"
+														>parker</span
+													>
+												</div>
+												<div
+													class="product_penin d-flex align-items-center"
+												>
+													<span class="penin_number"
+														>98</span
+													>
+													<span class="penin_name"
+														>penin</span
+													>
+												</div>
+												<div
+													class="product_sommelier d-flex align-items-center"
+												>
+													<span
+														class="sommelier_number"
+														>95</span
+													>
+													<span class="sommelier_name"
+														>sommelier</span
+													>
+												</div>
+												<div class="reviews_start">
+													<span class="starts">
+														<i
+															class="fas fa-star"
+														></i>
+														<i
+															class="fas fa-star"
+														></i>
+														<i
+															class="fas fa-star"
+														></i>
+														<i
+															class="fas fa-star"
+														></i>
+														<i
+															class="fas fa-star"
+														></i>
+														4.9
+													</span>
+													<span class="rating"
+														>39 Reviews</span
+													>
+												</div>
+											</div>
+										</div>
+										<!-- product price and counter  -->
+										<div
+											class="product_price_counter d-flex align-items-end"
+										>
+											<div
+												class="product_price d-flex flex-column"
+											>
+												<span
+													class="product_old d-flex align-items-center pb-2"
+												>
+													<span
+														class="product_old_price"
+														>2162,00</span
+													>
+													<span
+														class="product_currency_img"
+														><img
+															src="./assets/img/currency-icons/euro.png"
+															alt=""
+													/></span>
+												</span>
+												<span
+													class="product_new d-flex align-items-center pt-2"
+												>
+													<span
+														class="product_new_price"
+														>1003,09</span
+													>
+													<span
+														class="product_currency_img"
+														><img
+															src="./assets/img/currency-icons/euro.png"
+															alt=""
+													/></span>
+												</span>
+											</div>
+											<div
+												class="product_counter d-flex align-items-end pl-2"
+											>
+												<img
+													class="img-fluid mr-3"
+													src="https://via.placeholder.com/25x25"
+													alt=""
+												/>
+												<div
+													class="product_counter_btn d-flex align-items-center"
+												>
+													<p
+														class="product_counter_number"
+													>
+														1
+													</p>
+													<div
+														class="counter_plus_minus d-flex flex-column"
+													>
+														<button
+															class="counter_plus_btn"
+														>
+															+
+														</button>
+														<button
+															class="counter_minus_btn"
+														>
+															-
+														</button>
+													</div>
+													<div
+														class="product_buy_now_btn"
+													>
+														<a href="#"> buy now</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- single arival items ends  -->
+							<!-- single arival items  -->
+							<div class="arival_single_item">
+								<div class="product_wrapper">
+									<div class="product_contents">
+										<h1>
+											Vega sicilia unico gran reserva 1970
+											ribera del duero
+										</h1>
+										<p>
+											Lorem ipsum dolor sit amet
+											consectetur adipisicing elit.
+											Aperiam, neque cupiditate.
+										</p>
+										<!-- product details  -->
+										<div
+											class="product_details d-flex align-items-center"
+										>
+											<div class="product_img">
+												<img
+													class="img-fluid"
+													src="./assets/img/bottol/bottol.png"
+													alt=""
+												/>
+											</div>
+											<div class="product_spacifications">
+												<div
+													class="product_country d-flex align-items-center"
+												>
+													<img
+														class="img-fluid"
+														src="./assets/img/country-flags/spain.png"
+														alt=""
+													/>
+													<span>Spain</span>
+												</div>
+												<div
+													class="product_riesling d-flex align-items-center"
+												>
+													<img
+														class="img-fluid"
+														src="./assets/img/products/fruits.png"
+														alt=""
+													/>
+													<span>Riesling</span>
+												</div>
+												<div
+													class="product_parker d-flex align-items-center"
+												>
+													<span class="parker_number"
+														>92</span
+													>
+													<span class="parker_name"
+														>parker</span
+													>
+												</div>
+												<div
+													class="product_penin d-flex align-items-center"
+												>
+													<span class="penin_number"
+														>98</span
+													>
+													<span class="penin_name"
+														>penin</span
+													>
+												</div>
+												<div
+													class="product_sommelier d-flex align-items-center"
+												>
+													<span
+														class="sommelier_number"
+														>95</span
+													>
+													<span class="sommelier_name"
+														>sommelier</span
+													>
+												</div>
+												<div class="reviews_start">
+													<span class="starts">
+														<i
+															class="fas fa-star"
+														></i>
+														<i
+															class="fas fa-star"
+														></i>
+														<i
+															class="fas fa-star"
+														></i>
+														<i
+															class="fas fa-star"
+														></i>
+														<i
+															class="fas fa-star"
+														></i>
+														4.9
+													</span>
+													<span class="rating"
+														>39 Reviews</span
+													>
+												</div>
+											</div>
+										</div>
+										<!-- product price and counter  -->
+										<div
+											class="product_price_counter d-flex align-items-end"
+										>
+											<div
+												class="product_price d-flex flex-column"
+											>
+												<span
+													class="product_old d-flex align-items-center pb-2"
+												>
+													<span
+														class="product_old_price"
+														>2162,00</span
+													>
+													<span
+														class="product_currency_img"
+														><img
+															src="./assets/img/currency-icons/euro.png"
+															alt=""
+													/></span>
+												</span>
+												<span
+													class="product_new d-flex align-items-center pt-2"
+												>
+													<span
+														class="product_new_price"
+														>1003,09</span
+													>
+													<span
+														class="product_currency_img"
+														><img
+															src="./assets/img/currency-icons/euro.png"
+															alt=""
+													/></span>
+												</span>
+											</div>
+											<div
+												class="product_counter d-flex align-items-end pl-2"
+											>
+												<img
+													class="img-fluid mr-3"
+													src="https://via.placeholder.com/25x25"
+													alt=""
+												/>
+												<div
+													class="product_counter_btn d-flex align-items-center"
+												>
+													<p
+														class="product_counter_number"
+													>
+														1
+													</p>
+													<div
+														class="counter_plus_minus d-flex flex-column"
+													>
+														<button
+															class="counter_plus_btn"
+														>
+															+
+														</button>
+														<button
+															class="counter_minus_btn"
+														>
+															-
+														</button>
+													</div>
+													<div
+														class="product_buy_now_btn"
+													>
+														<a href="#"> buy now</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- single arival items ends  -->
+							<!-- single arival items  -->
+							<div class="arival_single_item">
+								<div class="product_wrapper">
+									<div class="product_contents">
+										<h1>
+											Vega sicilia unico gran reserva 1970
+											ribera del duero
+										</h1>
+										<p>
+											Lorem ipsum dolor sit amet
+											consectetur adipisicing elit.
+											Aperiam, neque cupiditate.
+										</p>
+										<!-- product details  -->
+										<div
+											class="product_details d-flex align-items-center"
+										>
+											<div class="product_img">
+												<img
+													class="img-fluid"
+													src="./assets/img/bottol/bottol.png"
+													alt=""
+												/>
+											</div>
+											<div class="product_spacifications">
+												<div
+													class="product_country d-flex align-items-center"
+												>
+													<img
+														class="img-fluid"
+														src="./assets/img/country-flags/spain.png"
+														alt=""
+													/>
+													<span>Spain</span>
+												</div>
+												<div
+													class="product_riesling d-flex align-items-center"
+												>
+													<img
+														class="img-fluid"
+														src="./assets/img/products/fruits.png"
+														alt=""
+													/>
+													<span>Riesling</span>
+												</div>
+												<div
+													class="product_parker d-flex align-items-center"
+												>
+													<span class="parker_number"
+														>92</span
+													>
+													<span class="parker_name"
+														>parker</span
+													>
+												</div>
+												<div
+													class="product_penin d-flex align-items-center"
+												>
+													<span class="penin_number"
+														>98</span
+													>
+													<span class="penin_name"
+														>penin</span
+													>
+												</div>
+												<div
+													class="product_sommelier d-flex align-items-center"
+												>
+													<span
+														class="sommelier_number"
+														>95</span
+													>
+													<span class="sommelier_name"
+														>sommelier</span
+													>
+												</div>
+												<div class="reviews_start">
+													<span class="starts">
+														<i
+															class="fas fa-star"
+														></i>
+														<i
+															class="fas fa-star"
+														></i>
+														<i
+															class="fas fa-star"
+														></i>
+														<i
+															class="fas fa-star"
+														></i>
+														<i
+															class="fas fa-star"
+														></i>
+														4.9
+													</span>
+													<span class="rating"
+														>39 Reviews</span
+													>
+												</div>
+											</div>
+										</div>
+										<!-- product price and counter  -->
+										<div
+											class="product_price_counter d-flex align-items-end"
+										>
+											<div
+												class="product_price d-flex flex-column"
+											>
+												<span
+													class="product_old d-flex align-items-center pb-2"
+												>
+													<span
+														class="product_old_price"
+														>2162,00</span
+													>
+													<span
+														class="product_currency_img"
+														><img
+															src="./assets/img/currency-icons/euro.png"
+															alt=""
+													/></span>
+												</span>
+												<span
+													class="product_new d-flex align-items-center pt-2"
+												>
+													<span
+														class="product_new_price"
+														>1003,09</span
+													>
+													<span
+														class="product_currency_img"
+														><img
+															src="./assets/img/currency-icons/euro.png"
+															alt=""
+													/></span>
+												</span>
+											</div>
+											<div
+												class="product_counter d-flex align-items-end pl-2"
+											>
+												<img
+													class="img-fluid mr-3"
+													src="https://via.placeholder.com/25x25"
+													alt=""
+												/>
+												<div
+													class="product_counter_btn d-flex align-items-center"
+												>
+													<p
+														class="product_counter_number"
+													>
+														1
+													</p>
+													<div
+														class="counter_plus_minus d-flex flex-column"
+													>
+														<button
+															class="counter_plus_btn"
+														>
+															+
+														</button>
+														<button
+															class="counter_minus_btn"
+														>
+															-
+														</button>
+													</div>
+													<div
+														class="product_buy_now_btn"
+													>
+														<a href="#"> buy now</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- single arival items ends  -->
+							<!-- single arival items  -->
+							<div class="arival_single_item">
+								<div class="product_wrapper">
+									<div class="product_contents">
+										<h1>
+											Vega sicilia unico gran reserva 1970
+											ribera del duero
+										</h1>
+										<p>
+											Lorem ipsum dolor sit amet
+											consectetur adipisicing elit.
+											Aperiam, neque cupiditate.
+										</p>
+										<!-- product details  -->
+										<div
+											class="product_details d-flex align-items-center"
+										>
+											<div class="product_img">
+												<img
+													class="img-fluid"
+													src="./assets/img/bottol/bottol.png"
+													alt=""
+												/>
+											</div>
+											<div class="product_spacifications">
+												<div
+													class="product_country d-flex align-items-center"
+												>
+													<img
+														class="img-fluid"
+														src="./assets/img/country-flags/spain.png"
+														alt=""
+													/>
+													<span>Spain</span>
+												</div>
+												<div
+													class="product_riesling d-flex align-items-center"
+												>
+													<img
+														class="img-fluid"
+														src="./assets/img/products/fruits.png"
+														alt=""
+													/>
+													<span>Riesling</span>
+												</div>
+												<div
+													class="product_parker d-flex align-items-center"
+												>
+													<span class="parker_number"
+														>92</span
+													>
+													<span class="parker_name"
+														>parker</span
+													>
+												</div>
+												<div
+													class="product_penin d-flex align-items-center"
+												>
+													<span class="penin_number"
+														>98</span
+													>
+													<span class="penin_name"
+														>penin</span
+													>
+												</div>
+												<div
+													class="product_sommelier d-flex align-items-center"
+												>
+													<span
+														class="sommelier_number"
+														>95</span
+													>
+													<span class="sommelier_name"
+														>sommelier</span
+													>
+												</div>
+												<div class="reviews_start">
+													<span class="starts">
+														<i
+															class="fas fa-star"
+														></i>
+														<i
+															class="fas fa-star"
+														></i>
+														<i
+															class="fas fa-star"
+														></i>
+														<i
+															class="fas fa-star"
+														></i>
+														<i
+															class="fas fa-star"
+														></i>
+														4.9
+													</span>
+													<span class="rating"
+														>39 Reviews</span
+													>
+												</div>
+											</div>
+										</div>
+										<!-- product price and counter  -->
+										<div
+											class="product_price_counter d-flex align-items-end"
+										>
+											<div
+												class="product_price d-flex flex-column"
+											>
+												<span
+													class="product_old d-flex align-items-center pb-2"
+												>
+													<span
+														class="product_old_price"
+														>2162,00</span
+													>
+													<span
+														class="product_currency_img"
+														><img
+															src="./assets/img/currency-icons/euro.png"
+															alt=""
+													/></span>
+												</span>
+												<span
+													class="product_new d-flex align-items-center pt-2"
+												>
+													<span
+														class="product_new_price"
+														>1003,09</span
+													>
+													<span
+														class="product_currency_img"
+														><img
+															src="./assets/img/currency-icons/euro.png"
+															alt=""
+													/></span>
+												</span>
+											</div>
+											<div
+												class="product_counter d-flex align-items-end pl-2"
+											>
+												<img
+													class="img-fluid mr-3"
+													src="https://via.placeholder.com/25x25"
+													alt=""
+												/>
+												<div
+													class="product_counter_btn d-flex align-items-center"
+												>
+													<p
+														class="product_counter_number"
+													>
+														1
+													</p>
+													<div
+														class="counter_plus_minus d-flex flex-column"
+													>
+														<button
+															class="counter_plus_btn"
+														>
+															+
+														</button>
+														<button
+															class="counter_minus_btn"
+														>
+															-
+														</button>
+													</div>
+													<div
+														class="product_buy_now_btn"
+													>
+														<a href="#"> buy now</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- single arival items ends  -->
+							<!-- single arival items  -->
+							<div class="arival_single_item">
+								<div class="product_wrapper">
+									<div class="product_contents">
+										<h1>
+											Vega sicilia unico gran reserva 1970
+											ribera del duero
+										</h1>
+										<p>
+											Lorem ipsum dolor sit amet
+											consectetur adipisicing elit.
+											Aperiam, neque cupiditate.
+										</p>
+										<!-- product details  -->
+										<div
+											class="product_details d-flex align-items-center"
+										>
+											<div class="product_img">
+												<img
+													class="img-fluid"
+													src="./assets/img/bottol/bottol.png"
+													alt=""
+												/>
+											</div>
+											<div class="product_spacifications">
+												<div
+													class="product_country d-flex align-items-center"
+												>
+													<img
+														class="img-fluid"
+														src="./assets/img/country-flags/spain.png"
+														alt=""
+													/>
+													<span>Spain</span>
+												</div>
+												<div
+													class="product_riesling d-flex align-items-center"
+												>
+													<img
+														class="img-fluid"
+														src="./assets/img/products/fruits.png"
+														alt=""
+													/>
+													<span>Riesling</span>
+												</div>
+												<div
+													class="product_parker d-flex align-items-center"
+												>
+													<span class="parker_number"
+														>92</span
+													>
+													<span class="parker_name"
+														>parker</span
+													>
+												</div>
+												<div
+													class="product_penin d-flex align-items-center"
+												>
+													<span class="penin_number"
+														>98</span
+													>
+													<span class="penin_name"
+														>penin</span
+													>
+												</div>
+												<div
+													class="product_sommelier d-flex align-items-center"
+												>
+													<span
+														class="sommelier_number"
+														>95</span
+													>
+													<span class="sommelier_name"
+														>sommelier</span
+													>
+												</div>
+												<div class="reviews_start">
+													<span class="starts">
+														<i
+															class="fas fa-star"
+														></i>
+														<i
+															class="fas fa-star"
+														></i>
+														<i
+															class="fas fa-star"
+														></i>
+														<i
+															class="fas fa-star"
+														></i>
+														<i
+															class="fas fa-star"
+														></i>
+														4.9
+													</span>
+													<span class="rating"
+														>39 Reviews</span
+													>
+												</div>
+											</div>
+										</div>
+										<!-- product price and counter  -->
+										<div
+											class="product_price_counter d-flex align-items-end"
+										>
+											<div
+												class="product_price d-flex flex-column"
+											>
+												<span
+													class="product_old d-flex align-items-center pb-2"
+												>
+													<span
+														class="product_old_price"
+														>2162,00</span
+													>
+													<span
+														class="product_currency_img"
+														><img
+															src="./assets/img/currency-icons/euro.png"
+															alt=""
+													/></span>
+												</span>
+												<span
+													class="product_new d-flex align-items-center pt-2"
+												>
+													<span
+														class="product_new_price"
+														>1003,09</span
+													>
+													<span
+														class="product_currency_img"
+														><img
+															src="./assets/img/currency-icons/euro.png"
+															alt=""
+													/></span>
+												</span>
+											</div>
+											<div
+												class="product_counter d-flex align-items-end pl-2"
+											>
+												<img
+													class="img-fluid mr-3"
+													src="https://via.placeholder.com/25x25"
+													alt=""
+												/>
+												<div
+													class="product_counter_btn d-flex align-items-center"
+												>
+													<p
+														class="product_counter_number"
+													>
+														1
+													</p>
+													<div
+														class="counter_plus_minus d-flex flex-column"
+													>
+														<button
+															class="counter_plus_btn"
+														>
+															+
+														</button>
+														<button
+															class="counter_minus_btn"
+														>
+															-
+														</button>
+													</div>
+													<div
+														class="product_buy_now_btn"
+													>
+														<a href="#"> buy now</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- single arival items ends  -->
+							<!-- single arival items  -->
+							<div class="arival_single_item">
+								<div class="product_wrapper">
+									<div class="product_contents">
+										<h1>
+											Vega sicilia unico gran reserva 1970
+											ribera del duero
+										</h1>
+										<p>
+											Lorem ipsum dolor sit amet
+											consectetur adipisicing elit.
+											Aperiam, neque cupiditate.
+										</p>
+										<!-- product details  -->
+										<div
+											class="product_details d-flex align-items-center"
+										>
+											<div class="product_img">
+												<img
+													class="img-fluid"
+													src="./assets/img/bottol/bottol.png"
+													alt=""
+												/>
+											</div>
+											<div class="product_spacifications">
+												<div
+													class="product_country d-flex align-items-center"
+												>
+													<img
+														class="img-fluid"
+														src="./assets/img/country-flags/spain.png"
+														alt=""
+													/>
+													<span>Spain</span>
+												</div>
+												<div
+													class="product_riesling d-flex align-items-center"
+												>
+													<img
+														class="img-fluid"
+														src="./assets/img/products/fruits.png"
+														alt=""
+													/>
+													<span>Riesling</span>
+												</div>
+												<div
+													class="product_parker d-flex align-items-center"
+												>
+													<span class="parker_number"
+														>92</span
+													>
+													<span class="parker_name"
+														>parker</span
+													>
+												</div>
+												<div
+													class="product_penin d-flex align-items-center"
+												>
+													<span class="penin_number"
+														>98</span
+													>
+													<span class="penin_name"
+														>penin</span
+													>
+												</div>
+												<div
+													class="product_sommelier d-flex align-items-center"
+												>
+													<span
+														class="sommelier_number"
+														>95</span
+													>
+													<span class="sommelier_name"
+														>sommelier</span
+													>
+												</div>
+												<div class="reviews_start">
+													<span class="starts">
+														<i
+															class="fas fa-star"
+														></i>
+														<i
+															class="fas fa-star"
+														></i>
+														<i
+															class="fas fa-star"
+														></i>
+														<i
+															class="fas fa-star"
+														></i>
+														<i
+															class="fas fa-star"
+														></i>
+														4.9
+													</span>
+													<span class="rating"
+														>39 Reviews</span
+													>
+												</div>
+											</div>
+										</div>
+										<!-- product price and counter  -->
+										<div
+											class="product_price_counter d-flex align-items-end"
+										>
+											<div
+												class="product_price d-flex flex-column"
+											>
+												<span
+													class="product_old d-flex align-items-center pb-2"
+												>
+													<span
+														class="product_old_price"
+														>2162,00</span
+													>
+													<span
+														class="product_currency_img"
+														><img
+															src="./assets/img/currency-icons/euro.png"
+															alt=""
+													/></span>
+												</span>
+												<span
+													class="product_new d-flex align-items-center pt-2"
+												>
+													<span
+														class="product_new_price"
+														>1003,09</span
+													>
+													<span
+														class="product_currency_img"
+														><img
+															src="./assets/img/currency-icons/euro.png"
+															alt=""
+													/></span>
+												</span>
+											</div>
+											<div
+												class="product_counter d-flex align-items-end pl-2"
+											>
+												<img
+													class="img-fluid mr-3"
+													src="https://via.placeholder.com/25x25"
+													alt=""
+												/>
+												<div
+													class="product_counter_btn d-flex align-items-center"
+												>
+													<p
+														class="product_counter_number"
+													>
+														1
+													</p>
+													<div
+														class="counter_plus_minus d-flex flex-column"
+													>
+														<button
+															class="counter_plus_btn"
+														>
+															+
+														</button>
+														<button
+															class="counter_minus_btn"
+														>
+															-
+														</button>
+													</div>
+													<div
+														class="product_buy_now_btn"
+													>
+														<a href="#"> buy now</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- single arival items ends  -->
+						</div>
+					</div>
+				</div>
+				<!-- best seller slider for mobile end -->
 			</div>
 		</div>
 		<!-- best seller area END -->
@@ -3827,10 +4978,19 @@
 		<!-- latest blog area START  -->
 		<div class="latest_blog_area">
 			<div class="container">
-				<div class="row">
+				<!-- title row for DESKTOP  -->
+				<div class="row d-none d-lg-block">
 					<div class="col-md-12">
 						<div class="blog_section_title">
 							<h1 class="font-nunito_reg">latest blog</h1>
+						</div>
+					</div>
+				</div>
+				<!-- title row for mobile  -->
+				<div class="row d-lg-none mb-4">
+					<div class="col-lg-12">
+						<div class="section_title">
+							<h1>latest blog</h1>
 						</div>
 					</div>
 				</div>
