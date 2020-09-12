@@ -153,7 +153,10 @@ $(document).ready(function () {
 			600: {
 				items: 1,
 			},
-			1000: {
+			900: {
+				items: 2,
+			},
+			1200: {
 				items: 3,
 			},
 		},
@@ -178,7 +181,10 @@ $(document).ready(function () {
 			600: {
 				items: 1,
 			},
-			1000: {
+			900: {
+				items: 2,
+			},
+			1200: {
 				items: 3,
 			},
 		},
@@ -203,7 +209,10 @@ $(document).ready(function () {
 			600: {
 				items: 1,
 			},
-			1000: {
+			900: {
+				items: 2,
+			},
+			1200: {
 				items: 3,
 			},
 		},

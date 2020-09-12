@@ -743,7 +743,7 @@ body {
 	font-family: Nunito_Sans_Semi_B !important;
 }
 .best_seller_area .arival_single_item {
-	padding: 50px 30px !important;
+	/* padding: 50px 30px !important; */
 	background-color: #f2f2f2 !important;
 	margin-top: 15px;
 }
