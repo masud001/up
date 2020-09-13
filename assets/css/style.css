@@ -91,7 +91,7 @@ body {
 	position: fixed;
 	top: 0;
 	left: 0;
-	z-index: 9999;
+	z-index: -9999;
 	transition: opacity 0.3s linear;
 }
 
@@ -887,6 +887,7 @@ body {
 	border-top-left-radius: 30px;
 	border-bottom-left-radius: 30px;
 	margin-right: 2px;
+	font-size: 15px !important;
 }
 .counter_plus_minus {
 }
@@ -894,8 +895,8 @@ body {
 	border: 0;
 	background-color: #791216;
 	color: #fff;
-	font-size: 13px;
-	padding: 1px 3px;
+	font-size: 12px;
+	padding: 2px 3px;
 }
 .counter_plus_minus button:focus {
 	outline: none;
@@ -904,14 +905,14 @@ body {
 	margin-bottom: 1px;
 }
 .counter_minus_btn {
-	margin-top: 1px;
+	margin-top: 2px;
 }
 .product_buy_now_btn {
 }
 .product_buy_now_btn a {
 	color: #ffffff;
 	text-transform: uppercase;
-	font-size: 13px;
+	font-size: 12.5px;
 	font-weight: 600;
 	background-color: #791216;
 	padding: 13px 21px;
