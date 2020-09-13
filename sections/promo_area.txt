@@ -1,0 +1,76 @@
+		<!-- promo area start  -->
+		<div class="promo_area">
+			<div class="container">
+				<div class="row">
+					<!-- single promo  -->
+					<div
+						class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 py-3 py-sm-3 py-md-3 py-lg-3"
+					>
+						<div
+							class="single_promo d-flex justify-content-start align-items-center"
+						>
+							<img src="./assets/img/icons/1.png" alt="" />
+							<div class="promo_contents">
+								<h3>over 18,000 wines in catalog</h3>
+								<p>
+									Lorem ipsum dolor sit, amet consectetur
+									adipisicing elit.
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- single promo  -->
+					<div
+						class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 py-3 py-sm-3 py-md-3 py-lg-3"
+					>
+						<div
+							class="single_promo d-flex justify-content-start align-items-center"
+						>
+							<img src="./assets/img/icons/2.png" alt="" />
+							<div class="promo_contents">
+								<h3>over 18,000 wines in catalog</h3>
+								<p>
+									Lorem ipsum dolor sit, amet consectetur
+									adipisicing elit.
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- single promo  -->
+					<div
+						class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 py-3 py-sm-3 py-md-3 py-lg-3"
+					>
+						<div
+							class="single_promo d-flex justify-content-start align-items-center"
+						>
+							<img src="./assets/img/icons/3.png" alt="" />
+							<div class="promo_contents">
+								<h3>over 18,000 wines in catalog</h3>
+								<p>
+									Lorem ipsum dolor sit, amet consectetur
+									adipisicing elit.
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- single promo  -->
+					<div
+						class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 py-3 py-sm-3 py-md-3 py-lg-3"
+					>
+						<div
+							class="single_promo d-flex justify-content-start align-items-center"
+						>
+							<img src="./assets/img/icons/4.png" alt="" />
+							<div class="promo_contents">
+								<h3>over 18,000 wines in catalog</h3>
+								<p>
+									Lorem ipsum dolor sit, amet consectetur
+									adipisicing elit.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- promo area end -->

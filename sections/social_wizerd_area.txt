@@ -1,0 +1,42 @@
+		<!-- social wizaerd area start -->
+		<div class="social_wizerd_area">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="section_title">
+							<h1>enjoy wine social media</h1>
+						</div>
+					</div>
+				</div>
+				<div class="row py-3">
+					<div class="col-md-4 py-3">
+						<div class="social_media_wizerd">
+							<img
+								class="img-fluid"
+								src="./assets/img/backgounds/Group 1789.png"
+								alt=""
+							/>
+						</div>
+					</div>
+					<div class="col-md-4 py-3">
+						<div class="social_media_wizerd">
+							<img
+								class="img-fluid"
+								src="./assets/img/backgounds/Group 1788.png"
+								alt=""
+							/>
+						</div>
+					</div>
+					<div class="col-md-4 py-3">
+						<div class="social_media_wizerd">
+							<img
+								class="img-fluid"
+								src="./assets/img/backgounds/Group 1787.png"
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- social wizaerd area end -->

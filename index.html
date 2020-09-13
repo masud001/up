@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 		<!-- font awesome css  -->
 		<link rel="stylesheet" href="./assets/css/all.min.css" />
 		<!-- Bootstrap 4 css  -->
@@ -21,6 +22,79 @@
 		<title>MASSETO</title>
 	</head>
 	<body>
+		<!-- preloader of the page START -->
+		<div class="preloader">
+			<svg
+				width="200"
+				height="200"
+				xmlns="http://www.w3.org/2000/svg"
+				viewBox="0 0 100 100"
+				preserveAspectRatio="xMidYMid"
+				class="lds-ripple"
+				style="background: 0 0"
+			>
+				<circle
+					cx="50"
+					cy="50"
+					r="4.719"
+					fill="none"
+					stroke="#1d3f72"
+					stroke-width="2"
+				>
+					<animate
+						attributeName="r"
+						calcMode="spline"
+						values="0;40"
+						keyTimes="0;1"
+						dur="3"
+						keySplines="0 0.2 0.8 1"
+						begin="-1.5s"
+						repeatCount="indefinite"
+					/>
+					<animate
+						attributeName="opacity"
+						calcMode="spline"
+						values="1;0"
+						keyTimes="0;1"
+						dur="3"
+						keySplines="0.2 0 0.8 1"
+						begin="-1.5s"
+						repeatCount="indefinite"
+					/>
+				</circle>
+				<circle
+					cx="50"
+					cy="50"
+					r="27.591"
+					fill="none"
+					stroke="#5699d2"
+					stroke-width="2"
+				>
+					<animate
+						attributeName="r"
+						calcMode="spline"
+						values="0;40"
+						keyTimes="0;1"
+						dur="3"
+						keySplines="0 0.2 0.8 1"
+						begin="0s"
+						repeatCount="indefinite"
+					/>
+					<animate
+						attributeName="opacity"
+						calcMode="spline"
+						values="1;0"
+						keyTimes="0;1"
+						dur="3"
+						keySplines="0.2 0 0.8 1"
+						begin="0s"
+						repeatCount="indefinite"
+					/>
+				</circle>
+			</svg>
+		</div>
+		<!-- preloader of the page END -->
+
 		<!-- top order alert START  -->
 		<section class="top_order_alert d-none d-lg-block">
 			<div class="container">
@@ -50,6 +124,7 @@
 			</div>
 		</section>
 		<!-- top order alert END  -->
+
 		<!-- top cookies policys START  -->
 		<section class="cookise_policy d-none d-lg-block">
 			<div class="container">
@@ -79,6 +154,7 @@
 			</div>
 		</section>
 		<!-- top cookies policys END  -->
+
 		<!-- top product searcing options and search bar START  -->
 		<section class="top_search_area d-none d-lg-block">
 			<div class="container">
@@ -337,7 +413,7 @@
 				</div>
 			</div>
 		</section>
-		<!-- top product searcing options and search bar END  -->
+		<!-- top product searcing options and search bar END-->
 
 		<!-- heaer logo and menu area START -->
 		<header class="header_area">
@@ -649,6 +725,7 @@
 													gran reserva 1986 (owcl)
 												</h2>
 												<img
+													class="img-fluid"
 													src="./assets/img/backgounds/unnamed.png"
 													alt=""
 												/>
@@ -940,6 +1017,7 @@
 													gran reserva 1986 (owcl)
 												</h2>
 												<img
+													class="img-fluid"
 													src="./assets/img/backgounds/unnamed.png"
 													alt=""
 												/>
@@ -1230,6 +1308,7 @@
 													gran reserva 1986 (owcl)
 												</h2>
 												<img
+													class="img-fluid"
 													src="./assets/img/backgounds/unnamed.png"
 													alt=""
 												/>
@@ -1519,6 +1598,7 @@
 													gran reserva 1986 (owcl)
 												</h2>
 												<img
+													class="img-fluid"
 													src="./assets/img/backgounds/unnamed.png"
 													alt=""
 												/>
@@ -1809,6 +1889,7 @@
 													gran reserva 1986 (owcl)
 												</h2>
 												<img
+													class="img-fluid"
 													src="./assets/img/backgounds/unnamed.png"
 													alt=""
 												/>
@@ -2098,6 +2179,7 @@
 													gran reserva 1986 (owcl)
 												</h2>
 												<img
+													class="img-fluid"
 													src="./assets/img/backgounds/unnamed.png"
 													alt=""
 												/>
@@ -2387,6 +2469,7 @@
 													gran reserva 1986 (owcl)
 												</h2>
 												<img
+													class="img-fluid"
 													src="./assets/img/backgounds/unnamed.png"
 													alt=""
 												/>
@@ -2936,7 +3019,7 @@
 		<!-- best seller area START -->
 		<div class="best_seller_area">
 			<div class="container">
-				<div class="row">
+				<div class="row mb-4">
 					<div class="col-lg-12">
 						<div class="section_title">
 							<h1>Bast sellers</h1>
@@ -5206,7 +5289,7 @@
 		<div class="arrived_area">
 			<span class="arrived_bg_img"></span>
 			<div class="container">
-				<div class="row">
+				<div class="row mb-4">
 					<div class="col-md-12">
 						<div class="section_title">
 							<h1>just arrived</h1>
@@ -6300,7 +6383,7 @@
 		<!-- wine of the week section START -->
 		<div class="wine_of_weeks_area">
 			<div class="container">
-				<div class="row">
+				<div class="row mb-4">
 					<div class="col-md-12">
 						<div class="section_title">
 							<h1>wine of the week</h1>
@@ -7444,11 +7527,11 @@
 			<span class="wine_maker_bg_right"></span>
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-8 offset-md-1">
+					<div class="col-md-10 offset-md-0 col-xl-8 offset-xl-1">
 						<div
 							class="wine_maker_wrapper d-flex align-items-start"
 						>
-							<div class="wine_maker_img">
+							<div class="wine_maker_img d-none d-lg-flex">
 								<img
 									class=""
 									src="./assets/img/backgounds/avatar.png"
@@ -7490,7 +7573,7 @@
 		<!-- 100 points wine advocate section START -->
 		<div class="wine_advocate_area">
 			<div class="container">
-				<div class="row">
+				<div class="row mb-4">
 					<div class="col-md-12">
 						<div class="section_title">
 							<h1>100 points wine advocate</h1>
@@ -8584,7 +8667,7 @@
 		<!-- 100 points wine advocate section START  END -->
 
 		<!-- social wizaerd area start -->
-		<div class="social_wizerd_area">
+		<div class="social_wizerd_area py-5">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -8628,38 +8711,28 @@
 
 		<!-- perrier jouet area  -->
 		<div class="perrier_jouet_wrapper">
-			<span class="perrier_jouet_bg_left"></span>
 			<span class="perrier_jouet_bg_right"></span>
 			<div class="perrier_jouet_area perrier_jouet_bg_img">
+				<span class="perrier_jouet_bg_left d-none d-lg-block"></span>
 				<div class="container">
 					<div
 						class="row justify-content-start align-items-center py-5"
 					>
-						<!-- <div class="col-3 offset-lg-1">
-						<div class="hero_slider_img">
-							<img
-								class="img-fluid"
-								src="./assets/img/hero-slider-img/hero-slider-img-01.png"
-								alt=""
-							/>
-						</div>
-					</div> -->
-						<div class="col-md-6 col-gl-6 offset-lg-4">
+						<div
+							class="col-9 p-0 offset-0 col-md-9 offset-md-0 col-lg-6 offset-lg-4"
+						>
 							<div class="hero_slider_contents">
-								<h1 class="font-PT_b">masseto</h1>
-								<h2 class="font-PT_reg">
-									tenutal dell' Ornellaia
-								</h2>
+								<h1 class="font-PT_b">perrier-jouet</h1>
+								<h2 class="font-PT_reg">Grand Brut</h2>
 								<h3 class="font-nunito_semi_b">
-									Italian red wine
+									french champagne brut
 								</h3>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur
-									adipisicing elit. Delectus perspiciatis quod
-									eius adipisci dolorum unde rem. Aliquid
-									sequi voluptates laboriosam inventore
-									dolorem ut eos est, quo cum quasi amet
-									numquam?
+									Lorem ipsum dolor sit amet consectetur
+									adipisicing elit. Harum, distinctio aperiam
+									aliquid asperiores rerum ea aut error at
+									omnis sunt debitis. Cum dignissimos omnis
+									ducimus sunt minima mollitia. Vitae, nisi!
 								</p>
 								<h4 class="hero_contry d-flex">
 									<img
@@ -8673,7 +8746,7 @@
 								<div
 									class="review_pannel d-flex justify-content-start align-items-start pb-3"
 								>
-									<div class="col-6 p-0">
+									<div class="col-7 p-0">
 										<!-- hero review  -->
 										<div class="review_area">
 											<div class="reviews_start">
@@ -8690,19 +8763,19 @@
 												>
 											</div>
 											<div
-												class="penin d-flex align-items-center"
+												class="penin d-none d-md-flex align-items-center"
 											>
 												<span class="name">penin</span>
 												<span class="number">90</span>
 											</div>
 											<div
-												class="perker d-flex align-items-center"
+												class="perker d-none d-md-flex align-items-center"
 											>
 												<span class="name">perker</span>
 												<span class="number">95</span>
 											</div>
 											<div
-												class="sommelier d-flex align-items-center"
+												class="sommelier d-none d-md-flex align-items-center"
 											>
 												<span class="name"
 													>sommelier</span
@@ -8726,18 +8799,7 @@
 												</span>
 												<!-- <span class="font-nunito_b">before</span> -->
 											</div>
-											<!-- <div
-											class="current_price d-flex align-items-center"
-										>
-											<img
-												src="./assets/img/currency-icons/euro.png"
-												alt=""
-											/>
-											<span class="actual_price"
-												>1162,00
-											</span>
-											<span>now</span>
-										</div> -->
+
 											<div class="buy_now_btn">
 												<a href="#">buy now</a>
 											</div>
@@ -8753,11 +8815,17 @@
 		<!-- news letter ares START -->
 		<div class="newsLetter_area newsletter_bg_img">
 			<div class="container">
+				<span class="newsletter_mobile_bg_img d-md-none">
+					<img
+						src="./assets/img/backgounds/news-letter-img.png"
+						alt=""
+					/>
+				</span>
 				<div class="row align-items-center">
 					<div
-						class="col-lg-6 d-flex align-items-center section_stripe"
+						class="col-10 offset-2 col-md-6 offset-md-0 col-lg-6 d-flex align-items-center section_stripe"
 					>
-						<div class="nwws_letter_img">
+						<div class="nwws_letter_img d-none d-xl-flex">
 							<img
 								class="img-fluid"
 								src="./assets/img/backgounds/news-letter-img.png"
@@ -8778,33 +8846,48 @@
 							</p>
 						</div>
 					</div>
-					<div class="col-lg-5 offset-lg-1">
-						<div class="email_submission">
-							<p class="term_conditions">
-								By clicking this I agree to the
-								<strong>terms & conditions</strong> and
-								<strong>privecy policy</strong>
-							</p>
-							<p class="terms">
-								Lorem ipsum dolor sit amet consectetur
-								adipisicing elit. Eos quae labore eveniet quis
-								perspiciatis explicabo.
-							</p>
-							<div class="input-group">
-								<input
-									type="text"
-									class="form-control"
-									placeholder="Enter Email Address"
-									aria-label="Recipient's username"
-									aria-describedby="basic-addon2"
-								/>
-								<div class="input-group-append">
-									<span
-										class="input-group-text"
-										id="basic-addon2"
-										>subscribe</span
-									>
-								</div>
+					<div
+						class="col-10 offset-2 col-md-6 offset-md-0 col-lg-5 offset-lg-1"
+					>
+						<div class="email_submission d-flex flex-column">
+							<div
+								class="email_submission_contents order-2 order-md-1"
+							>
+								<p class="term_conditions">
+									By clicking this I agree to the
+									<strong>terms & conditions</strong> and
+									<strong>privecy policy</strong>
+								</p>
+								<p class="terms">
+									Lorem ipsum dolor sit amet consectetur
+									adipisicing elit. Eos quae labore eveniet
+									quis perspiciatis explicabo.
+								</p>
+							</div>
+							<div
+								class="email_submission_form order-1 order-md-2 py-3 py-md-2"
+							>
+								<form action="">
+									<div class="input-group">
+										<input
+											type="text"
+											class="form-control"
+											placeholder="Enter Email Address"
+											aria-label="Recipient's username"
+											aria-describedby="basic-addon2"
+										/>
+										<div class="input-group-append">
+											<button
+												role="button"
+												type="submit"
+												class="input-group-text"
+												id="basic-addon2"
+											>
+												subscribe
+											</button>
+										</div>
+									</div>
+								</form>
 							</div>
 						</div>
 					</div>
@@ -8812,11 +8895,11 @@
 			</div>
 		</div>
 		<!-- news letter ares END -->
-		<!-- .footer for desktop area START -->
+		<!-- footer for desktop area START -->
 		<section class="desktop_footer desk_footer_bg_img">
-			<div class="container">
+			<div class="container-fluid">
 				<div class="row align-items-center">
-					<div class="col-2">
+					<div class="col-lg-2 d-none d-lg-flex">
 						<div class="desk_footer_logo">
 							<img
 								class="img-fluid"
@@ -8826,7 +8909,7 @@
 						</div>
 					</div>
 					<!-- desk footer middle column  -->
-					<div class="col-7 no-gutters">
+					<div class="col-6 col-md-6 col-lg-7 no-gutters">
 						<div class="row py-3">
 							<div class="col-lg-3">
 								<div class="desk_single_footer_items">
@@ -8894,7 +8977,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row d-none d-lg-block">
 							<div class="col-lg-12">
 								<div class="footer_contents">
 									<p>
@@ -8910,7 +8993,15 @@
 						</div>
 					</div>
 					<!-- most right column  -->
-					<div class="col-3 align-self-start">
+					<div class="col-6 col-md-6 col-lg-3 align-self-start">
+						<!-- elements for mobile  -->
+						<div class="footer_element_for_mobile d-lg-none mb-5">
+							<img
+								class="img-fluid"
+								src="./assets/img/backgounds/pngguru.com-6.png"
+								alt=""
+							/>
+						</div>
 						<!-- shipping and payments  -->
 						<div class="shipping_payments_wraapper">
 							<!-- shipping partners  -->
@@ -8934,7 +9025,7 @@
 										/></a>
 									</div>
 								</div>
-								<div class="shippings_bg_img">
+								<div class="shippings_bg_img d-none d-lg-flex">
 									<img
 										class="img-fluid"
 										src="./assets/img/backgounds/pngguru.com-6.png"
@@ -8973,13 +9064,22 @@
 								</div>
 							</div>
 						</div>
+						<!-- elements for mobile  -->
+						<div class="footer_element_for_mobile d-lg-none mt-5">
+							<img
+								class="img-fluid"
+								src="./assets/img/backgounds/footer-logo.png"
+								alt=""
+							/>
+						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 		<!-- .footer for desktop area END -->
-		<!-- Footer -->
-		<footer>
+
+		<!-- Footer start -->
+		<footer class="footer">
 			<!-- Footer top -->
 			<div class="footer-top d-none d-lg-block">
 				<div class="container">
@@ -9257,6 +9357,8 @@
 				</div>
 			</div>
 		</footer>
+
+		<!-- footer end -->
 
 		<!-- jquery library  -->
 		<script src="./assets/js/jquery.min.js"></script>

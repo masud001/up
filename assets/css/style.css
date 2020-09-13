@@ -1,5 +1,6 @@
 /* css index  */
 /* 
+000 --> preloader of the page START 
 001 --> top order alert START 
 002 --> top cookies policys START 
 003 --> top product searcing options and search bar START
@@ -24,7 +25,9 @@
 */
 
 /* common css  */
-
+.owl-theme .owl-nav {
+	margin-top: 0px !important;
+}
 /* Nunito Sans */
 /* Regular */
 @font-face {
@@ -74,6 +77,22 @@
 
 body {
 	font-family: Nunito_Sans_Reg !important;
+}
+/* 000 --> preloader of the page START 
+================================================
+*/
+.preloader {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100%;
+	background: #fafaf3;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	transition: opacity 0.3s linear;
 }
 
 /* 001 --> top order alert START  
@@ -326,8 +345,6 @@ body {
 .navigation_menu ul li a {
 	color: #292929;
 	text-transform: uppercase;
-	font-size: 11px;
-	padding: 11px 11px;
 	display: inline-block !important;
 }
 .navigation_menu ul li:last-child a {
@@ -335,6 +352,10 @@ body {
 }
 .navigation_menu ul li a:focus {
 	outline: none;
+}
+.navigation_menu > ul > li.show > a {
+	color: #bf4800;
+	text-decoration: underline;
 }
 .navigation_menu ul li a:hover {
 	text-decoration: none;
@@ -380,24 +401,6 @@ body {
 
 /* navigation drop down menu design  */
 
-.redwine {
-	left: -76px;
-}
-.whitewine {
-	left: -152px;
-}
-.sparklingwine {
-	left: -243px;
-}
-.spirits {
-	left: -357px;
-}
-.vintage {
-	left: -420px;
-}
-.newarrivals {
-	left: -504px;
-}
 .single_dropdown_menu_items h1 {
 	color: #526054;
 	font-size: 21px;
@@ -742,14 +745,7 @@ body {
 	line-height: 45px;
 	font-family: Nunito_Sans_Semi_B !important;
 }
-.best_seller_area .arival_single_item {
-	/* padding: 50px 30px !important; */
-	background-color: #f2f2f2 !important;
-	margin-top: 15px;
-}
-.product_wrapper {
-	padding: 20px 8px;
-}
+
 .product_contents {
 }
 .product_contents h1 {
@@ -1236,40 +1232,6 @@ body {
 	font-size: 18px;
 	line-height: 25px;
 }
-/* 013 --> 100 points wine advocate section START  
-==================================================
-*/
-.wine_advocate_area {
-	background-color: #fff;
-	padding-bottom: 50px;
-	padding-top: 50px;
-}
-.wine_advocate_area {
-	position: relative;
-}
-.wine_advocate_slider .owl-nav button {
-	position: absolute;
-	width: 39px;
-	height: 39px;
-	border-radius: 50% !important;
-	line-height: 39px !important;
-	text-align: center;
-	background-color: #fff !important;
-	color: #791216 !important;
-	top: 50%;
-	left: -60px;
-	transform: translate(0%, -50%);
-	box-shadow: 0px 0px 6px 4px #eceff1;
-}
-
-.wine_advocate_slider .owl-nav button:focus {
-	outline: none;
-}
-
-.wine_advocate_slider .owl-nav button.owl-next {
-	left: auto;
-	right: -60px;
-}
 
 /* 012 -->  wine maker of the month start 
 ============================================
@@ -1283,12 +1245,23 @@ body {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 87%;
+	width: 100%;
 	height: 100%;
-	background-image: url(../img/backgounds/bg-img-006.png);
+	background: rgb(9, 29, 12);
+	background: rgb(9, 29, 12);
+	background: rgb(9, 29, 12);
+	background: rgb(9, 29, 12);
+	background: linear-gradient(
+		90deg,
+		rgba(9, 29, 12, 1) 0%,
+		rgba(9, 29, 12, 1) 50%,
+		rgba(9, 29, 12, 1) 50%,
+		rgba(142, 151, 143, 0) 100%
+	);
+	/* background-image: url(../img/backgounds/bg-img-006.png);
 	background-position: 100%;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover; */
 	z-index: 1;
 }
 .wine_maker_bg_right {
@@ -1298,7 +1271,7 @@ body {
 	width: 100%;
 	height: 100%;
 	background-image: url(../img/backgounds/bg-img-005.png);
-	background-position: 90px;
+	background-position: 100px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	z-index: -0;
@@ -1379,6 +1352,44 @@ body {
 	margin-left: 25px;
 }
 
+/* 013 --> 100 points wine advocate section START  
+==================================================
+*/
+.wine_advocate_area {
+	background-color: #fff;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+.wine_advocate_area {
+	position: relative;
+}
+.wine_advocate_slider .owl-nav button {
+	position: absolute;
+	width: 39px;
+	height: 39px;
+	border-radius: 50% !important;
+	line-height: 39px !important;
+	text-align: center;
+	background-color: #fff !important;
+	color: #791216 !important;
+	top: 50%;
+	transform: translate(0%, -50%);
+	box-shadow: 0px 0px 6px 4px #eceff1;
+}
+
+.wine_advocate_slider .owl-nav button:focus {
+	outline: none;
+}
+
+.wine_advocate_slider .owl-nav button.owl-next {
+	left: auto;
+}
+/* 014 --> social wizaerd area start 
+=======================================
+*/
+
+/* socia wizaerd will be start later  */
+
 /* 015 --> perrier jouet area 
 =================================
 */
@@ -1390,6 +1401,10 @@ body {
 .perrier_jouet_area {
 	position: relative;
 }
+.perrier_jouet_area .hero_slider_contents {
+	position: relative;
+	z-index: 2;
+}
 .perrier_jouet_bg_img {
 	background-image: url(../img/backgounds/bg-img-007.png);
 	background-position: center;
@@ -1399,8 +1414,7 @@ body {
 }
 .perrier_jouet_bg_left {
 	position: absolute;
-	top: 0%;
-	left: 0;
+	left: 0%;
 	width: 34%;
 	height: 100%;
 	background-image: url(../img/backgounds/bg-img-008.png);
@@ -1408,6 +1422,8 @@ body {
 	background-repeat: no-repeat;
 	background-size: contain;
 	z-index: 1;
+	top: 50%;
+	transform: translate(0%, -50%);
 }
 .perrier_jouet_bg_right {
 	position: absolute;
@@ -1421,8 +1437,10 @@ body {
 	background-size: contain;
 	z-index: 1;
 }
+.perrier_jouet_wrapper .hero_slider_contents {
+}
 
-/* Search */
+/* Search bar design */
 mark {
 	background-color: pink;
 }
@@ -1453,6 +1471,7 @@ mark {
 
 .newsLetter_area {
 	padding: 50px 0px;
+	position: relative;
 }
 .newsletter_bg_img {
 	background-image: url(../img/backgounds/bg-img-010.png);
@@ -1460,7 +1479,6 @@ mark {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: #ffffff;
-	background-image: none !important;
 }
 
 .nwws_letter_img {
@@ -1470,7 +1488,6 @@ mark {
 }
 .newsletter_content {
 	position: relative;
-	left: -70px;
 }
 .section_stripe {
 	position: relative;
@@ -1478,7 +1495,6 @@ mark {
 .section_stripe::after {
 	position: absolute;
 	width: 2px;
-	height: 60%;
 	content: "";
 	background-color: #bb888a;
 	top: 50%;
@@ -1553,12 +1569,10 @@ mark {
 	padding: 50px 0px;
 }
 .desk_footer_bg_img {
-	background-image: url(../img/backgounds/bg-img-010.png);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: #ffffff;
-	/* background-image: none !important; */
 }
 .desk_footer_logo {
 }
@@ -1607,10 +1621,14 @@ mark {
 }
 .shipping_partner_logo {
 }
-.shipping_partner_logo img {
-	width: 50px;
+.shipping_partner_logo img,
+.payments_methods_logo img {
+	width: 75px;
 	margin: 8px;
-	height: 50px;
+	height: 75px;
+	padding: 10px;
+	background-color: #e9d8d8;
+	border-radius: 5px;
 }
 .shippings_bg_img {
 	width: 44%;
@@ -1630,9 +1648,13 @@ mark {
 	justify-content: start;
 }
 .payments_methods_logo img {
-	margin: 10px;
+	/* margin: 10px; */
 }
-
+.footer_element_for_mobile {
+	width: 100%;
+}
+.footer_element_for_mobile img {
+}
 /* 
 ======================================================
 responsive  
@@ -1646,6 +1668,10 @@ responsive
 }
 
 @media (min-width: 320px) {
+	.navigation_menu ul li a {
+		font-size: 14px;
+		padding: 8px 8px;
+	}
 	.pricelist,
 	.redwine,
 	.whitewine,
@@ -1656,8 +1682,223 @@ responsive
 		width: 300px;
 		padding: 15px;
 	}
+	/* all product slider css  */
+	.single_blog_items_wrapper,
+	.arival_single_item,
+	.wine_of_weeks_single_item,
+	.wine_advocate_single_item {
+		margin: 0px 50px;
+	}
+	.product_wrapper {
+		padding: 20px 40px;
+	}
+	.arrived_slider .product_wrapper,
+	.wine_of_weeks_slider .product_wrapper,
+	.wine_advocate_slider .product_wrapper {
+		background-color: #ededed;
+		border-radius: 15px;
+	}
+	.blog_slider .owl-nav button,
+	.arrived_slider .owl-nav button,
+	.wine_of_weeks_slider .owl-nav button,
+	.wine_advocate_slider .owl-nav button {
+		left: -10px;
+	}
+	.blog_slider .owl-nav button.owl-next,
+	.arrived_slider .owl-nav button.owl-next,
+	.wine_of_weeks_slider .owl-nav button.owl-next,
+	.wine_advocate_slider .owl-nav button.owl-next {
+		right: -10px;
+	}
+	.wine_maker_bg_right {
+		background-position: -500px;
+	}
+	.perrier_jouet_bg_right {
+		background-position: 176%;
+	}
+	.perrier_jouet_wrapper .hero_slider_contents h1 {
+		text-transform: capitalize;
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+	.perrier_jouet_wrapper .hero_slider_contents h2 {
+		color: #2e7912;
+		font-size: 25px;
+	}
+	.perrier_jouet_wrapper .hero_slider_contents h3 {
+		font-size: 19px;
+	}
+	.perrier_jouet_wrapper .hero_slider_contents p {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.perrier_jouet_wrapper .hero_slider_contents .hero_price_area {
+	}
+	.perrier_jouet_wrapper
+		.hero_slider_contents
+		.hero_price_area
+		.before_price
+		img {
+		width: 15px !important;
+		height: 15px !important;
+	}
+	.perrier_jouet_wrapper
+		.hero_slider_contents
+		.hero_price_area
+		.reduce-price {
+		font-size: 15px;
+	}
+	.perrier_jouet_wrapper
+		.hero_slider_contents
+		.hero_price_area
+		.buy_now_btn
+		a {
+		padding: 10px 20px;
+		font-size: 14px;
+		margin-top: 0;
+	}
+	.perrier_jouet_wrapper .hero_slider_contents .hero_contry > img {
+		width: 15px !important;
+		height: 15px !important;
+	}
+	.perrier_jouet_wrapper .hero_contry span {
+		font-size: 15px;
+	}
+	.perrier_jouet_wrapper .reviews_start .starts {
+		font-size: 14px;
+	}
+	.newsletter_mobile_bg_img img {
+		position: absolute;
+		left: 15px;
+		top: 50%;
+		z-index: 1;
+		background-color: transparent;
+		width: 29%;
+		transform: translate(0%, -50%);
+	}
+	.payments_methods_logo img {
+		width: 50px;
+		height: 50px;
+	}
 }
+@media (min-width: 576px) {
+	.perrier_jouet_bg_right {
+		background-position: 163%;
+	}
+}
+@media (min-width: 610px) {
+	.perrier_jouet_bg_right {
+		background-position: 150%;
+	}
+}
+@media (min-width: 650px) {
+	.perrier_jouet_bg_right {
+		background-position: 130%;
+	}
+}
+@media (min-width: 768px) {
+	.wine_maker_bg_right {
+		background-position: -350px;
+	}
+	.perrier_jouet_bg_right {
+		background-position: 125%;
+	}
+	.perrier_jouet_wrapper .hero_slider_contents h1 {
+		text-transform: capitalize;
+		font-size: 40px;
+	}
+	.perrier_jouet_wrapper .hero_slider_contents h2 {
+		color: #2e7912;
+	}
+	.perrier_jouet_wrapper .hero_slider_contents h3 {
+	}
+	.perrier_jouet_wrapper .hero_slider_contents p {
+	}
+	.newsletter_bg_img {
+		background-image: none !important;
+	}
+	.desk_footer_bg_img {
+		background-image: url(../img/backgounds/bg-img-010.png);
+	}
+}
+
 @media (min-width: 992px) {
+	.navigation_menu ul li a {
+		font-size: 10px;
+		padding: 8px 8px;
+	}
+	.pricelist,
+	.redwine,
+	.whitewine,
+	.sparklingwine,
+	.spirits,
+	.vintage,
+	.newarrivals {
+		width: 700px;
+		padding: 15px;
+	}
+	.redwine {
+		left: -64px;
+	}
+	.whitewine {
+		left: -130px;
+	}
+	.sparklingwine {
+		left: -209px;
+	}
+	.spirits {
+		left: -309px;
+	}
+	.vintage {
+		left: -361px;
+	}
+	.newarrivals {
+		left: -435px;
+	}
+	.wine_maker_bg_right {
+		background-position: -100px;
+	}
+	.single_blog_items_wrapper,
+	.arival_single_item,
+	.wine_of_weeks_single_item,
+	.wine_advocate_single_item {
+		margin: 0px 25px;
+	}
+	.arrived_slider .product_wrapper,
+	.wine_of_weeks_slider .product_wrapper,
+	.wine_advocate_slider .product_wrapper {
+		background-color: transparent;
+		border-radius: 0px;
+	}
+	.perrier_jouet_bg_right {
+		background-position: 125%;
+	}
+	.newsletter_content {
+		position: relative;
+		left: 0px;
+	}
+	.section_stripe::after {
+		height: 100%;
+	}
+	.shipping_partner_logo img {
+		width: 60px;
+		height: 60px;
+	}
+	.payments_methods_logo img {
+		width: 50px;
+		height: 50px;
+	}
+}
+@media (min-width: 1024px) {
+	.perrier_jouet_bg_right {
+		background-position: 113%;
+	}
+}
+@media (min-width: 1200px) {
+	.navigation_menu ul > li > a {
+		font-size: 14px;
+		padding: 12px 15px;
+	}
 	.pricelist,
 	.redwine,
 	.whitewine,
@@ -1668,4 +1909,65 @@ responsive
 		width: 793px;
 		padding: 15px;
 	}
+	.redwine {
+		left: -94px;
+	}
+	.whitewine {
+		left: -189px;
+	}
+	.sparklingwine {
+		left: -302px;
+	}
+	.spirits {
+		left: -446px;
+	}
+	.vintage {
+		left: -524px;
+	}
+	.newarrivals {
+		left: -630px;
+	}
+	.product_wrapper {
+		padding: 20px 10px;
+	}
+	.wine_maker_bg_right {
+		background-position: 100px;
+	}
+	.single_blog_items_wrapper,
+	.arival_single_item,
+	.wine_of_weeks_single_item,
+	.wine_advocate_single_item {
+		margin: 0px 0px;
+	}
+	.blog_slider .owl-nav button,
+	.arrived_slider .owl-nav button,
+	.wine_of_weeks_slider .owl-nav button,
+	.wine_advocate_slider .owl-nav button {
+		left: -60px;
+	}
+	.blog_slider .owl-nav button.owl-next,
+	.arrived_slider .owl-nav button.owl-next,
+	.wine_of_weeks_slider .owl-nav button.owl-next,
+	.wine_advocate_slider .owl-nav button.owl-next {
+		right: -60px;
+	}
+	.perrier_jouet_bg_right {
+		background-position: 108%;
+	}
+	.newsletter_content {
+		left: -70px;
+	}
+	.section_stripe::after {
+		height: 60%;
+	}
+	.shipping_partner_logo img,
+	.payments_methods_logo img {
+		width: 65px;
+		height: 65px;
+	}
+}
+/* media query max width 
+==========================
+*/
+@media (min-width: 575.98px) {
 }
