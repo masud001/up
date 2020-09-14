@@ -194,4 +194,4 @@ const fadeEffect = setInterval(() => {
 	}
 }, 200);
 
-window.addEventListener("load", fadeEffect);
+// window.addEventListener("load", fadeEffect);

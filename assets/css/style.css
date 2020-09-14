@@ -200,30 +200,31 @@ body {
 
 /* search dropdown  */
 
-.list-autocomplete {
-	padding: 0;
+.searching_area {
 }
-.list-autocomplete em {
-	font-style: normal;
-	background-color: #e1f2f9;
+.search_product_heading {
+	margin-bottom: 15px;
 }
-
-.hasNoResults {
-	color: #aaa;
+.search_product_heading h1 {
+	color: #0d2110;
+	font-size: 22px;
+	font-weight: 600;
 }
-.hasNoResults,
-.btn-extra {
-	display: block;
-	padding: 10px;
+.search_product_items {
+	cursor: pointer;
 }
-
-.hasNoResults {
-	color: #aaa;
+.search_product_items:hover {
+	background-color: #eff0ef;
 }
-
-.btn-extra {
-	width: 100%;
-	border-top: 0.5px solid #d2d2d2;
+.search_product_items span {
+	color: #818184;
+	font-size: 14px;
+	text-transform: capitalize;
+}
+.search_product_name {
+}
+.search_product_name a {
+	color: #818184;
 }
 
 /* price  */
