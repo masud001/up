@@ -1,4 +1,4 @@
-		<!-- top cookies policys START  -->
+<!-- top cookies policys START  -->
 		<section class="cookise_policy d-none d-lg-block">
 			<div class="container">
 				<div

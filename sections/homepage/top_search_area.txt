@@ -13,85 +13,12 @@
 												>Search</span
 											>
 										</div>
-										<!-- <input
+										<input
 											type="text"
 											class="form-control"
 											placeholder="Type wine name"
 											autocomplete="off"
-										/> -->
-
-										<div class="dropdown w-75">
-											<input
-												type="text"
-												class="jAuto form-control"
-												placeholder="Type something"
-												autocomplete="off"
-											/>
-
-											<div class="dropdown-menu w-100">
-												<!-- <i class="hasNoResults">No matching results</i> -->
-												<div
-													class="list-autocomplete p-2"
-												>
-													<!-- <button type="button" class="dropdown-item">Maruf Ahmed</button>
-													  <button type="button" class="dropdown-item">Ahmed Maruf</button>
-													  <button type="button" class="dropdown-item">Masud</button> -->
-													<h2>Wines</h2>
-													<div
-														class="search-content mt-3 d-flex flex-column"
-													>
-														<div
-															class="d-flex justify-content-between"
-														>
-															<a
-																href="#"
-																class="search-item text-dark w-100"
-															>
-																Maruf Ahmed
-																<p>2015</p>
-																<p>Spain</p>
-																<p>50 CL</p>
-															</a>
-														</div>
-
-														<div
-															class="d-flex justify-content-between"
-														>
-															<a
-																href="#"
-																class="search-item text-dark"
-															>
-																Maruf Ahmed
-																<p>2015</p>
-																<p>Spain</p>
-																<p>50 CL</p>
-															</a>
-														</div>
-
-														<div
-															class="d-flex justify-content-between"
-														>
-															<a
-																href="#"
-																class="search-item text-dark"
-															>
-																Masud
-																<p>2015</p>
-																<p>Spain</p>
-																<p>50 CL</p>
-															</a>
-														</div>
-
-														<!-- <div class="d-flex justify-content-between">
-															<a href="#" class="search-item text-dark">Masud</a>
-															<p>2015</p>
-															<p>Spain</p>
-															<p>50 CL</p>
-														</div> -->
-													</div>
-												</div>
-											</div>
-										</div>
+										/>
 
 										<div class="input-group-append">
 											<span class="input-group-text"

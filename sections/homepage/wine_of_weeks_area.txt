@@ -1,20 +1,20 @@
-		<!-- 100 points wine advocate section START -->
-		<div class="wine_advocate_area">
+		<!-- wine of the week section START -->
+		<div class="wine_of_weeks_area">
 			<div class="container">
-				<div class="row">
+				<div class="row mb-4">
 					<div class="col-md-12">
 						<div class="section_title">
-							<h1>100 points wine advocate</h1>
+							<h1>wine of the week</h1>
 						</div>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
 						<div
-							class="wine_advocate_slider owl-carousel owl-theme"
+							class="wine_of_weeks_slider owl-carousel owl-theme"
 						>
-							<!-- single wine_advocate items  -->
-							<div class="wine_advocate_single_item">
+							<!-- single wine_of_weeks items  -->
+							<div class="wine_of_weeks_single_item">
 								<div class="product_wrapper">
 									<div class="product_contents">
 										<h1>
@@ -155,7 +155,7 @@
 											>
 												<img
 													class="img-fluid mr-3"
-													src="https://via.placeholder.com/25x25"
+													src="./assets/img/backgounds/note-icon.png"
 													alt=""
 												/>
 												<div
@@ -191,9 +191,9 @@
 									</div>
 								</div>
 							</div>
-							<!-- single wine_advocate items ends  -->
-							<!-- single wine_advocate items  -->
-							<div class="wine_advocate_single_item">
+							<!-- single wine_of_weeks items ends  -->
+							<!-- single wine_of_weeks items  -->
+							<div class="wine_of_weeks_single_item">
 								<div class="product_wrapper">
 									<div class="product_contents">
 										<h1>
@@ -334,7 +334,7 @@
 											>
 												<img
 													class="img-fluid mr-3"
-													src="https://via.placeholder.com/25x25"
+													src="./assets/img/backgounds/note-icon.png"
 													alt=""
 												/>
 												<div
@@ -370,9 +370,9 @@
 									</div>
 								</div>
 							</div>
-							<!-- single wine_advocate items ends  -->
-							<!-- single wine_advocate items  -->
-							<div class="wine_advocate_single_item">
+							<!-- single wine_of_weeks items ends  -->
+							<!-- single wine_of_weeks items  -->
+							<div class="wine_of_weeks_single_item">
 								<div class="product_wrapper">
 									<div class="product_contents">
 										<h1>
@@ -513,7 +513,7 @@
 											>
 												<img
 													class="img-fluid mr-3"
-													src="https://via.placeholder.com/25x25"
+													src="./assets/img/backgounds/note-icon.png"
 													alt=""
 												/>
 												<div
@@ -549,9 +549,9 @@
 									</div>
 								</div>
 							</div>
-							<!-- single wine_advocate items ends  -->
-							<!-- single wine_advocate items  -->
-							<div class="wine_advocate_single_item">
+							<!-- single wine_of_weeks items ends  -->
+							<!-- single wine_of_weeks items  -->
+							<div class="wine_of_weeks_single_item">
 								<div class="product_wrapper">
 									<div class="product_contents">
 										<h1>
@@ -692,7 +692,7 @@
 											>
 												<img
 													class="img-fluid mr-3"
-													src="https://via.placeholder.com/25x25"
+													src="./assets/img/backgounds/note-icon.png"
 													alt=""
 												/>
 												<div
@@ -728,9 +728,9 @@
 									</div>
 								</div>
 							</div>
-							<!-- single wine_advocate items ends  -->
-							<!-- single wine_advocate items  -->
-							<div class="wine_advocate_single_item">
+							<!-- single wine_of_weeks items ends  -->
+							<!-- single wine_of_weeks items  -->
+							<div class="wine_of_weeks_single_item">
 								<div class="product_wrapper">
 									<div class="product_contents">
 										<h1>
@@ -871,7 +871,7 @@
 											>
 												<img
 													class="img-fluid mr-3"
-													src="https://via.placeholder.com/25x25"
+													src="./assets/img/backgounds/note-icon.png"
 													alt=""
 												/>
 												<div
@@ -907,9 +907,9 @@
 									</div>
 								</div>
 							</div>
-							<!-- single wine_advocate items ends  -->
-							<!-- single wine_advocate items  -->
-							<div class="wine_advocate_single_item">
+							<!-- single wine_of_weeks items ends  -->
+							<!-- single wine_of_weeks items  -->
+							<div class="wine_of_weeks_single_item">
 								<div class="product_wrapper">
 									<div class="product_contents">
 										<h1>
@@ -1050,7 +1050,7 @@
 											>
 												<img
 													class="img-fluid mr-3"
-													src="https://via.placeholder.com/25x25"
+													src="./assets/img/backgounds/note-icon.png"
 													alt=""
 												/>
 												<div
@@ -1086,10 +1086,10 @@
 									</div>
 								</div>
 							</div>
-							<!-- single wine_advocate items ends  -->
+							<!-- single wine_of_weeks items ends  -->
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- 100 points wine advocate section START  END -->
+		<!-- wine of the week section END -->

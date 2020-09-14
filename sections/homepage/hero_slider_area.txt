@@ -1,4 +1,4 @@
-		<!-- hero slider area START  -->
+<!-- hero slider area START  -->
 		<section class="hero_slider_area hero_slider_bg">
 			<span class="hero_left_bg"></span>
 			<span class="hero_right_bg"></span>

@@ -1,0 +1,182 @@
+<!-- footer for desktop area START -->
+		<section class="desktop_footer desk_footer_bg_img">
+			<div class="container-fluid">
+				<div class="row align-items-center">
+					<div class="col-lg-2 d-none d-lg-flex">
+						<div class="desk_footer_logo">
+							<img
+								class="img-fluid"
+								src="./assets/img/backgounds/footer-logo.png"
+								alt=""
+							/>
+						</div>
+					</div>
+					<!-- desk footer middle column  -->
+					<div class="col-6 col-md-6 col-lg-7 no-gutters">
+						<div class="row py-3">
+							<div class="col-lg-3">
+								<div class="desk_single_footer_items">
+									<h1>information</h1>
+									<ul>
+										<li>
+											<a href="#"
+												>privacy policy of social
+												network</a
+											>
+										</li>
+										<li><a href="#">term of use</a></li>
+										<li><a href="#">privacy policy</a></li>
+										<li>
+											<a href="#">term & conditions</a>
+										</li>
+										<li><a href="#">cookies policy</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-lg-3">
+								<div class="desk_single_footer_items">
+									<h1>customar service</h1>
+									<ul>
+										<li>
+											<a href="#">genelar conditions</a>
+										</li>
+										<li><a href="#">contact us</a></li>
+										<li><a href="#">My account</a></li>
+										<li><a href="#">shipping policy</a></li>
+										<li><a href="#">return policy</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-lg-3">
+								<div class="desk_single_footer_items">
+									<h1>payment & shipping</h1>
+									<ul>
+										<li>
+											<a href="#">Delivery information</a>
+										</li>
+										<li><a href="#">Payment methods</a></li>
+										<li><a href="#">shipping guide</a></li>
+										<li>
+											<a href="#">locations we ship to</a>
+										</li>
+										<li>
+											<a href="#"
+												>estimated delivery time</a
+											>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-lg-3">
+								<div class="desk_single_footer_items">
+									<h1>about market</h1>
+									<ul>
+										<li><a href="#">about us</a></li>
+										<li><a href="#">blog</a></li>
+										<li><a href="#">term of use</a></li>
+										<li><a href="#">privecy policy</a></li>
+										<li><a href="#">site map</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="row d-none d-lg-block">
+							<div class="col-lg-12">
+								<div class="footer_contents">
+									<p>
+										Lorem ipsum, dolor sit amet consectetur
+										adipisicing elit. Animi eum accusantium
+										fugiat dolore accusamus quae, officia
+										omnis veniam deserunt excepturi est
+										iusto repellendus quis quidem non
+										pariatur nulla quod facilis.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- most right column  -->
+					<div class="col-6 col-md-6 col-lg-3 align-self-start">
+						<!-- elements for mobile  -->
+						<div class="footer_element_for_mobile d-lg-none mb-5">
+							<img
+								class="img-fluid"
+								src="./assets/img/backgounds/pngguru.com-6.png"
+								alt=""
+							/>
+						</div>
+						<!-- shipping and payments  -->
+						<div class="shipping_payments_wraapper">
+							<!-- shipping partners  -->
+							<div
+								class="shipping_partner d-flex align-items-center justify-content-between"
+							>
+								<div class="shippings_options">
+									<h1>shipping partner</h1>
+									<div class="shipping_partner_logo d-flex">
+										<a href="#"
+											><img
+												class="img-fluid"
+												src="./assets/img/backgounds/ups.png"
+												alt=""
+										/></a>
+										<a href="#"
+											><img
+												class="img-fluid"
+												src="./assets/img/backgounds/mbe-logo.png"
+												alt=""
+										/></a>
+									</div>
+								</div>
+								<div class="shippings_bg_img d-none d-lg-flex">
+									<img
+										class="img-fluid"
+										src="./assets/img/backgounds/pngguru.com-6.png"
+										alt=""
+									/>
+								</div>
+							</div>
+							<!-- payments  -->
+							<div class="payments_methods">
+								<h1>payment methods</h1>
+								<div class="payments_methods_logo d-flex">
+									<a href="#"
+										><img
+											class="img-fluid"
+											src="./assets/img/backgounds/american-express.png"
+											alt=""
+									/></a>
+									<a href="#"
+										><img
+											class="img-fluid"
+											src="./assets/img/backgounds/visa-card.png"
+											alt=""
+									/></a>
+									<a href="#"
+										><img
+											class="img-fluid"
+											src="./assets/img/backgounds/mastercart.png"
+											alt=""
+									/></a>
+									<a href="#"
+										><img
+											class="img-fluid"
+											src="./assets/img/backgounds/paypal.png"
+											alt=""
+									/></a>
+								</div>
+							</div>
+						</div>
+						<!-- elements for mobile  -->
+						<div class="footer_element_for_mobile d-lg-none mt-5">
+							<img
+								class="img-fluid"
+								src="./assets/img/backgounds/footer-logo.png"
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- .footer for desktop area END --

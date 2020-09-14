@@ -1,0 +1,48 @@
+		<!-- wine maker of the month start -->
+		<div class="wine_maker_area">
+			<span class="wine_maker_bg_left"></span>
+			<span class="wine_maker_bg_right"></span>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10 offset-md-0 col-xl-8 offset-xl-1">
+						<div
+							class="wine_maker_wrapper d-flex align-items-start"
+						>
+							<div class="wine_maker_img d-none d-lg-flex">
+								<img
+									class=""
+									src="./assets/img/backgounds/avatar.png"
+									alt=""
+								/>
+							</div>
+							<div class="wine_maker_contents">
+								<h1>winemaker of the month</h1>
+								<p>
+									" Lorem ipsum dolor sit amet consectetur
+									adipisicing elit. Maiores praesentium odit
+									quae officiis accusamus explicabo, tenetur
+									assumenda dolorum vel? Necessitatibus
+									aperiam unde ea nesciunt placeat quae
+									tenetur voluptate molestiae vel? "
+								</p>
+								<div
+									class="wine_maker_name d-flex align-items-center"
+								>
+									<div class="maker_name">
+										<h1>ricard rofes</h1>
+										<p>Enologo de Scala Dei</p>
+									</div>
+									<div class="know_more">
+										<a href="#"
+											>loarn more
+											<i class="fas fa-arrow-right"></i
+										></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- wine maker of the month  end-->

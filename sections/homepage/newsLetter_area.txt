@@ -1,0 +1,83 @@
+<!-- news letter ares START -->
+		<div class="newsLetter_area newsletter_bg_img">
+			<div class="container">
+				<span class="newsletter_mobile_bg_img d-md-none">
+					<img
+						src="./assets/img/backgounds/news-letter-img.png"
+						alt=""
+					/>
+				</span>
+				<div class="row align-items-center">
+					<div
+						class="col-10 offset-2 col-md-6 offset-md-0 col-lg-6 d-flex align-items-center section_stripe"
+					>
+						<div class="nwws_letter_img d-none d-xl-flex">
+							<img
+								class="img-fluid"
+								src="./assets/img/backgounds/news-letter-img.png"
+								alt=""
+							/>
+						</div>
+						<div class="newsletter_content">
+							<h1 class="font-PT_b">join our newsletter</h1>
+							<p>life is too short for boring emails!</p>
+							<p>
+								Subscribe now to get
+								<strong>best offer,</strong>
+							</p>
+							<p>
+								<strong
+									>New arrivals & attractive deals.</strong
+								>
+							</p>
+						</div>
+					</div>
+					<div
+						class="col-10 offset-2 col-md-6 offset-md-0 col-lg-5 offset-lg-1"
+					>
+						<div class="email_submission d-flex flex-column">
+							<div
+								class="email_submission_contents order-2 order-md-1"
+							>
+								<p class="term_conditions">
+									By clicking this I agree to the
+									<strong>terms & conditions</strong> and
+									<strong>privecy policy</strong>
+								</p>
+								<p class="terms">
+									Lorem ipsum dolor sit amet consectetur
+									adipisicing elit. Eos quae labore eveniet
+									quis perspiciatis explicabo.
+								</p>
+							</div>
+							<div
+								class="email_submission_form order-1 order-md-2 py-3 py-md-2"
+							>
+								<form action="">
+									<div class="input-group">
+										<input
+											type="text"
+											class="form-control"
+											placeholder="Enter Email Address"
+											aria-label="Recipient's username"
+											aria-describedby="basic-addon2"
+										/>
+										<div class="input-group-append">
+											<button
+												role="button"
+												type="submit"
+												class="input-group-text"
+												id="basic-addon2"
+											>
+												subscribe
+											</button>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- news letter ares END -->

@@ -308,6 +308,7 @@
 													gran reserva 1986 (owcl)
 												</h2>
 												<img
+													class="img-fluid"
 													src="./assets/img/backgounds/unnamed.png"
 													alt=""
 												/>
@@ -599,6 +600,7 @@
 													gran reserva 1986 (owcl)
 												</h2>
 												<img
+													class="img-fluid"
 													src="./assets/img/backgounds/unnamed.png"
 													alt=""
 												/>
@@ -889,6 +891,7 @@
 													gran reserva 1986 (owcl)
 												</h2>
 												<img
+													class="img-fluid"
 													src="./assets/img/backgounds/unnamed.png"
 													alt=""
 												/>
@@ -1178,6 +1181,7 @@
 													gran reserva 1986 (owcl)
 												</h2>
 												<img
+													class="img-fluid"
 													src="./assets/img/backgounds/unnamed.png"
 													alt=""
 												/>
@@ -1468,6 +1472,7 @@
 													gran reserva 1986 (owcl)
 												</h2>
 												<img
+													class="img-fluid"
 													src="./assets/img/backgounds/unnamed.png"
 													alt=""
 												/>
@@ -1757,6 +1762,7 @@
 													gran reserva 1986 (owcl)
 												</h2>
 												<img
+													class="img-fluid"
 													src="./assets/img/backgounds/unnamed.png"
 													alt=""
 												/>
@@ -2046,6 +2052,7 @@
 													gran reserva 1986 (owcl)
 												</h2>
 												<img
+													class="img-fluid"
 													src="./assets/img/backgounds/unnamed.png"
 													alt=""
 												/>

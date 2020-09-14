@@ -1,0 +1,44 @@
+<!-- video promo area START -->
+		<div class="video_promo_area">
+			<span class="video_promo_bg_left"></span>
+			<span class="video_promo_bg_rihgt"></span>
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-6 col-lg-4 offset-lg-2">
+						<div class="video_thumnails">
+							<span class="video_overlay"></span>
+							<img
+								class="img-fluid"
+								src="./assets/img/backgounds/bg-img-003.png"
+								alt=""
+							/>
+							<span class="btn_layer_1"></span>
+							<span class="btn_layer_2"></span>
+							<span class="btn_layer_3"></span>
+							<a
+								class="video_play_btn"
+								href="https://www.youtube.com/watch?v=pjnL16WKX9Y"
+								><i class="fas fa-play"></i
+							></a>
+						</div>
+					</div>
+					<div class="col-6 col-lg-6 pl-lg-5">
+						<div class="video_promo_content">
+							<h1>The smart way to enjoy your glass of wine.</h1>
+							<p>
+								We offer a huge variety of wines and alcohols,
+								that includes a full range of prices. <br />
+
+								Our air-conditioned warehouse has the perfect
+								storage conditions to ensure the products
+								quality, located in Esplugues de Llobregat, near
+								Barcelona. <br />
+								The team is specialized in the distribution of
+								well-known wines and emerging cellars.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- video promo area END -->

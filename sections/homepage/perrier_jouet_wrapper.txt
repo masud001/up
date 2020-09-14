@@ -1,0 +1,104 @@
+		<!-- perrier jouet area  -->
+		<div class="perrier_jouet_wrapper">
+			<span class="perrier_jouet_bg_right"></span>
+			<div class="perrier_jouet_area perrier_jouet_bg_img">
+				<span class="perrier_jouet_bg_left d-none d-lg-block"></span>
+				<div class="container">
+					<div
+						class="row justify-content-start align-items-center py-5"
+					>
+						<div
+							class="col-9 p-0 offset-0 col-md-9 offset-md-0 col-lg-6 offset-lg-4"
+						>
+							<div class="hero_slider_contents">
+								<h1 class="font-PT_b">perrier-jouet</h1>
+								<h2 class="font-PT_reg">Grand Brut</h2>
+								<h3 class="font-nunito_semi_b">
+									french champagne brut
+								</h3>
+								<p>
+									Lorem ipsum dolor sit amet consectetur
+									adipisicing elit. Harum, distinctio aperiam
+									aliquid asperiores rerum ea aut error at
+									omnis sunt debitis. Cum dignissimos omnis
+									ducimus sunt minima mollitia. Vitae, nisi!
+								</p>
+								<h4 class="hero_contry d-flex">
+									<img
+										src="./assets/img/country-flags/italy.png"
+										alt=""
+									/>
+									<span>Italy</span>
+								</h4>
+
+								<!-- review pannel  -->
+								<div
+									class="review_pannel d-flex justify-content-start align-items-start pb-3"
+								>
+									<div class="col-7 p-0">
+										<!-- hero review  -->
+										<div class="review_area">
+											<div class="reviews_start">
+												<span class="starts">
+													<i class="fas fa-star"></i>
+													<i class="fas fa-star"></i>
+													<i class="fas fa-star"></i>
+													<i class="fas fa-star"></i>
+													<i class="fas fa-star"></i>
+													4.9
+												</span>
+												<span class="rating"
+													>39 Reviews</span
+												>
+											</div>
+											<div
+												class="penin d-none d-md-flex align-items-center"
+											>
+												<span class="name">penin</span>
+												<span class="number">90</span>
+											</div>
+											<div
+												class="perker d-none d-md-flex align-items-center"
+											>
+												<span class="name">perker</span>
+												<span class="number">95</span>
+											</div>
+											<div
+												class="sommelier d-none d-md-flex align-items-center"
+											>
+												<span class="name"
+													>sommelier</span
+												>
+												<span class="number">98</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-5 p-0">
+										<!-- hero price  -->
+										<div class="hero_price_area">
+											<div
+												class="before_price d-flex align-items-center"
+											>
+												<img
+													src="./assets/img/currency-icons/euro.png"
+													alt=""
+												/>
+												<span class="reduce-price"
+													>1978,00
+												</span>
+												<!-- <span class="font-nunito_b">before</span> -->
+											</div>
+
+											<div class="buy_now_btn">
+												<a href="#">buy now</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- news letter ares START -->
