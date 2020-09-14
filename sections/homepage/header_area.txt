@@ -2090,5 +2090,123 @@
 					</div>
 				</nav>
 			</div>
+			<!-- search option for mobile start  -->
+			<div class="produc_search_bar dropdown d-lg-none">
+				<!-- input field for search  -->
+				<div
+					class="input-group pb-4 px-4"
+					id="searchResultDropdown"
+					data-toggle="dropdown"
+					aria-haspopup="true"
+					aria-expanded="false"
+				>
+					<div class="input-group-prepend">
+						<span class="input-group-text">Search</span>
+					</div>
+					<input
+						type="text"
+						class="form-control"
+						placeholder="Type wine name"
+						autocomplete="off"
+					/>
+
+					<div class="input-group-append">
+						<span class="input-group-text">
+							<i class="fas fa-search"></i>
+						</span>
+					</div>
+				</div>
+				<!-- search result dropdown menu -->
+				<div
+					class="dropdown-menu w-100"
+					aria-labelledby="searchResultDropdown"
+				>
+					<div class="searching_area">
+						<div class="search_product_heading pt-1 px-3">
+							<h1>Wine</h1>
+						</div>
+						<!-- single rows  -->
+						<div
+							class="search_product_items py-2 px-4 d-flex justify-content-between"
+						>
+							<span
+								class="search_product_name w-50 text-capitalize"
+								><a href="#">Close Erusmus</a></span
+							>
+							<span>2015</span>
+							<span>spain</span>
+							<span class="text-uppercase">5cl</span>
+						</div>
+						<!-- single rows  -->
+						<div
+							class="search_product_items py-2 px-4 px-4 d-flex justify-content-between"
+						>
+							<span
+								class="search_product_name w-50 text-capitalize"
+								><a href="#"
+									>Close Erusmus Close Erusmus
+								</a></span
+							>
+							<span>2015</span>
+							<span>spain</span>
+							<span class="text-uppercase">5cl</span>
+						</div>
+						<!-- single rows  -->
+						<div
+							class="search_product_items py-2 px-4 d-flex justify-content-between"
+						>
+							<span
+								class="search_product_name w-50 text-capitalize"
+								><a href="#">Close Erusmus</a></span
+							>
+							<span>2015</span>
+							<span>spain</span>
+							<span class="text-uppercase">5cl</span>
+						</div>
+						<div class="search_product_heading pt-1 px-3">
+							<h1 class="text-capitalize">spritis</h1>
+						</div>
+						<!-- single rows  -->
+						<div
+							class="search_product_items py-2 px-4 d-flex justify-content-between"
+						>
+							<span
+								class="search_product_name w-50 text-capitalize"
+								><a href="#">Close Erusmus</a></span
+							>
+							<span>2015</span>
+							<span>spain</span>
+							<span class="text-uppercase">5cl</span>
+						</div>
+						<!-- single rows  -->
+						<div
+							class="search_product_items py-2 px-4 d-flex justify-content-between"
+						>
+							<span
+								class="search_product_name w-50 text-capitalize"
+								><a href="#"
+									>Close Erusmus Close Erusmus
+								</a></span
+							>
+							<span>2015</span>
+							<span>spain</span>
+							<span class="text-uppercase">5cl</span>
+						</div>
+						<!-- single rows  -->
+						<div
+							class="search_product_items py-2 px-4 d-flex justify-content-between"
+						>
+							<span
+								class="search_product_name w-50 text-capitalize"
+								><a href="#">Close Erusmus</a></span
+							>
+							<span>2015</span>
+							<span>spain</span>
+							<span class="text-uppercase">5cl</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- search option for mobile end  -->
 		</header>
 		<!-- heaer logo and menu area  END -->
