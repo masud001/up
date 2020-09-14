@@ -179,4 +179,4 @@
 				</div>
 			</div>
 		</section>
-		<!-- .footer for desktop area END --
+		<!-- .footer for desktop area END -->

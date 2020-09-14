@@ -1,4 +1,4 @@
-		<!-- perrier jouet area  -->
+				<!-- perrier jouet area  -->
 		<div class="perrier_jouet_wrapper">
 			<span class="perrier_jouet_bg_right"></span>
 			<div class="perrier_jouet_area perrier_jouet_bg_img">
@@ -101,4 +101,5 @@
 				</div>
 			</div>
 		</div>
-		<!-- news letter ares START -->
+		
+		<!-- perrier jouet area end  -->
