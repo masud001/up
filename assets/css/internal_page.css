@@ -146,3 +146,66 @@
 	color: #791216 !important;
 	font-weight: 500;
 }
+
+/* product details pages css 
+===============================
+*/
+.product_details_page_slider {
+	position: relative;
+}
+.product_details_page_hero,
+.product_contents h1 {
+	font-weight: 600;
+
+	font-family: PT_Serif !important;
+}
+.product_aditional_content {
+	border-top: 2px solid #791216;
+}
+.product_aditional_content p {
+	font-size: 14px;
+	color: #292929;
+	font-weight: 400;
+	line-height: 27px;
+	font-family: PT_Serif !important;
+}
+.product_aditional_content p span {
+	color: #791216;
+}
+.product_catagori p {
+	color: #303030;
+	text-transform: capitalize;
+	font-size: 14px;
+	font-weight: 600;
+	margin-right: 20px;
+}
+.product_catagori p span {
+	color: #8d8d8d;
+	font-weight: 400;
+}
+.product_details_page_slider_bg_1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 151px;
+	height: 100%;
+	background-image: url(../img/hero-slider-img/hero-left-bg.png);
+	background-position: 100%;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.product_details_page_slider_bg_2 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 151px;
+	height: 100%;
+	background-image: url(../img/hero-slider-img/hero-left-bg.png);
+	background-position: 100%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	-webkit-transform: scaleX(-1);
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
