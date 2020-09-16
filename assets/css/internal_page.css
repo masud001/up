@@ -299,3 +299,38 @@
 	font-weight: 400;
 	color: #303030;
 }
+
+.testing_nots_text {
+	background-color: #f8fbfd;
+}
+.testing_nots_text {
+	padding: 15px;
+}
+.testing_nots_text h4 {
+	font-size: 14px;
+	color: #791216;
+	text-transform: capitalize;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.testing_nots_text h1 {
+	text-transform: capitalize;
+	font-size: 25px;
+	color: #303030;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.testing_nots_text p {
+	font-weight: 400;
+	color: #303030;
+	font-size: 14px;
+	line-height: 27px;
+	padding-bottom: 10px;
+}
+.testing_notes_images {
+	height: 100%;
+}
+.testing_notes_images img {
+	width: 100%;
+	height: 100%;
+}
