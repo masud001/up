@@ -1800,8 +1800,27 @@ responsive
 }
 
 @media (min-width: 992px) {
-	.navigation_menu ul li a {
+	.price_options > span,
+	.currency_options > span,
+	.language_options > span {
 		font-size: 10px;
+		color: #791216;
+		text-transform: uppercase;
+		align-self: center;
+		margin-right: 10px;
+	}
+	.price_dropdown button,
+	.laguage_dropdown button,
+	.currency_dropdown button {
+		font-size: 10px;
+		border: 1px solid #e6e6e6;
+		background-color: transparent;
+		border-radius: 30px;
+		padding: 10px 11px;
+	}
+	/* for fluid container  */
+	.container-fluid > nav > .navigation_menu ul li a {
+		font-size: 9px;
 		padding: 8px 8px;
 	}
 	.pricelist,
@@ -1814,23 +1833,46 @@ responsive
 		width: 700px;
 		padding: 15px;
 	}
-	.redwine {
-		left: -64px;
+	.container-fluid > nav > .navigation_menu ul > li .redwine {
+		left: -60px;
 	}
-	.whitewine {
-		left: -130px;
+	.container-fluid > nav > .navigation_menu ul > li .whitewine {
+		left: -120px;
 	}
-	.sparklingwine {
-		left: -209px;
+	.container-fluid > nav > .navigation_menu ul > li .sparklingwine {
+		left: -192px;
 	}
-	.spirits {
-		left: -309px;
+	.container-fluid > nav > .navigation_menu ul > li .spirits {
+		left: -284px;
 	}
-	.vintage {
-		left: -361px;
+	.container-fluid > nav > .navigation_menu ul > li .vintage {
+		left: -333px;
 	}
-	.newarrivals {
-		left: -435px;
+	.container-fluid > nav > .navigation_menu ul > li .newarrivals {
+		left: -400px;
+	}
+	/* for only container  */
+	.container > nav > .navigation_menu ul li a {
+		font-size: 9px;
+		padding: 8px 8px;
+	}
+	.container > nav > .navigation_menu ul > li .redwine {
+		left: -60px;
+	}
+	.container > nav > .navigation_menu ul > li .whitewine {
+		left: -120px;
+	}
+	.container > nav > .navigation_menu ul > li .sparklingwine {
+		left: -192px;
+	}
+	.container > nav > .navigation_menu ul > li .spirits {
+		left: -284px;
+	}
+	.container > nav > .navigation_menu ul > li .vintage {
+		left: -333px;
+	}
+	.container > nav > .navigation_menu ul > li .newarrivals {
+		left: -400px;
 	}
 	.wine_maker_bg_right {
 		background-position: -100px;
@@ -1872,9 +1914,46 @@ responsive
 	}
 }
 @media (min-width: 1200px) {
-	.navigation_menu ul > li > a {
+	.price_options > span,
+	.currency_options > span,
+	.language_options > span {
 		font-size: 14px;
-		padding: 12px 15px;
+		color: #791216;
+		text-transform: uppercase;
+		align-self: center;
+		margin-right: 10px;
+	}
+	.price_dropdown button,
+	.laguage_dropdown button,
+	.currency_dropdown button {
+		font-size: 14px;
+		border: 1px solid #e6e6e6;
+		background-color: transparent;
+		border-radius: 30px;
+		padding: 10px 11px;
+	}
+	/* for fluid container  */
+	.container-fluid > nav > .navigation_menu ul > li > a {
+		font-size: 14px;
+		padding: 12px 14px;
+	}
+	.container-fluid > nav > .navigation_menu ul > li .redwine {
+		left: -94px;
+	}
+	.container-fluid > nav > .navigation_menu ul > li .whitewine {
+		left: -189px;
+	}
+	.container-fluid > nav > .navigation_menu ul > li .sparklingwine {
+		left: -302px;
+	}
+	.container-fluid > nav > .navigation_menu ul > li .spirits {
+		left: -446px;
+	}
+	.container-fluid > nav > .navigation_menu ul > li .vintage {
+		left: -524px;
+	}
+	.container-fluid > nav > .navigation_menu ul > li .newarrivals {
+		left: -630px;
 	}
 	.pricelist,
 	.redwine,
@@ -1886,23 +1965,38 @@ responsive
 		width: 793px;
 		padding: 15px;
 	}
-	.redwine {
-		left: -94px;
+	/* for only container  */
+	.container > nav > .navigation_menu ul > li > a {
+		font-size: 11px;
+		padding: 12px 10px;
 	}
-	.whitewine {
-		left: -189px;
-	}
-	.sparklingwine {
-		left: -302px;
-	}
-	.spirits {
-		left: -446px;
-	}
-	.vintage {
-		left: -524px;
-	}
+	.pricelist,
+	.redwine,
+	.whitewine,
+	.sparklingwine,
+	.spirits,
+	.vintage,
 	.newarrivals {
-		left: -630px;
+		width: 793px;
+		padding: 15px;
+	}
+	.container > nav > .navigation_menu ul > li .redwine {
+		left: -73px;
+	}
+	.container > nav > .navigation_menu ul > li .whitewine {
+		left: -147px;
+	}
+	.container > nav > .navigation_menu ul > li .sparklingwine {
+		left: -236px;
+	}
+	.container > nav > .navigation_menu ul > li .spirits {
+		left: -348px;
+	}
+	.container > nav > .navigation_menu ul > li .vintage {
+		left: -409px;
+	}
+	.container > nav > .navigation_menu ul > li .newarrivals {
+		left: -492px;
 	}
 	.product_wrapper {
 		padding: 20px 10px;
