@@ -152,6 +152,7 @@
 */
 .product_details_page_slider {
 	position: relative;
+	margin-bottom: 50px;
 }
 .product_details_page_hero,
 .product_contents h1 {
@@ -161,6 +162,12 @@
 }
 .product_aditional_content {
 	border-top: 2px solid #791216;
+	border-left: 1px solid #d7d7d7;
+	border-bottom: 1px solid #d7d7d7;
+	border-right: 1px solid #d7d7d7;
+	padding-left: 15px;
+	padding-bottom: 15px;
+	padding-right: 10px;
 }
 .product_aditional_content p {
 	font-size: 14px;
@@ -208,4 +215,87 @@
 	-moz-transform: scaleX(-1);
 	-o-transform: scaleX(-1);
 	transform: scaleX(-1);
+}
+.shipping_and_feature_wrapper {
+	padding: 50px 0px;
+	background-color: #f8fbfd;
+}
+.shipping_and_feature_wrapper nav {
+}
+.shipping_and_feature_wrapper nav a {
+	color: #303030;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: capitalize;
+	padding: 10px 20px;
+}
+.shipping_and_feature_wrapper nav a:focus {
+	outline: 0;
+}
+.shipping_and_feature_wrapper nav a.active {
+	color: #791216;
+}
+.shipping_tab_content {
+}
+.shipping_tab_content ul {
+	margin-bottom: 20px;
+	margin-top: 15px;
+}
+.shipping_tab_content ul li {
+	color: #791216;
+	font-size: 18px;
+	font-weight: 500;
+
+	padding: 5px 0px;
+}
+.shipping_tab_content ul li > i.fas {
+	font-size: 12px;
+}
+.shipping_details_heading {
+	margin-bottom: 15px;
+	padding: 7px 10px;
+}
+.shipping_details_heading span {
+	color: #303030;
+	font-weight: 600;
+	font-size: 14px;
+	text-transform: capitalize;
+}
+.shipping_details_items {
+	padding: 7px 10px;
+}
+.shipping_details_items:hover {
+	background-color: #fff;
+}
+.shipping_details_items span {
+	color: #303030;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.features_single_items {
+}
+.features_single_items img {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 1px solid #791216;
+	padding: 4px;
+	margin-right: 10px;
+}
+.features_single_items img {
+}
+.features_single_item_text {
+	padding: 7px 0px;
+}
+.features_single_item_text h1 {
+	font-size: 14px;
+	font-weight: 600;
+	color: #303030;
+	margin-bottom: 5px;
+}
+.features_single_item_text p {
+	font-size: 14px;
+	font-weight: 400;
+	color: #303030;
 }
