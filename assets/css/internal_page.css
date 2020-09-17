@@ -403,10 +403,10 @@
 }
 .my_account_tab_content h1 {
 	color: #303030;
-	font-size: 25px;
+	font-size: 17px;
 	font-weight: 600;
 	text-transform: capitalize;
-	margin-bottom: 20px;
+	margin-bottom: 8px;
 }
 .my_account_tab_content p {
 	font-size: 14px;
