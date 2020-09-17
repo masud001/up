@@ -577,6 +577,7 @@
 .address_body_wrapper input {
 	border: 1px solid #e6e6e6;
 }
+.address_body_wrapper select.form-control:focus,
 .address_body_wrapper input.form-control:focus {
 	box-shadow: none !important;
 	border: 1px solid #e6e6e6;
@@ -725,4 +726,72 @@
 }
 .order_history_contents table tbody tr td a:hover {
 	text-decoration: none;
+}
+
+.checkmarklebel {
+	display: inline;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 22px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.checkmarklebel input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+.checkmarklebel:hover input ~ .checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: transparent;
+	border: 1px solid #791216;
+	border-radius: 3px;
+}
+
+.checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 18px;
+	width: 18px;
+	background-color: transparent;
+	border: 1px solid #919394;
+	border-radius: 3px;
+}
+/* When the checkbox is checked, add a blue background */
+.checkmarklebel input:checked ~ .checkmark {
+	background-color: transparent;
+	border: 1px solid #791216;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+/* Show the checkmark when checked */
+.checkmarklebel input:checked ~ .checkmark:after {
+	display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkmarklebel .checkmark:after {
+	width: 12px;
+	height: 12px;
+	background-color: #791216;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 3px;
+	text-align: center;
 }
