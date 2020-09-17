@@ -384,3 +384,50 @@
 	font-weight: 400;
 	font-size: 14px;
 }
+
+/* my account page design  */
+
+.my_account_tab_section {
+	position: relative;
+	top: -60px;
+}
+.my_account_tab_content {
+	padding: 15px;
+	background-color: #f8fbfd;
+	box-shadow: 0px 5px 6px 0px #cacaca;
+	margin-bottom: 20px;
+}
+.my_account_tab_content img {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.my_account_tab_content h1 {
+	color: #303030;
+	font-size: 25px;
+	font-weight: 600;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.my_account_tab_content p {
+	font-size: 14px;
+	color: #303030;
+	font-weight: 400;
+	line-height: 27px;
+	margin-bottom: 15px;
+}
+.my_account_tab_content a {
+	display: block;
+	text-align: center;
+	text-transform: capitalize;
+	color: #791216;
+	font-weight: 400;
+}
+.my_account_tab_content a:focus {
+	outline: none;
+}
+.my_account_tab_content a:hover {
+	text-decoration: none;
+}
+.my_account_tab_content a i {
+	margin-top: 3px;
+}
