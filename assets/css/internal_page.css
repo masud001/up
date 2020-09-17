@@ -645,3 +645,84 @@
 	color: #791216;
 	font-weight: 600;
 }
+
+/* my accout history pages design  */
+.order_history_contents {
+	position: relative;
+}
+.order_history_contents table {
+}
+.order_history_contents .order_table {
+	height: 300px;
+}
+/* width */
+.order_history_contents .order_table::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+.order_history_contents .order_table::-webkit-scrollbar-track {
+	background: #ffffff;
+}
+
+/* Handle */
+.order_history_contents .order_table::-webkit-scrollbar-thumb {
+	background: #f1e6e7;
+	border-radius: 10px;
+	height: 100px;
+}
+
+/* Handle on hover */
+.order_history_contents .order_table::-webkit-scrollbar-thumb:hover {
+	background: #791216;
+}
+.order_history_contents table thead {
+	background-color: transparent;
+	font-weight: 600;
+}
+.order_history_contents table thead th {
+	border-top: 0px !important;
+	border-bottom: 0px !important;
+}
+
+.order_history_contents table tbody {
+	background-color: #ffffff;
+	text-transform: capitalize;
+	color: #303030;
+	font-size: 14px;
+	font-weight: 400;
+	overflow: auto;
+	max-height: 300px;
+}
+
+.order_history_contents table tbody tr td span.canceled {
+	border: 1px solid #c10909;
+	color: #c10909;
+	background-color: #f8e4e4;
+	border-radius: 30px;
+	padding: 0px 20px;
+	text-transform: capitalize;
+}
+.order_history_contents table tbody tr td span.pending {
+	border: 1px solid #f5990e;
+	color: #f5990e;
+	background-color: #fef2e0;
+	border-radius: 30px;
+	padding: 0px 20px;
+	text-transform: capitalize;
+}
+.order_history_contents table tbody tr td span.delivered {
+	border: 1px solid #2a98e0;
+	color: #2a98e0;
+	background-color: #e1f0fb;
+	border-radius: 30px;
+	padding: 0px 20px;
+	text-transform: capitalize;
+}
+
+.order_history_contents table tbody tr td a {
+	color: #791216;
+}
+.order_history_contents table tbody tr td a:hover {
+	text-decoration: none;
+}
