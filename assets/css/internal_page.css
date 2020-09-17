@@ -601,9 +601,14 @@
 	color: #4a4a4a;
 	text-transform: capitalize;
 }
-.address_eidt_update a:first-child {
-	margin-right: 15px;
+.address_eidt_update a {
+	display: flex;
+	justify-content: inherit;
 }
+.address_eidt_update a:hover {
+	text-decoration: none;
+}
+
 .address_eidt_update a:focus {
 	outline: none;
 }
@@ -626,4 +631,17 @@
 }
 .address_eidt_update a button:focus {
 	outline: none;
+}
+
+/* my account GDPR page design   */
+.gdpr_contents {
+}
+.gdpr_contents p {
+	font-size: 14px;
+	line-height: 27px;
+	font-weight: 400;
+}
+.gdpr_contents p span {
+	color: #791216;
+	font-weight: 600;
 }
