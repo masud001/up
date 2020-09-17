@@ -109,7 +109,7 @@ $(document).ready(function () {
 		},
 	});
 	// wine_of_weeks for home page start
-	// wine_advocate_slider home page end
+	// wine_advocate_slider home page start
 	$(".wine_advocate_slider").owlCarousel({
 		loop: true,
 		autoplay: false,
@@ -136,8 +136,20 @@ $(document).ready(function () {
 			},
 		},
 	});
-	// wine_advocate_slider for home page start
-
+	// wine_advocate_slider for home page end
+	// customar details page testimonials slider start
+	$(".testimonial_slider_wrapper").owlCarousel({
+		center: true,
+		items: 3,
+		loop: true,
+		margin: 10,
+		responsive: {
+			600: {
+				items: 4,
+			},
+		},
+	});
+	// customar details page testimonials slider end
 	// video play button youtube video play
 
 	//

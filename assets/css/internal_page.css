@@ -334,3 +334,53 @@
 	width: 100%;
 	height: 100%;
 }
+
+.testimonial_title {
+	margin-bottom: 50px;
+}
+.testimonial_title h1 {
+	color: #791216;
+	text-transform: capitalize;
+	font-size: 25px;
+	font-weight: 600;
+}
+.testimonial_single_item {
+	border: 2px solid transparent;
+	padding: 15px;
+	transition: 0.3s;
+}
+.testimonial_single_item:hover {
+	border: 2px solid #791216;
+}
+.testimonial_text {
+	margin-bottom: 50px;
+}
+.testimonial_text p {
+	color: #8d8d8d;
+	font-size: 14px;
+	line-height: 27px;
+	font-weight: 400;
+}
+.testimonial_customer {
+}
+.testimonial_customer img {
+	width: 67px !important;
+	height: 67px;
+	border-radius: 50%;
+	margin-right: 15px;
+}
+.testimonial_customer_details {
+}
+.testimonial_customer_details h1 {
+	text-transform: capitalize;
+	font-size: 21px;
+	font-weight: 600;
+	color: #222222;
+	margin-bottom: 10px;
+}
+.testimonial_customer_details h2 {
+	text-transform: uppercase;
+	color: #791216;
+	font-weight: 400;
+	font-size: 14px;
+}
