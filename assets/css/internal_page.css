@@ -431,3 +431,25 @@
 .my_account_tab_content a i {
 	margin-top: 3px;
 }
+.sign_out_btn {
+}
+.sign_out_btn a {
+	padding: 10px 15px;
+	color: #791216;
+	border: 1px solid #791216;
+	text-transform: capitalize;
+	font-size: 17px;
+	display: inline-block;
+	font-weight: 600;
+	border-radius: 30px;
+	letter-spacing: 2px;
+	background-color: #f2e7e8;
+}
+.sign_out_btn a:focus {
+	outline: none;
+}
+.sign_out_btn a:hover {
+	text-decoration: none;
+}
+.sign_out_btn a i {
+}
