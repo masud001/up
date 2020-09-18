@@ -477,6 +477,12 @@
 	text-transform: capitalize;
 	margin-bottom: 8px;
 }
+.address_heading h2 {
+	text-transform: capitalize;
+	font-size: 14px;
+	font-weight: 400;
+	color: #909192;
+}
 .address_head_right_img {
 	width: 50px;
 	height: 50px;
@@ -565,7 +571,8 @@
 }
 .address_body_wrapper {
 }
-.address_body_wrapper label {
+.address_body_wrapper label,
+.single_address_area label {
 	color: #474a57;
 	font-size: 16px;
 	text-transform: capitalize;
@@ -577,6 +584,8 @@
 .address_body_wrapper input {
 	border: 1px solid #e6e6e6;
 }
+.single_address_area textarea.form-control:focus,
+.single_address_area select.form-control:focus,
 .address_body_wrapper select.form-control:focus,
 .address_body_wrapper input.form-control:focus {
 	box-shadow: none !important;
@@ -633,7 +642,31 @@
 .address_eidt_update a button:focus {
 	outline: none;
 }
-
+.single_address_area a {
+	display: flex;
+	float: right;
+}
+.single_address_area a:hover {
+	text-decoration: none;
+}
+.single_address_area a:focus {
+	outline: none;
+}
+.single_address_area a button {
+	padding: 8px 33px;
+	border: 1px solid #791216;
+	color: #791216;
+	text-transform: capitalize;
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	border-radius: 30px;
+	background-color: transparent;
+	transition: 0.3s;
+}
+.single_address_area a button:focus {
+	outline: none;
+}
 /* my account GDPR page design   */
 .gdpr_contents {
 }
@@ -696,7 +729,8 @@
 	max-height: 300px;
 }
 
-.order_history_contents table tbody tr td span.canceled {
+.order_history_contents table tbody tr td span.canceled,
+span.canceled {
 	border: 1px solid #c10909;
 	color: #c10909;
 	background-color: #f8e4e4;
@@ -704,7 +738,8 @@
 	padding: 0px 20px;
 	text-transform: capitalize;
 }
-.order_history_contents table tbody tr td span.pending {
+.order_history_contents table tbody tr td span.pending,
+span.pending {
 	border: 1px solid #f5990e;
 	color: #f5990e;
 	background-color: #fef2e0;
@@ -712,7 +747,8 @@
 	padding: 0px 20px;
 	text-transform: capitalize;
 }
-.order_history_contents table tbody tr td span.delivered {
+.order_history_contents table tbody tr td span.delivered,
+span.delivered {
 	border: 1px solid #2a98e0;
 	color: #2a98e0;
 	background-color: #e1f0fb;
@@ -794,4 +830,55 @@
 	transform: translate(-50%, -50%);
 	border-radius: 3px;
 	text-align: center;
+}
+
+/* my account order details  */
+.order_details_contents {
+}
+.single_order_step {
+	margin-right: 80px;
+}
+
+.single_order_step h1 {
+	text-transform: capitalize;
+	font-size: 18px;
+	font-weight: 600;
+	color: #303030;
+	margin-bottom: 10px;
+}
+.single_order_step p {
+	text-transform: capitalize;
+	font-size: 14px;
+	font-weight: 400;
+	color: #303030;
+}
+.ordered_address .single_address_area {
+	box-shadow: none;
+}
+.ordered_address .single_address_area {
+	height: 100% !important;
+}
+
+.invoiced_product_name {
+}
+.invoiced_product_name h1,
+.quality h1,
+.unit_price h1,
+.total_price h1,
+.total h1,
+.total h2 {
+	color: #303030;
+	font-size: 18px;
+	text-transform: capitalize;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+.invoiced_product_name h2,
+.subtotal h1,
+.shippingfee h1 {
+	color: #303030;
+	font-size: 14px;
+	text-transform: capitalize;
+	font-weight: 400;
+	margin: 5px 0px;
 }

@@ -1,0 +1,29 @@
+<!-- top cookies policys START  -->
+		<section class="cookise_policy d-none d-lg-block">
+			<div class="container">
+				<div
+					class="row d-flex justify-content-start align-items-center"
+				>
+					<div class="col-lg-9">
+						<div class="cookies_policy_message">
+							<p>
+								This website uses cookies, as explaines in our
+								<strong>cookies policy</strong> . if you agree
+								to our use of cookies, please close this message
+								& continue to use this site.
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div
+							class="cookies_close_btn d-flex justify-content-end"
+						>
+							<a class="cookies_btn font-nunito_semi_b" href="#"
+								>accept & close</a
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- top cookies policys END  -->
