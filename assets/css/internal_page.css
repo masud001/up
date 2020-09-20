@@ -1039,3 +1039,14 @@ span.delivered {
 	color: #afb0b1;
 	border: 1px solid #afb0b1;
 }
+.delivery_process {
+}
+.delivery_process img {
+}
+.delivery_process h1 {
+	text-transform: capitalize;
+	color: #791216;
+	font-weight: 600;
+	font-size: 18px;
+	margin-top: 10px;
+}
