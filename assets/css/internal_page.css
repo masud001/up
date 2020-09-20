@@ -1015,6 +1015,9 @@ span.delivered {
 	font-weight: 400;
 	text-transform: capitalize;
 }
+.cart_checkout_btn:focus {
+	outline: none;
+}
 .cart_checkout_btn {
 	text-transform: capitalize;
 	font-size: 14px;
@@ -1030,4 +1033,9 @@ span.delivered {
 	color: #ffffff;
 	text-decoration: none;
 	background-color: #791216;
+}
+.cart_checkout_btn:disabled {
+	background-color: transparent;
+	color: #afb0b1;
+	border: 1px solid #afb0b1;
 }
