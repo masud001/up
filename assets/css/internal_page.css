@@ -17,6 +17,20 @@
 	height: 100%;
 	vertical-align: middle;
 }
+.section_breadcrumb .rigion {
+	display: flex !important;
+}
+.rigion .section_breadcrumb_wrapper {
+	vertical-align: bottom !important;
+}
+.rigion.breadcrumb_bg_img_01 {
+	background-image: linear-gradient(
+			0deg,
+			rgba(22, 21, 22, 0.3),
+			rgba(10, 10, 10, 0.3)
+		),
+		url("../img/about-page-img/breadcrumb-img01.png");
+}
 .about.breadcrumb_bg_img_01 {
 	background-image: linear-gradient(
 			0deg,
@@ -584,7 +598,9 @@
 .address_body_wrapper input {
 	border: 1px solid #e6e6e6;
 }
+.address_body_wrapper textarea.form-control:focus,
 .single_address_area textarea.form-control:focus,
+.shipping_cost_guide_area select.form-control:focus,
 .single_address_area select.form-control:focus,
 .address_body_wrapper select.form-control:focus,
 .address_body_wrapper input.form-control:focus {
@@ -1049,4 +1065,179 @@ span.delivered {
 	font-weight: 600;
 	font-size: 18px;
 	margin-top: 10px;
+}
+
+/* shipping cost page   */
+.shipping_cost_guide_area {
+	padding: 20px 15px;
+	background-color: #f8fbfd;
+	box-shadow: 0px 5px 6px 0px #cacaca;
+	margin-bottom: 20px;
+	height: 100%;
+}
+
+.shipping_cost_guide_area .shipping_details .shipping_details_items {
+	border-bottom: 1px solid #e7e8e9;
+	background-color: #ffffff !important;
+}
+.shipping_cost_guide_area .shipping_details .shipping_details_items:hover {
+	background-color: #f8fbfd !important;
+}
+.address_heading h1.h6 {
+	color: #303030;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: capitalize;
+	margin-bottom: 8px;
+}
+.faq {
+	/* padding: 10px 15px;
+	background-color: #f8fbfd;
+	box-shadow: 0px 5px 6px 0px #cacaca;
+	margin-bottom: 10px;
+	height: 100%;
+	border-radius: 7px;
+	border: 1px solid #ecedee; */
+}
+.faq .card button.color {
+	color: #9e575a;
+}
+.faq .card button {
+	border: 0 !important;
+	display: block;
+	background-color: transparent;
+	color: #303030;
+}
+.faq .card button:focus {
+	outline: none;
+}
+.faq .card button i {
+	border: 1px solid #791216;
+	color: #791216;
+	padding: 4px;
+	font-size: 12px;
+}
+.faq .card {
+	background-color: #f8fbfd;
+	border: 1px solid #ecedee !important;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.card-header {
+	background-color: transparent !important;
+	border-bottom: 0px !important;
+}
+.card-body p {
+	padding-left: 10px;
+	border-left: 2px solid #791216;
+}
+.card.border-class {
+	border-radius: 7px;
+	border: 1px solid #791216 !important;
+}
+
+/* faq page design  */
+.help_bord_area {
+	background-color: #091d0c;
+	padding-bottom: 15px;
+}
+.help_bord_area h1 {
+	text-transform: capitalize;
+	font-size: 25px;
+	font-weight: 600;
+	color: #fccc0e;
+	margin-bottom: 25px;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 10px;
+}
+.help_bord_menu {
+}
+.help_bord_menu ul {
+}
+.help_bord_menu ul li {
+}
+.help_bord_menu ul li:hover {
+	background-color: #213324;
+}
+
+.help_bord_menu ul li.active {
+	background-color: #213324;
+}
+.help_bord_menu ul li a {
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: capitalize;
+	text-decoration: none;
+	display: flex;
+	padding: 15px 15px;
+}
+
+.help_bord_menu ul li a span {
+	color: #ffffff;
+}
+.help_bord_menu ul li a span.question_no {
+	color: #fccc0e;
+}
+.faq_pagination {
+	margin-top: 50px;
+	float: right;
+	border-radius: 57px;
+	border: 1px solid #e6e6e6;
+	padding: 10px 15px;
+}
+.faq_pagination ul {
+}
+.faq_pagination ul li {
+	display: inline;
+}
+.faq_pagination ul li a {
+	display: inline-block;
+	color: #303030;
+	font-size: 19px;
+	font-weight: 600;
+	text-decoration: none;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+.faq_pagination ul li a.active {
+	background-color: #791216;
+	color: #ffffff;
+	border-radius: 50%;
+}
+.faq_pagination ul li a .fa-angle-double-left,
+.faq_pagination ul li a .fa-angle-left {
+	color: #b3797b;
+}
+.faq_pagination ul li a .fa-angle-double-right,
+.faq_pagination ul li a .fa-angle-right {
+	color: #791216;
+}
+
+/* rigion page design  */
+.rigion .section_breadcrumb_title {
+}
+.rigion .section_breadcrumb_title p {
+	text-transform: capitalize;
+	font-weight: 600;
+	color: #fccc0e;
+	margin-bottom: 15px;
+	letter-spacing: 2px;
+}
+.region_text .address_heading h1 {
+	color: #791216;
+}
+.rigion_title {
+}
+.section_title.rigion_title h1 {
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: capitalize;
+	color: #791216;
+	border-bottom: 0 !important;
+	line-height: 45px;
+	font-family: Nunito_Sans_Semi_B !important;
 }
