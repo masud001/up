@@ -2471,18 +2471,231 @@
 									>very good deals</a
 								>
 							</li>
-							<li class="nav-item d-none d-lg-block">
+							<!-- <li class="nav-item d-none d-lg-block">
 								<a class="login_btn font-nunito_semi_b" href=""
 									>login</a
 								>
-							</li>
-							<li class="nav-item d-none d-lg-block">
-								<a class="cart_btn" href="">
+							</li> -->
+							<li class="nav-item d-none d-lg-block dropdown">
+								<a
+									class="cart_btn"
+									href=""
+									id="cart_dropdown"
+									data-toggle="dropdown"
+									aria-haspopup="true"
+								>
 									<span class="badge_number">2</span>
 									<img
 										src="./assets/img/cart-icon/supermarket.png"
 										alt="cart icon"
 								/></a>
+								<!-- cart_dropdown drop down  -->
+								<div
+									class="dropdown-menu cart_dropdown dropdown-menu-right"
+									aria-labelledby="cart_dropdown"
+								>
+									<div class="cart_dropdown_wrapper">
+										<h1>my cart</h1>
+										<!-- single items  -->
+										<div
+											class="single_cart_items d-flex align-items-center justify-content-between"
+										>
+											<div class="cart_item_img">
+												<img
+													src="./assets/img/bottol/bottol.png"
+													alt=""
+												/>
+											</div>
+											<div
+												class="cart_item_name w-50 mr-auto"
+											>
+												<h1>
+													perrier jouet belle eoque
+													2012
+												</h1>
+												<h1 class="cart_price">
+													129,41
+													<i
+														class="fas fa-euro-sign"
+													></i>
+												</h1>
+												<p class="cart_vat">
+													<span>vat</span> included
+												</p>
+											</div>
+											<div
+												class="cart_dropdown_menu_btn d-flex flex-column"
+											>
+												<span
+													class="align-self-start ml-auto"
+													><i class="fas fa-trash"></i
+												></span>
+												<div
+													class="price_btn_dropdown align-self-end d-flex justify-content-start mt-auto"
+												>
+													<input
+														type="text"
+														value="2"
+													/>
+													<div
+														class="cart_increment_decrement_btn flex-column d-flex justify-content-center align-items-center"
+													>
+														<button
+															class="cart_increment"
+														>
+															+
+														</button>
+														<button
+															class="cart_decrement"
+														>
+															-
+														</button>
+													</div>
+													<button
+														class="cart_price_btn d-flex align-items-center"
+													>
+														<span>258,82</span>
+														<span
+															><i
+																class="fas fa-euro-sign"
+															></i
+														></span>
+													</button>
+												</div>
+											</div>
+										</div>
+										<hr />
+										<!-- single items  -->
+										<div
+											class="single_cart_items d-flex align-items-center justify-content-between"
+										>
+											<div class="cart_item_img">
+												<img
+													src="./assets/img/bottol/bottol.png"
+													alt=""
+												/>
+											</div>
+											<div
+												class="cart_item_name w-50 mr-auto"
+											>
+												<h1>
+													perrier jouet belle eoque
+													2012
+												</h1>
+												<h1 class="cart_price">
+													129,41
+													<i
+														class="fas fa-euro-sign"
+													></i>
+												</h1>
+												<p class="cart_vat">
+													<span>vat</span> included
+												</p>
+											</div>
+											<div
+												class="cart_dropdown_menu_btn d-flex flex-column"
+											>
+												<span
+													class="align-self-start ml-auto"
+													><i class="fas fa-trash"></i
+												></span>
+												<div
+													class="price_btn_dropdown align-self-end d-flex justify-content-start mt-auto"
+												>
+													<input
+														type="text"
+														value="2"
+													/>
+													<div
+														class="cart_increment_decrement_btn flex-column d-flex justify-content-center align-items-center"
+													>
+														<button
+															class="cart_increment"
+														>
+															+
+														</button>
+														<button
+															class="cart_decrement"
+														>
+															-
+														</button>
+													</div>
+													<button
+														class="cart_price_btn d-flex align-items-center"
+													>
+														<span>258,82</span>
+														<span
+															><i
+																class="fas fa-euro-sign"
+															></i
+														></span>
+													</button>
+												</div>
+											</div>
+										</div>
+										<hr />
+										<div
+											class="cart_drand_total_price d-flex justify-content-end"
+										>
+											<span class="grand_total">grand total</span>
+											<span class="text-center">
+												<button>
+													531,49
+													<i
+														class="fas fa-euro-sign"
+													></i>
+												</button>
+												<p class="cart_vat">
+													<span>vat</span> included
+												</p>
+											</span>
+										</div>
+										<div class="cart_checkout_wrapper">
+											<button type="submit">proceed to checkout</button>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="nav-item d-none d-lg-block dropdown">
+								<a
+									class="user_menu_btn d-flex align-items-center justify-content-start"
+									href="#"
+									id="user_dropdown"
+									data-toggle="dropdown"
+									aria-haspopup="true"
+								>
+									<img
+										src="https://via.placeholder.com/50x50"
+										alt=""
+									/>
+									<span>maribel verdu</span>
+								</a>
+								<div
+									class="dropdown-menu dropdown-menu-right user_dropdown_menu"
+									aria-labelledby="user_dropdown"
+								>
+									<div class="user_dropdown_wrapper">
+										<ul>
+											<li><a href="#">my account</a></li>
+											<li>
+												<a href="#">saved addresses</a>
+											</li>
+											<li>
+												<a href="#">order history</a>
+											</li>
+											<li>
+												<a href="#">my credit slips</a>
+											</li>
+											<li><a href="#">wish list</a></li>
+											<li>
+												<a href="#"
+													>GDPR (personal data)</a
+												>
+											</li>
+											<li><a href="#">sign out</a></li>
+										</ul>
+									</div>
+								</div>
 							</li>
 						</ul>
 					</div>
