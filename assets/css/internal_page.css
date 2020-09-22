@@ -585,6 +585,12 @@
 }
 .address_body_wrapper {
 }
+
+label.payment span a {
+	color: #791216;
+	font-weight: 600;
+}
+label.payment,
 .address_body_wrapper label,
 .single_address_area label {
 	color: #474a57;
@@ -598,6 +604,7 @@
 .address_body_wrapper input {
 	border: 1px solid #e6e6e6;
 }
+.checkout_oprions textarea.form-control:focus,
 .address_body_wrapper textarea.form-control:focus,
 .single_address_area textarea.form-control:focus,
 .shipping_cost_guide_area select.form-control:focus,
@@ -659,7 +666,7 @@
 	outline: none;
 }
 .single_address_area a {
-	display: flex;
+	/* display: flex; */
 	float: right;
 }
 .single_address_area a:hover {
@@ -1043,6 +1050,7 @@ span.delivered {
 	display: inline-block;
 	padding: 15px 25px;
 	border-radius: 30px;
+	background-color: transparent;
 	transition: background-color 0.3s;
 }
 .cart_checkout_btn:hover {
@@ -1099,24 +1107,40 @@ span.delivered {
 	border-radius: 7px;
 	border: 1px solid #ecedee; */
 }
+.checkout_oprions .card button.color,
 .faq .card button.color {
 	color: #9e575a;
 }
+.checkout_oprions .card button,
 .faq .card button {
 	border: 0 !important;
 	display: block;
 	background-color: transparent;
 	color: #303030;
 }
+.checkout_oprions .card-header button {
+	text-transform: capitalize;
+}
+.checkout_oprions .card button {
+	font-size: 20px;
+	font-weight: 600;
+}
+.checkout_oprions .card-body button {
+	border: 1px solid #791216 !important;
+	font-size: 14px;
+}
+.checkout_oprions .card button:focus,
 .faq .card button:focus {
 	outline: none;
 }
+.checkout_oprions .card button i,
 .faq .card button i {
 	border: 1px solid #791216;
 	color: #791216;
 	padding: 4px;
 	font-size: 12px;
 }
+.checkout_oprions .card,
 .faq .card {
 	background-color: #f8fbfd;
 	border: 1px solid #ecedee !important;
@@ -1240,4 +1264,104 @@ span.delivered {
 	border-bottom: 0 !important;
 	line-height: 45px;
 	font-family: Nunito_Sans_Semi_B !important;
+}
+
+/* checkout as a guest page  */
+.order_type {
+}
+.order_type span {
+	color: #474a57;
+}
+.order_type span a {
+	color: #474a57;
+	text-transform: capitalize;
+	font-size: 14px;
+	font-weight: 600;
+	display: inline-block;
+	padding: 10px 15px;
+}
+.order_type span a.active {
+	color: #791216;
+}
+.checkout_note {
+	margin-bottom: 15px;
+}
+.checkout_note span {
+	color: #7b7c7d;
+	font-size: 10px;
+	text-transform: capitalize;
+}
+.checkout_note h1 {
+	color: #474a57;
+	font-size: 16px;
+	text-transform: capitalize;
+	margin-bottom: 5px;
+}
+.checkout_note h1 span {
+	color: #7b7c7d;
+}
+.checkout_oprions i.fa-edit {
+	border: 0 !important;
+	font-size: 20px !important;
+	color: #2793ff !important;
+	font-weight: 400;
+}
+
+.shipment_options {
+	background-color: #ffffff;
+	box-shadow: 0px 0px 8px 2px #e0e3e5;
+	padding: 15px 15px;
+	margin-top: 10px !important;
+	text-transform: uppercase !important;
+	cursor: pointer;
+	border: 1px solid transparent;
+	transition: 0.3s;
+}
+.shipment_options:hover {
+	background-color: #eeebed;
+	border: 1px solid #791216;
+}
+.shipment_options .custom-control-input {
+}
+.custom-control-input:not(:disabled):active ~ .custom-control-label::before {
+	color: #fff;
+	background-color: #791216;
+	border-color: #791216;
+}
+.custom-control-input:checked ~ .custom-control-label::before {
+	color: #fff;
+	border-color: #791216;
+	background-color: #791216;
+}
+
+.authentication_check {
+	background-color: #efeaec;
+	padding: 10px;
+	color: #a30006;
+	text-transform: capitalize;
+	font-size: 14px;
+	font-weight: 600;
+	margin: 15px 0px;
+}
+.authentication_successfull {
+	color: #474a57;
+	margin: 15px 0px;
+}
+.authentication_successfull h1 {
+	color: #474a57;
+	font-size: 18px;
+	font-weight: 400;
+	text-transform: capitalize;
+	margin: 5px 0px;
+}
+.authentication_successfull h1 span {
+	color: #791216;
+	font-weight: 600;
+}
+.card-body.checkout_addresss .address_body_wrapper p {
+	border-left: 0px !important;
+	padding-left: 0px !important;
+}
+.worning_note span {
+	color: #791216;
 }
