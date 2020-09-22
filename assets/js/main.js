@@ -202,4 +202,8 @@ $(document).ready(function () {
 		// 	$("i.fas").removeClass("fa-minus");
 		// }
 	});
+	$(".result_view_button span").click(function () {
+		$(".result_view_button span").removeClass("active");
+		$(this).addClass("active");
+	});
 });

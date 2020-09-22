@@ -1,5 +1,7 @@
 /* about us page contents START  */
-
+a:hover {
+	text-decoration: none;
+}
 .page_container {
 }
 .section_breadcrumb {
@@ -1170,19 +1172,20 @@ span.delivered {
 	font-size: 25px;
 	font-weight: 600;
 	color: #fccc0e;
-	margin-bottom: 25px;
-	padding-top: 15px;
-	padding-left: 15px;
-	padding-right: 10px;
+	/* margin-bottom: 25px; */
+	/* padding-top: 15px; */
+	/* padding-left: 15px; */
+	/* padding-right: 10px; */
 }
 .help_bord_menu {
 }
-.help_bord_menu ul {
+.help_bord_menu > ul {
+	background-color: #213324;
 }
 .help_bord_menu ul li {
 }
 .help_bord_menu ul li:hover {
-	background-color: #213324;
+	background-color: #091d0c;
 }
 
 .help_bord_menu ul li.active {
@@ -1364,4 +1367,176 @@ span.delivered {
 }
 .worning_note span {
 	color: #791216;
+}
+
+/* filter page design  */
+.filter_breadcrumb_wrapper {
+	padding: 15px 0px;
+	/* color: #8d8d8d; */
+}
+
+.filter_breadcrumb_wrapper a {
+	text-transform: uppercase;
+	color: #8d8d8d;
+}
+
+.filter_breadcrumb_wrapper a span {
+	color: #c7263c;
+	margin: 0px 15px;
+}
+.filter-reset {
+	padding: 15px;
+}
+.filter-reset span {
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.filter-reset span i {
+}
+.single_search_items ul li:hover {
+	background-color: #fff;
+}
+.single_search_items ul li a {
+	color: #091d0c;
+}
+
+.single_search_items ul li a span {
+	color: #091d0c;
+	margin-left: 25px;
+}
+.help_bord_menu ul li a.active > span {
+	text-decoration: underline;
+	text-decoration-color: yellow;
+}
+.single_search_items ul li a > i {
+	color: #d7d9d7;
+	background-color: #aeb3ae;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	font-size: 14px;
+	border-radius: 50%;
+}
+.about_section_title.search_result_view h1 {
+	display: inline-block;
+	border-bottom: 1px solid #bc898b;
+}
+.about_section_title.search_result_view p {
+	text-transform: uppercase;
+	color: #791216;
+	padding-top: 5px;
+}
+.search_result_view .form-control {
+	font-weight: 600;
+	text-transform: capitalize;
+	border-radius: 30px;
+	padding: 0px 16px;
+}
+.search_result_view .form-control:focus {
+	outline: none !important;
+	box-shadow: none !important;
+	border: 1px solid #791216;
+}
+.result_view_button span {
+	color: #791216;
+	padding: 7px 15px;
+	border: 1px solid #e6e6e6;
+	cursor: pointer;
+}
+.result_view_button span.active {
+	border: 1px solid #791216;
+	background-color: #f9f9f9;
+}
+.result_view_button span.grid_view {
+	font-size: 16px;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+.result_view_button span.list_view {
+	font-size: 16px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+.search_result_view_wrapper.list .product_wrapper {
+	padding: 20px;
+
+	box-shadow: 0px 0px 13px 10px #fafafa;
+}
+.search_result_view_wrapper.list .product_contents {
+	position: relative;
+}
+.search_result_view_wrapper.list .product_price_counter {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.modal_header {
+	color: #ffffff;
+	background-color: #091d0c;
+	border-bottom: 0px !important;
+}
+.modal_header button.close span {
+	width: 30px;
+	height: 30px;
+	font-size: 28px;
+	background-color: #ffffff;
+	color: #091d0c;
+	display: inline-block;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 50%;
+}
+.modal_title {
+	color: #fccc0e;
+	text-transform: capitalize;
+	font-weight: 600;
+	letter-spacing: 2px;
+	font-size: 25px;
+}
+.modal_body {
+	background-color: #213324;
+	padding: 25px 0px;
+}
+.modal_body .form-control {
+	border-radius: 30px;
+}
+.modal_body .form-control:focus {
+	outline: none;
+	box-shadow: none;
+}
+.modal_body .input-group {
+	margin-bottom: 50px;
+}
+.modal_body .input-group-text {
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	background-color: #ffffff;
+}
+.modal_body > .help_bord_menu {
+	top: 100px;
+	max-height: 300px !important;
+	overflow-y: scroll;
+}
+/* width */
+.modal_body > .help_bord_menu::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+.modal_body > .help_bord_menu::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+/* Handle */
+.modal_body > .help_bord_menu::-webkit-scrollbar-thumb {
+	background: #80751b;
+	border-radius: 10px;
+	height: 100px;
+}
+
+/* Handle on hover */
+.modal_body > .help_bord_menu::-webkit-scrollbar-thumb:hover {
+	background: #791216;
 }
