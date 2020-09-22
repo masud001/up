@@ -1167,6 +1167,12 @@ span.delivered {
 	background-color: #091d0c;
 	padding-bottom: 15px;
 }
+.help_bord_area h1 {
+	text-transform: capitalize;
+	font-size: 25px;
+	font-weight: 600;
+	color: #fccc0e;
+}
 .help_bord_area.faq_head h1 {
 	text-transform: capitalize;
 	font-size: 25px;
