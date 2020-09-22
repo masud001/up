@@ -1167,15 +1167,15 @@ span.delivered {
 	background-color: #091d0c;
 	padding-bottom: 15px;
 }
-.help_bord_area h1 {
+.help_bord_area.faq_head h1 {
 	text-transform: capitalize;
 	font-size: 25px;
 	font-weight: 600;
 	color: #fccc0e;
-	/* margin-bottom: 25px; */
-	/* padding-top: 15px; */
-	/* padding-left: 15px; */
-	/* padding-right: 10px; */
+	margin-bottom: 25px;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 10px;
 }
 .help_bord_menu {
 }
