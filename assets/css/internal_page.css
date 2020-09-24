@@ -70,19 +70,17 @@ a:hover {
 	color: #ffffff;
 }
 .section_breadcrumb_title h1 {
-	font-size: 45px;
-	font-weight: 600;
 	text-transform: capitalize;
 	color: #ffffff;
 	letter-spacing: 2px;
 	margin-bottom: 15px;
+	font-family: PT_Serif_Bold;
 }
 .section_breadcrumb_title h2 {
 	text-transform: capitalize;
-	font-size: 18px;
-	font-weight: 400;
 	color: #ffffff;
 	letter-spacing: 2px;
+	font-family: PT_Serif;
 }
 .about_section_title {
 }
@@ -93,8 +91,8 @@ a:hover {
 	padding: 11px 16px;
 	margin-right: 17px;
 	text-transform: uppercase;
-	font-size: 14px;
-	font-weight: 600;
+	font-size: 17px;
+	font-family: Nunito_Sans_Semi_B;
 }
 .delivery.section_contents button:first-child {
 	border-top-left-radius: 8px;
@@ -122,23 +120,21 @@ a:hover {
 
 .delivery_section_title h1,
 .about_section_title h1 {
-	font-size: 30px;
 	text-transform: capitalize;
 	color: #292929;
 	line-height: 45px;
 	border-bottom: 2px solid #b8b8b8;
+	font-family: Nunito_Sans_Reg!important;
 }
 .section_contents {
 }
 .delivery.section_contents .contents h1 {
-	font-size: 25px;
-	font-weight: 600;
+	font-family: Nunito_Sans_B;
 	color: #303030;
 	margin-bottom: 10px;
 }
 .delivery.section_contents .contents h2 {
-	font-size: 18px;
-	font-weight: 600;
+	font-family: Nunito_Sans_Semi_B;
 	color: #303030;
 	margin-bottom: 15px;
 }
@@ -158,9 +154,8 @@ a:hover {
 }
 .section_contents p {
 	color: #292929;
-	font-size: 16px;
 	font-weight: 400;
-	line-height: 27px;
+	line-height: 30px;
 }
 .section_contents p span {
 	color: #791216 !important;
@@ -244,8 +239,7 @@ a:hover {
 }
 .shipping_and_feature_wrapper nav a {
 	color: #303030;
-	font-size: 18px;
-	font-weight: 600;
+	font-family: Nunito_Sans_B;
 	text-transform: capitalize;
 	padding: 10px 20px;
 }
@@ -263,9 +257,6 @@ a:hover {
 }
 .shipping_tab_content ul li {
 	color: #791216;
-	font-size: 18px;
-	font-weight: 500;
-
 	padding: 5px 0px;
 }
 .shipping_tab_content ul li > i.fas {
@@ -277,9 +268,8 @@ a:hover {
 }
 .shipping_details_heading span {
 	color: #303030;
-	font-weight: 600;
-	font-size: 14px;
 	text-transform: capitalize;
+	font-family: Nunito_Sans_B;
 }
 .shipping_details_items {
 	padding: 7px 10px;
@@ -289,7 +279,6 @@ a:hover {
 }
 .shipping_details_items span {
 	color: #303030;
-	font-weight: 400;
 	font-size: 14px;
 }
 
@@ -327,18 +316,17 @@ a:hover {
 	padding: 15px;
 }
 .testing_nots_text h4 {
-	font-size: 14px;
 	color: #791216;
 	text-transform: capitalize;
 	margin-top: 10px;
 	margin-bottom: 5px;
+	font-family: Nunito_Sans_Semi_B;
 }
 .testing_nots_text h1 {
 	text-transform: capitalize;
-	font-size: 25px;
 	color: #303030;
-	font-weight: 600;
 	margin-bottom: 20px;
+	font-family: Nunito_Sans_B;
 }
 .testing_nots_text p {
 	font-weight: 400;
@@ -423,10 +411,9 @@ a:hover {
 }
 .my_account_tab_content h1 {
 	color: #303030;
-	font-size: 17px;
-	font-weight: 600;
 	text-transform: capitalize;
 	margin-bottom: 8px;
+	font-family: Nunito_Sans_B;
 }
 .my_account_tab_content p {
 	font-size: 14px;
@@ -440,7 +427,7 @@ a:hover {
 	text-align: center;
 	text-transform: capitalize;
 	color: #791216;
-	font-weight: 400;
+	font-family: Nunito_Sans_Semi_B;
 }
 .my_account_tab_content a:focus {
 	outline: none;
@@ -458,7 +445,6 @@ a:hover {
 	color: #791216;
 	border: 1px solid #791216;
 	text-transform: capitalize;
-	font-size: 17px;
 	display: inline-block;
 	font-weight: 600;
 	border-radius: 30px;
@@ -481,23 +467,19 @@ a:hover {
 	background-color: #f8fbfd;
 	box-shadow: 0px 5px 6px 0px #cacaca;
 	margin-bottom: 20px;
-	height: 339px;
+	/* height: 339px; */
 }
 
-.address_heading {
-}
 .address_heading h1 {
 	color: #303030;
-	font-size: 20px;
-	font-weight: 600;
 	text-transform: capitalize;
 	margin-bottom: 8px;
+	font-family: Nunito_Sans_B;
 }
 .address_heading h2 {
 	text-transform: capitalize;
-	font-size: 14px;
-	font-weight: 400;
 	color: #909192;
+	font-family: Nunito_Sans_B;
 }
 .address_head_right_img {
 	width: 50px;
@@ -518,8 +500,8 @@ a:hover {
 	color: #474a57;
 	text-transform: capitalize;
 	font-size: 14px;
-	font-weight: 600;
 	margin-bottom: 5px;
+	font-family: Nunito_Sans_B;
 }
 .address_body p {
 	color: #98999a;
@@ -596,9 +578,10 @@ label.payment,
 .address_body_wrapper label,
 .single_address_area label {
 	color: #474a57;
-	font-size: 16px;
+	font-size: 14px;
 	text-transform: capitalize;
 	margin-bottom: 10px;
+	font-family: Nunito_Sans_Semi_B;
 }
 .address_body_wrapper label i {
 	margin-right: 10px;
@@ -657,12 +640,11 @@ label.payment,
 	border: 1px solid #791216;
 	color: #791216;
 	text-transform: capitalize;
-	font-size: 18px;
-	font-weight: 600;
 	letter-spacing: 2px;
 	border-radius: 30px;
 	background-color: transparent;
 	transition: 0.3s;
+	font-family: Nunito_Sans_Semi_B;
 }
 .address_eidt_update a button:focus {
 	outline: none;
@@ -864,17 +846,17 @@ span.delivered {
 	margin-right: 80px;
 }
 
-.single_order_step h1 {
+.single_order_step h1,.address_heading h1,.address_heading h3{
 	text-transform: capitalize;
-	font-size: 18px;
-	font-weight: 600;
+	font-family: Nunito_Sans_B;
 	color: #303030;
 	margin-bottom: 10px;
 }
+.address_heading h3{
+	color: #707070!important;
+}
 .single_order_step p {
 	text-transform: capitalize;
-	font-size: 14px;
-	font-weight: 400;
 	color: #303030;
 }
 .ordered_address .single_address_area {
@@ -893,19 +875,17 @@ span.delivered {
 .total h1,
 .total h2 {
 	color: #303030;
-	font-size: 18px;
 	text-transform: capitalize;
-	font-weight: 600;
 	margin-bottom: 15px;
+	font-family: Nunito_Sans_B;
 }
 .invoiced_product_name h2,
 .subtotal h1,
 .shippingfee h1 {
 	color: #303030;
-	font-size: 14px;
 	text-transform: capitalize;
-	font-weight: 400;
 	margin: 5px 0px;
+	font-family: Nunito_Sans_Semi_B!important;
 }
 
 /* my cart page   */
@@ -924,15 +904,13 @@ span.delivered {
 .cart_product_name {
 	color: #303030;
 	text-transform: capitalize;
-	font-size: 18px;
-	font-weight: 600;
 	margin-bottom: 10px;
+	font-family: Nunito_Sans_B;
 }
 .cart_product_quantity {
 	color: #303030;
 	text-transform: capitalize;
-	font-size: 18px;
-	font-weight: 600;
+	font-family: Nunito_Sans_B;
 	margin-bottom: 10px;
 }
 .cart_product_quantity span {
@@ -945,8 +923,7 @@ span.delivered {
 .cart_product_discount {
 	color: #b20000;
 	text-transform: uppercase;
-	font-size: 14px;
-	font-weight: 400;
+	font-family: Nunito_Sans_B;
 }
 .Cart_quantity {
 	text-align: center;
@@ -1072,8 +1049,6 @@ span.delivered {
 .delivery_process h1 {
 	text-transform: capitalize;
 	color: #791216;
-	font-weight: 600;
-	font-size: 18px;
 	margin-top: 10px;
 }
 
@@ -1095,7 +1070,6 @@ span.delivered {
 }
 .address_heading h1.h6 {
 	color: #303030;
-	font-size: 14px;
 	font-weight: 600;
 	text-transform: capitalize;
 	margin-bottom: 8px;
@@ -1154,6 +1128,7 @@ span.delivered {
 	border-bottom: 0px !important;
 }
 .card-body p {
+	line-height: 35px;
 	padding-left: 10px;
 	border-left: 2px solid #791216;
 }
@@ -1169,14 +1144,12 @@ span.delivered {
 }
 .help_bord_area h1 {
 	text-transform: capitalize;
-	font-size: 25px;
-	font-weight: 600;
+	font-family: PT_Serif_Bold;
 	color: #fccc0e;
 }
 .help_bord_area.faq_head h1 {
 	text-transform: capitalize;
-	font-size: 25px;
-	font-weight: 600;
+	font-family: PT_Serif_Bold;
 	color: #fccc0e;
 	margin-bottom: 25px;
 	padding-top: 15px;
@@ -1199,8 +1172,7 @@ span.delivered {
 }
 .help_bord_menu ul li a {
 	color: #ffffff;
-	font-size: 18px;
-	font-weight: 600;
+	font-family: PT_Serif;
 	text-transform: capitalize;
 	text-decoration: none;
 	display: flex;
@@ -1209,6 +1181,7 @@ span.delivered {
 
 .help_bord_menu ul li a span {
 	color: #ffffff;
+	font-family: PT_Serif;
 }
 .help_bord_menu ul li a span.question_no {
 	color: #fccc0e;
@@ -1228,8 +1201,7 @@ span.delivered {
 .faq_pagination ul li a {
 	display: inline-block;
 	color: #303030;
-	font-size: 19px;
-	font-weight: 600;
+	font-family: Nunito_Sans_B;
 	text-decoration: none;
 	width: 50px;
 	height: 50px;
@@ -1255,7 +1227,7 @@ span.delivered {
 }
 .rigion .section_breadcrumb_title p {
 	text-transform: capitalize;
-	font-weight: 600;
+	font-family: PT_Serif_Bold;
 	color: #fccc0e;
 	margin-bottom: 15px;
 	letter-spacing: 2px;
@@ -1297,7 +1269,7 @@ span.delivered {
 }
 .checkout_note span {
 	color: #7b7c7d;
-	font-size: 10px;
+	font-size: 14px;
 	text-transform: capitalize;
 }
 .checkout_note h1 {
@@ -1348,28 +1320,29 @@ span.delivered {
 	padding: 10px;
 	color: #a30006;
 	text-transform: capitalize;
-	font-size: 14px;
-	font-weight: 600;
 	margin: 15px 0px;
+}
+.authentication_check span{
+	font-family: Nunito_Sans_Semi_B;
 }
 .authentication_successfull {
 	color: #474a57;
 	margin: 15px 0px;
 }
-.authentication_successfull h1 {
+.authentication_successfull h1,.authentication_successfull h2 {
 	color: #474a57;
-	font-size: 18px;
-	font-weight: 400;
 	text-transform: capitalize;
 	margin: 5px 0px;
+	font-family: Nunito_Sans_Semi_B;
 }
-.authentication_successfull h1 span {
+.authentication_successfull h1 span, .authentication_successfull h2 span{
 	color: #791216;
-	font-weight: 600;
+	font-family: Nunito_Sans_B;
 }
 .card-body.checkout_addresss .address_body_wrapper p {
 	border-left: 0px !important;
 	padding-left: 0px !important;
+	font-size: 14px;
 }
 .worning_note span {
 	color: #791216;
@@ -1396,6 +1369,7 @@ span.delivered {
 .filter-reset span {
 	color: #ffffff;
 	text-transform: uppercase;
+	font-family: Nunito_Sans_Semi_B;
 }
 .filter-reset span i {
 }
@@ -1404,6 +1378,7 @@ span.delivered {
 }
 .single_search_items ul li a {
 	color: #091d0c;
+	font-family: PT_Serif;
 }
 
 .single_search_items ul li a span {
@@ -1432,6 +1407,7 @@ span.delivered {
 	text-transform: uppercase;
 	color: #791216;
 	padding-top: 5px;
+	font-family: Nunito_Sans_Semi_B;
 }
 .search_result_view .form-control {
 	font-weight: 600;
@@ -1546,3 +1522,109 @@ span.delivered {
 .modal_body > .help_bord_menu::-webkit-scrollbar-thumb:hover {
 	background: #791216;
 }
+
+.cart_subtotal span:first-child,.cart_shipping span:first-child, .cart_discount span:first-child,.cart_total span{
+	font-family: Nunito_Sans_B;
+}
+.cart_subtotal span:last-child,.cart_shipping span:last-child, .cart_discount span:last-child{
+	font-family: Nunito_Sans_Semi_B;
+}
+
+@media (min-width: 320px) {
+	.delivery.section_contents button,.faq_pagination ul li a {
+		font-size: 11px;
+	}
+
+	.delivery_section_title h1,
+	.about_section_title h1{
+		font-size: 20px;
+	}
+
+	.address_heading h1 ,.my_account_tab_content h1 ,.section_breadcrumb_title h1,.delivery.section_contents .contents h1,.help_bord_area.faq_head h1,.help_bord_area h1{
+		font-size: 16px;
+	}
+	.address_delete_update a p,.order_history_contents table thead th,.table td,.section_breadcrumb_title h2,.testing_nots_text h4,.rigion .section_breadcrumb_title p,.checkout_oprions .card button,.faq .card button ,.card-body p,.authentication_check span,.authentication_successfull h2,.filter-reset span{
+		font-size: 12px;
+	}
+	.single_order_step h1,.single_order_step p,.address_heading h1,.address_heading h2,.address_eidt_update a button,.invoiced_product_name h1,
+	.quality h1,
+	.unit_price h1,
+	.total_price h1,
+	.total h1,
+	.total h2,.invoiced_product_name h2,
+	.subtotal h1,
+	.shippingfee h1 ,.shipping_tab_content ul li,.delivery_process h1,.shipping_and_feature_wrapper nav a,.shipping_details_heading span,.shipping_details_items span,.testing_nots_text h1,.authentication_successfull h1,.delivery.section_contents .contents h2,.help_bord_menu ul li a,.help_bord_menu ul li a span {
+		font-size: 14px;
+	}
+	.cart_product_name,.cart_product_discount,.cart_product_quantity,.section_contents p {	
+		font-size: 11px;
+	}
+}
+
+@media (min-width : 578px){
+	.single_order_step h1,.single_order_step p,.address_heading h1,.invoiced_product_name h1,
+	.quality h1,
+	.unit_price h1,
+	.total_price h1,
+	.total h1,
+	.total h2,.invoiced_product_name h2,
+	.subtotal h1,
+	.shippingfee h1,.section_breadcrumb_title h2,.my_account_tab_content h1,.delivery_process h1,.shipping_and_feature_wrapper nav a,.testing_nots_text h1,.delivery.section_contents .contents h1,.help_bord_area.faq_head h1,.help_bord_area h1{
+		font-size: 18px;
+	}
+	.section_breadcrumb_title h1 {
+		font-size: 30px;
+	}
+	.cart_product_name,.cart_product_discount,.cart_product_quantity ,.shipping_tab_content ul li,.shipping_details_heading span,.testing_nots_text h4,.shipping_details_items span,.rigion .section_breadcrumb_title p,.checkout_oprions .card button,.faq .card button,.card-body p,.section_contents p,.delivery.section_contents .contents h2,.help_bord_menu ul li a,.faq_pagination ul li a {
+		font-size:16px;
+	}
+	
+}
+
+@media (min-width: 768px) {
+	.delivery.section_contents button {
+		font-size: 17px;
+	}
+
+	.delivery_section_title h1,
+	.about_section_title h1,.testing_nots_text h1{
+		font-size: 35px;
+	}
+	.address_heading h1,.delivery_process h1,.delivery.section_contents .contents h1,.faq_pagination ul li a {
+		font-size: 30px;
+	}
+	.address_delete_update a p,.address_heading h3,.authentication_check span,.authentication_successfull h2{
+		font-size: 14px;
+	}
+	.address_eidt_update a button,.authentication_successfull h1,.filter-reset span {
+		font-size: 16px!important;
+	}
+	.order_history_contents table thead th,.table td{
+		font-size: 18px;
+	}
+	.single_order_step h1,.single_order_step p,.address_heading h1,.invoiced_product_name h1,
+	.quality h1,
+	.unit_price h1,
+	.total_price h1,
+	.total h1,
+	.total h2 ,.invoiced_product_name h2,
+	.subtotal h1,
+	.shippingfee h1,.cart_product_name,.cart_product_quantity,.address_heading h2,.shipping_tab_content ul li,.shipping_details_heading span,.shipping_details_items span {
+		font-size: 20px;
+	}
+	.section_breadcrumb_title h1 {
+		font-size: 60px;
+	}
+	.section_breadcrumb_title h2,.shipping_and_feature_wrapper nav a,.testing_nots_text h4,.rigion .section_breadcrumb_title p,.checkout_oprions .card button,.faq .card button,.card-body p ,.section_contents p{
+		font-size: 22px;
+	}
+	.my_account_tab_content h1,.help_bord_menu ul li a ,.help_bord_menu ul li a span {
+		font-size: 23px;
+	}
+	.delivery.section_contents .contents h2{
+		font-size: 27px;
+	}
+	.help_bord_area.faq_head h1,.help_bord_area h1{
+		font-size: 26px;
+	}
+}	

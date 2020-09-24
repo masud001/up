@@ -79,8 +79,8 @@ button:focus {
 	font-family: PT_Serif_Bold;
 }
 
-body {
-	font-family: Nunito_Sans_Reg !important;
+body,p,a,span {
+	font-family: Nunito_Sans_Reg;
 }
 /* 000 --> preloader of the page START 
 ================================================
@@ -213,6 +213,7 @@ body {
 	color: #0d2110;
 	font-size: 22px;
 	font-weight: 600;
+	font-family: Nunito_Sans_Semi_B!important;
 }
 .search_product_items {
 	cursor: pointer;
@@ -578,6 +579,7 @@ p.cart_vat span {
 	font-size: 21px;
 	font-weight: 600;
 	margin-bottom: 15px;
+	font-family: PT_Serif_Bold!important;
 }
 
 .single_dropdown_menu_items ul {
@@ -591,6 +593,7 @@ p.cart_vat span {
 	font-size: 14px;
 	padding: 8px 0px;
 	color: #791216;
+	font-family: Nunito_Sans_Semi_B!important;
 }
 .single_dropdown_menu_items ul li:last-child a {
 	text-decoration: underline;
@@ -768,6 +771,9 @@ p.cart_vat span {
 	font-weight: 600;
 	padding: 6px 0px;
 }
+.perker .name,.penin .name,.sommelier .name{
+	font-size: 18px;
+}
 .penin .name {
 	margin-right: 68px;
 	font-family: Nunito_Sans_B !important;
@@ -909,7 +915,7 @@ p.cart_vat span {
 .section_title {
 }
 .section_title h1 {
-	font-size: 30px;
+	font-size: 35px;
 	font-weight: 700;
 	text-transform: capitalize;
 	color: #292929;
@@ -1394,7 +1400,7 @@ p.cart_vat span {
 .video_promo_content {
 }
 .video_promo_content h1 {
-	font-size: 33px;
+	font-size: 44px;
 	color: #fff;
 	font-weight: 700;
 	margin-bottom: 15px;
@@ -1470,7 +1476,7 @@ p.cart_vat span {
 }
 .wine_maker_contents h1 {
 	color: #ffffff;
-	font-size: 40px;
+	font-size: 45px;
 	font-weight: 600;
 	margin-bottom: 25px;
 	font-family: Nunito_Sans_B !important;
@@ -1650,14 +1656,12 @@ p.cart_vat span {
 	transform: translate(0%, -50%);
 }
 .newsletter_content h1 {
-	font-size: 25px;
 	font-weight: 600;
 	margin-bottom: 25px;
 	color: #292929;
 	text-transform: capitalize;
 }
 .newsletter_content p {
-	font-size: 18px;
 	color: #292929;
 	font-weight: 400;
 	line-height: 27px;
@@ -1671,7 +1675,6 @@ p.cart_vat span {
 }
 .email_submission p {
 	color: #020e35;
-	font-size: 20px;
 	font-weight: 400;
 	line-height: 27px;
 }
@@ -1682,9 +1685,7 @@ p.cart_vat span {
 .term_conditions {
 	margin-bottom: 15px;
 }
-.email_submission p.terms {
-	font-size: 14px !important;
-}
+
 .email_submission:first-child {
 }
 .email_submission {
@@ -1894,7 +1895,7 @@ responsive
 		.hero_slider_contents
 		.hero_price_area
 		.reduce-price {
-		font-size: 15px;
+		font-size: 30px;
 	}
 	.perrier_jouet_wrapper
 		.hero_slider_contents
@@ -1928,10 +1929,26 @@ responsive
 		width: 50px;
 		height: 50px;
 	}
+
+	.newsletter_content h1{
+		font-size: 16px;
+	}
+	.newsletter_content p {
+		font-size: 10px;
+	}
+	.email_submission p.terms {
+		font-size: 10px;
+	}
+	.email_submission p{
+		font-size: 12px;
+	}
 }
 @media (min-width: 576px) {
 	.perrier_jouet_bg_right {
 		background-position: 163%;
+	}
+	.newsletter_content h1{
+		font-size: 20px;
 	}
 }
 @media (min-width: 610px) {
@@ -1943,6 +1960,18 @@ responsive
 	.perrier_jouet_bg_right {
 		background-position: 130%;
 	}
+	.newsletter_content h1{
+		font-size: 25px;
+	}
+	.newsletter_content p {
+		font-size: 20px;
+	}
+	.email_submission p.terms {
+		font-size: 14px;
+	}
+	.email_submission p{
+		font-size: 18px;
+	}
 }
 @media (min-width: 768px) {
 	.wine_maker_bg_right {
@@ -1953,7 +1982,7 @@ responsive
 	}
 	.perrier_jouet_wrapper .hero_slider_contents h1 {
 		text-transform: capitalize;
-		font-size: 40px;
+		font-size: 38px;
 	}
 	.perrier_jouet_wrapper .hero_slider_contents h2 {
 		color: #2e7912;
@@ -1967,6 +1996,9 @@ responsive
 	}
 	.desk_footer_bg_img {
 		background-image: url(../img/backgounds/bg-img-010.png);
+	}
+	.newsletter_content h1{
+		font-size: 38px;
 	}
 }
 
