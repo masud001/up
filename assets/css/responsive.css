@@ -99,14 +99,10 @@
 		position: absolute;
 		left: 15px;
 		top: 50%;
-		z-index: 1;
 		background-color: transparent;
 		width: 29%;
 		transform: translate(0%, -50%);
-	}
-	.payments_methods_logo img {
-		width: 50px;
-		height: 50px;
+		opacity: 0.5;
 	}
 
 	.newsletter_content h1 {
@@ -114,12 +110,6 @@
 	}
 	.newsletter_content p {
 		font-size: 10px;
-	}
-	.email_submission p.terms {
-		font-size: 10px;
-	}
-	.email_submission p {
-		font-size: 12px;
 	}
 }
 @media (min-width: 400px) {
@@ -156,6 +146,7 @@
 	.maker_name h1 {
 		font-size: 16px;
 	}
+<<<<<<< HEAD
 	.hero_slider_contents h3,
 	.blog_date span,
 	.video_promo_content p,
@@ -164,17 +155,27 @@
 	}
 	.video_promo_content p,
 	.wine_maker_contents p {
+=======
+	.hero_slider_contents h3,.blog_date span,.video_promo_content p,.maker_name p,.newsletter_content p,.email_submission p,.desk_single_footer_items ul li a,.desk_single_footer_items h1{
+		font-size: 14px;
+	}
+	.video_promo_content p,.wine_maker_contents p,.newsletter_content h1{
+>>>>>>> c5fcc3aa62e23cd5bfbd04b61584c07d10d1a331
 		line-height: 24px;
 	}
 	.hero_slider_contents p,
 	.know_more a {
 		font-size: 10px;
 	}
+<<<<<<< HEAD
 	.hero_contry span,
 	.current_price .actual_price,
 	.reviews_start .rating,
 	.reviews_start .starts,
 	.wine_maker_contents p {
+=======
+	.hero_contry span,.current_price .actual_price,.reviews_start .rating,.reviews_start .starts,.wine_maker_contents p,.email_submission p.terms{
+>>>>>>> c5fcc3aa62e23cd5bfbd04b61584c07d10d1a331
 		font-size: 12px;
 	}
 	.reviews_start {
@@ -184,9 +185,14 @@
 	.before_price img {
 		width: 15px !important;
 	}
+<<<<<<< HEAD
 	.current_price span,
 	.before_price span {
 		font-size: 15px !important;
+=======
+	.current_price span,.before_price span,.shippings_options h1,.payments_methods h1 {
+		font-size: 15px!important;
+>>>>>>> c5fcc3aa62e23cd5bfbd04b61584c07d10d1a331
 	}
 	.before_price {
 		display: flex !important;
@@ -197,6 +203,18 @@
 	.video_promo_bg_rihgt {
 		width: 60%;
 	}
+<<<<<<< HEAD
+=======
+	.desk_single_footer_items h1{
+		margin: 14px 0;
+	}
+	
+	.shipping_partner_logo img, .payments_methods_logo img {
+		width: 40px;
+		height: 40px;
+		padding: 8px;
+	}
+>>>>>>> c5fcc3aa62e23cd5bfbd04b61584c07d10d1a331
 }
 @media (min-width: 610px) {
 	.perrier_jouet_bg_right {
@@ -206,18 +224,6 @@
 @media (min-width: 650px) {
 	.perrier_jouet_bg_right {
 		background-position: 130%;
-	}
-	.newsletter_content h1 {
-		font-size: 25px;
-	}
-	.newsletter_content p {
-		font-size: 20px;
-	}
-	.email_submission p.terms {
-		font-size: 14px;
-	}
-	.email_submission p {
-		font-size: 18px;
 	}
 }
 @media (min-width: 768px) {
@@ -241,7 +247,8 @@
 		background-image: url(../img/backgounds/bg-img-010.png);
 	}
 	.newsletter_content h1 {
-		font-size: 38px;
+		font-size: 30px;
+		line-height: 35px;
 	}
 	.logo_img img {
 		width: 80px;
@@ -252,12 +259,16 @@
 	.sommelier .name,
 	.perker .number,
 	.penin .number,
+<<<<<<< HEAD
 	.sommelier .number,
 	.product_country span,
 	.product_riesling span,
 	.product_parker span,
 	.product_penin span,
 	.product_sommelier span {
+=======
+	.sommelier .number,.product_country span,.product_riesling span,.product_parker span,.product_penin span,.product_sommelier span,.newsletter_content p,.email_submission .input-group-text,.email_submission .form-control{
+>>>>>>> c5fcc3aa62e23cd5bfbd04b61584c07d10d1a331
 		font-size: 16px;
 	}
 	/* Hero section responsive */
@@ -272,6 +283,7 @@
 	.product_contents h1 {
 		font-size: 20px;
 	}
+<<<<<<< HEAD
 	.hero_slider_contents p,
 	.product_contents p,
 	.wine_maker_contents p {
@@ -287,6 +299,15 @@
 		font-size: 18px;
 	}
 	.video_promo_content p {
+=======
+	.hero_slider_contents p,.product_contents p,.wine_maker_contents p,.email_submission p.terms{
+		font-size: 14px;
+	}
+	.hero_contry span,.current_price .actual_price,.reviews_start .rating,.reviews_start .starts,.blog_date span,.video_promo_content p,.maker_name p,.email_submission p{
+		font-size: 18px;
+	}
+	.video_promo_content p,.newsletter_content p{
+>>>>>>> c5fcc3aa62e23cd5bfbd04b61584c07d10d1a331
 		line-height: 28px;
 	}
 	.reviews_start {
@@ -469,6 +490,9 @@
 	.know_more a {
 		font-size: 16px;
 		padding: 10px 15px;
+	}
+	.newsletter_content h1{
+		font-size: 38px;
 	}
 }
 @media (min-width: 1024px) {
