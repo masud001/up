@@ -1656,7 +1656,7 @@ p.cart_vat span {
 .newsletter_content p {
 	color: #292929;
 	font-weight: 400;
-	line-height: 27px;
+	line-height: 18px;
 }
 .newsletter_content p strong {
 	text-transform: capitalize;
@@ -1668,14 +1668,19 @@ p.cart_vat span {
 .email_submission p {
 	color: #020e35;
 	font-weight: 400;
-	line-height: 27px;
+	line-height: 18px;
+	font-size: 10px;
 }
 .email_submission p strong {
 	text-transform: capitalize;
 	font-weight: 600;
+	font-size: 10px;
 }
 .term_conditions {
 	margin-bottom: 15px;
+}
+.email_submission p.terms{
+	font-size: 8px;
 }
 
 .email_submission:first-child {
@@ -1689,6 +1694,7 @@ p.cart_vat span {
 	border: 1px solid #791216 !important;
 	border-top-left-radius: 30px;
 	border-bottom-left-radius: 30px;
+	font-size: 14px;
 }
 .email_submission .form-control:focus {
 	box-shadow: none;
@@ -1702,6 +1708,7 @@ p.cart_vat span {
 	border-top-right-radius: 30px;
 	border-bottom-right-radius: 30px;
 	font-family: Nunito_Sans_Semi_B !important;
+	font-size: 14px;
 }
 /* 017 --> footer for desktop area START  
 ==============================================
@@ -1715,25 +1722,19 @@ p.cart_vat span {
 	background-repeat: no-repeat;
 	background-color: #ffffff;
 }
-.desk_footer_logo {
-}
-.desk_footer_logo img {
-}
-.desk_single_footer_items {
-}
 .desk_single_footer_items h1 {
-	font-size: 12px;
+	font-size: 14px;
 	font-family: PT_Serif_Bold !important;
 	color: #791216;
 	text-transform: uppercase;
-	margin-bottom: 17px;
+	margin: 10px 0;
 }
 .desk_single_footer_items ul li a {
-	font-size: 14px;
+	font-size: 10px;
 	color: #091d0c;
 	font-family: PT_Serif;
 	display: block;
-	padding: 10px 0px;
+	padding: 5px 0px;
 }
 .footer_contents {
 	font-size: 14px;
@@ -1746,8 +1747,9 @@ p.cart_vat span {
 }
 .shippings_options h1,
 .payments_methods h1 {
-	font-size: 15px;
+	font-size: 8px;
 	font-family: PT_Serif_Bold !important;
+	margin: 10px 0;
 }
 .shipping_payments_wraapper {
 }
@@ -1757,19 +1759,19 @@ p.cart_vat span {
 }
 .shippings_options h1 {
 	text-transform: uppercase;
-	font-size: 14px;
 	margin-bottom: 15px;
 }
 .shipping_partner_logo {
 }
 .shipping_partner_logo img,
 .payments_methods_logo img {
-	width: 75px;
-	margin: 8px;
-	height: 75px;
-	padding: 10px;
+	width: 25px;
+	margin-right: 10px!important;
+	height: 25px;
+	padding: 2px;
 	background-color: #e9d8d8;
 	border-radius: 5px;
+	object-fit: contain;
 }
 .shippings_bg_img {
 	width: 44%;
@@ -1780,21 +1782,18 @@ p.cart_vat span {
 }
 .payments_methods h1 {
 	text-transform: uppercase;
-	margin-bottom: 15px;
-	font-size: 14px;
+	font-size: 8px;
 }
 .payments_methods_logo {
 	align-items: center !important;
 	display: flex;
 	justify-content: start;
 }
-.payments_methods_logo img {
-	/* margin: 10px; */
-}
 .footer_element_for_mobile {
 	width: 100%;
 }
 .footer_element_for_mobile img {
+	width: 90px;
 }
 /* 
 ======================================================
