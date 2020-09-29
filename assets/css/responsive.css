@@ -45,7 +45,7 @@
 		background-position: -500px;
 	}
 	.perrier_jouet_bg_right {
-		background-position: 176%;
+		background-position: 100px;
 	}
 	.perrier_jouet_wrapper .hero_slider_contents h1 {
 		text-transform: capitalize;
@@ -54,11 +54,11 @@
 		color: #2e7912;
 	}
 	.perrier_jouet_wrapper .hero_slider_contents h3 {
-		font-size: 19px;
+		font-size: 16px;
 	}
 	.perrier_jouet_wrapper .hero_slider_contents p {
-		font-size: 14px;
-		line-height: 20px;
+		font-size: 12px;
+		line-height: 17px;
 	}
 	.perrier_jouet_wrapper .hero_slider_contents .hero_price_area {
 	}
@@ -122,51 +122,81 @@
 		font-size: 12px;
 	}
 }
+@media (min-width: 400px) {
+	.perrier_jouet_bg_right {
+		background-position: 120px;
+	}
+}
+@media (min-width: 420px) {
+	.perrier_jouet_bg_right {
+		background-position: 144px;
+	}
+}
+@media (min-width: 480px) {
+	.perrier_jouet_bg_right {
+		background-position: 200px;
+	}
+}
 @media (min-width: 576px) {
 	.perrier_jouet_bg_right {
 		background-position: 163%;
 	}
-	.newsletter_content h1,.blog_contents h1 {
+	.newsletter_content h1,
+	.blog_contents h1 {
 		font-size: 20px;
 	}
 	/* Hero section responsive */
-	.hero_slider_contents h1,.video_promo_content h1,.wine_maker_contents h1{
+	.hero_slider_contents h1,
+	.video_promo_content h1,
+	.wine_maker_contents h1 {
 		font-size: 20px;
 	}
-	.hero_slider_contents h2,.product_contents h1,.maker_name h1{
+	.hero_slider_contents h2,
+	.product_contents h1,
+	.maker_name h1 {
 		font-size: 16px;
 	}
-	.hero_slider_contents h3,.blog_date span,.video_promo_content p,.maker_name p{
+	.hero_slider_contents h3,
+	.blog_date span,
+	.video_promo_content p,
+	.maker_name p {
 		font-size: 14px;
 	}
-	.video_promo_content p,.wine_maker_contents p{
+	.video_promo_content p,
+	.wine_maker_contents p {
 		line-height: 24px;
 	}
-	.hero_slider_contents p,.know_more a{
+	.hero_slider_contents p,
+	.know_more a {
 		font-size: 10px;
 	}
-	.hero_contry span,.current_price .actual_price,.reviews_start .rating,.reviews_start .starts,.wine_maker_contents p{
+	.hero_contry span,
+	.current_price .actual_price,
+	.reviews_start .rating,
+	.reviews_start .starts,
+	.wine_maker_contents p {
 		font-size: 12px;
 	}
-	.reviews_start{
+	.reviews_start {
 		margin-bottom: 1rem;
 	}
-	.current_price img,.before_price img{
-		width: 15px!important;
+	.current_price img,
+	.before_price img {
+		width: 15px !important;
 	}
-	.current_price span,.before_price span {
-		font-size: 15px!important;
+	.current_price span,
+	.before_price span {
+		font-size: 15px !important;
 	}
-	.before_price{
-		display: flex!important;
+	.before_price {
+		display: flex !important;
 	}
-	.blog_contents p{
+	.blog_contents p {
 		font-size: 18px;
 	}
-	.video_promo_bg_rihgt{
+	.video_promo_bg_rihgt {
 		width: 60%;
 	}
-	
 }
 @media (min-width: 610px) {
 	.perrier_jouet_bg_right {
@@ -213,58 +243,79 @@
 	.newsletter_content h1 {
 		font-size: 38px;
 	}
-	.logo_img img{
+	.logo_img img {
 		width: 80px;
 	}
-	.buy_now_btn a,.perker .name,
+	.buy_now_btn a,
+	.perker .name,
 	.penin .name,
-	.sommelier .name,.perker .number,
+	.sommelier .name,
+	.perker .number,
 	.penin .number,
-	.sommelier .number,.product_country span,.product_riesling span,.product_parker span,.product_penin span,.product_sommelier span{
+	.sommelier .number,
+	.product_country span,
+	.product_riesling span,
+	.product_parker span,
+	.product_penin span,
+	.product_sommelier span {
 		font-size: 16px;
 	}
 	/* Hero section responsive */
-	.hero_slider_contents h1{
+	.hero_slider_contents h1 {
 		font-size: 40px;
 		margin-bottom: 0.5rem;
 	}
-	.hero_slider_contents h2{
+	.hero_slider_contents h2 {
 		font-size: 24px;
 	}
-	.hero_slider_contents h3,.product_contents h1{
+	.hero_slider_contents h3,
+	.product_contents h1 {
 		font-size: 20px;
 	}
-	.hero_slider_contents p,.product_contents p,.wine_maker_contents p{
+	.hero_slider_contents p,
+	.product_contents p,
+	.wine_maker_contents p {
 		font-size: 14px;
 	}
-	.hero_contry span,.current_price .actual_price,.reviews_start .rating,.reviews_start .starts,.blog_date span,.video_promo_content p,.maker_name p{
+	.hero_contry span,
+	.current_price .actual_price,
+	.reviews_start .rating,
+	.reviews_start .starts,
+	.blog_date span,
+	.video_promo_content p,
+	.maker_name p {
 		font-size: 18px;
 	}
-	.video_promo_content p{
+	.video_promo_content p {
 		line-height: 28px;
 	}
-	.reviews_start{
+	.reviews_start {
 		margin-bottom: 1rem;
 	}
-	.current_price img,.before_price img{
-		width: 15px!important;
+	.current_price img,
+	.before_price img {
+		width: 15px !important;
 	}
-	.current_price span,.before_price span,.maker_name h1 {
-		font-size: 26px!important;
+	.current_price span,
+	.before_price span,
+	.maker_name h1 {
+		font-size: 26px !important;
 	}
-	.before_price{
-		display: flex!important;
+	.before_price {
+		display: flex !important;
 	}
-	.section_title h1{
+	.section_title h1 {
 		font-size: 35px;
 	}
-	.blog_contents h1,.video_promo_content h1,.wine_maker_contents h1{
+	.blog_contents h1,
+	.video_promo_content h1,
+	.wine_maker_contents h1 {
 		font-size: 30px;
 	}
-	.blog_contents p{
+	.blog_contents p {
 		font-size: 22px;
 	}
-	.video_thumnails{
+	.video_thumnails {
 		width: 100%;
 		height: 100%;
 	}
@@ -379,42 +430,43 @@
 		height: 50px;
 	}
 
-	.product_old{
-		display: flex!important;
+	.product_old {
+		display: flex !important;
 	}
-	.product_counter_number{
+	.product_counter_number {
 		padding: 10px;
 		width: 50px;
 	}
-	.counter_plus_minus button,.product_buy_now_btn a{
+	.counter_plus_minus button,
+	.product_buy_now_btn a {
 		font-size: 14px;
 	}
-	.product_buy_now_btn a{
+	.product_buy_now_btn a {
 		padding: 12px 10px;
 	}
-	.product_counter img{
-		width: 16px!important;
+	.product_counter img {
+		width: 16px !important;
 	}
-	.counter_plus_minus button{
+	.counter_plus_minus button {
 		padding: 0px 5px;
 	}
-	.counter_minus_btn{
-		padding: 1px 6px!important;
+	.counter_minus_btn {
+		padding: 1px 6px !important;
 	}
-	.wine_maker_contents h1{
+	.wine_maker_contents h1 {
 		font-size: 55px;
 	}
-	.wine_maker_contents p{
+	.wine_maker_contents p {
 		font-size: 24px;
 		line-height: 35px;
 	}
-	.maker_name h1{
+	.maker_name h1 {
 		font-size: 30px;
 	}
-	.maker_name p{
+	.maker_name p {
 		font-size: 20px;
 	}
-	.know_more a{
+	.know_more a {
 		font-size: 16px;
 		padding: 10px 15px;
 	}
@@ -547,7 +599,7 @@
 		width: 65px;
 		height: 65px;
 	}
-	.single_blog_items_wrapper{
+	.single_blog_items_wrapper {
 		height: 480px;
 	}
 }

@@ -310,8 +310,8 @@ span {
 .header_area {
 	box-shadow: 0px 9px 13px 1px #e4e2d9;
 }
-nav{
-	padding-top: 1rem!important;
+nav {
+	padding-top: 1rem !important;
 	margin-bottom: 1rem;
 }
 .logo_img img {
@@ -744,7 +744,7 @@ p.cart_vat span {
 	width: 20px !important;
 	height: 20px !important;
 }
-.hero_contry span{
+.hero_contry span {
 	font-size: 10px;
 }
 /* hero review   */
@@ -780,14 +780,21 @@ p.cart_vat span {
 }
 .perker .name,
 .penin .name,
-.sommelier .name,.perker .number,
+.sommelier .name,
+.perker .number,
 .penin .number,
-.sommelier .number,.product_contents p,.product_country span,.product_riesling span,.product_parker span,.product_penin span,.product_sommelier span {
+.sommelier .number,
+.product_contents p,
+.product_country span,
+.product_riesling span,
+.product_parker span,
+.product_penin span,
+.product_sommelier span {
 	font-size: 12px;
 }
 .perker .name,
 .penin .name,
-.sommelier .name{
+.sommelier .name {
 	width: 50%;
 }
 .penin .name {
@@ -825,14 +832,15 @@ p.cart_vat span {
 	color: #ffaf00;
 }
 /* hero price   */
-.hero_price_area {
+.hero_price_area .before_price {
+	display: block !important;
 }
 .before_price {
 	font-weight: 600;
 	text-transform: capitalize;
 	color: #091d0c;
 	margin: 10px 0px;
-	display: none!important;
+	display: none !important;
 }
 .reduce-price,
 .actual_price {
@@ -843,14 +851,17 @@ p.cart_vat span {
 	color: #791216;
 	text-transform: capitalize;
 }
-.current_price span,.before_price span {
+.current_price span,
+.before_price span {
 	font-size: 15px;
 }
-.current_price img,.before_price img {
+.current_price img,
+.before_price img {
 	width: 10px !important;
 	object-fit: contain;
 }
-.current_price .actual_price,.before_price .reduce-price {
+.current_price .actual_price,
+.before_price .reduce-price {
 	font-size: 10px;
 	font-weight: 600;
 	margin-right: 25px;
@@ -930,7 +941,12 @@ p.cart_vat span {
 	margin-bottom: 15px;
 	font-family: PT_Serif !important;
 }
-.product_contents p,.product_country span,.product_riesling span,.product_parker span,.product_penin span,.product_sommelier span{
+.product_contents p,
+.product_country span,
+.product_riesling span,
+.product_parker span,
+.product_penin span,
+.product_sommelier span {
 	font-weight: 400;
 	color: #303030;
 	text-transform: capitalize;
@@ -1035,7 +1051,7 @@ p.cart_vat span {
 }
 .product_old {
 	border-bottom: 2px solid #b4bab5;
-	display: none!important;
+	display: none !important;
 }
 .product_old_price {
 	color: #091d0c;
@@ -1443,7 +1459,7 @@ p.cart_vat span {
 	width: 100%;
 	height: 100%;
 	background-image: url(../img/backgounds/bg-img-005.png);
-	background-position: center!important;
+	background-position: center !important;
 	background-repeat: no-repeat;
 	background-size: cover;
 	z-index: -0;
@@ -1510,7 +1526,7 @@ p.cart_vat span {
 	text-transform: capitalize;
 	font-weight: 600;
 	font-size: 8px;
-	font-family: Nunito_Sans_Semi_B!important;
+	font-family: Nunito_Sans_Semi_B !important;
 }
 .know_more a:focus {
 	outline: none;
